@@ -19,6 +19,7 @@ button { color: inherit; }
 
 .page-shell { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
 .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.top-links { display: flex; align-items: center; gap: 22px; }
 .brand { display: inline-flex; gap: 11px; align-items: center; text-decoration: none; color: inherit; font-size: 11px; font-weight: 800; letter-spacing: .14em; }
 .brand-mark { width: 27px; height: 27px; display: grid; place-items: center; border-radius: 8px; color: #19210f; background: var(--accent); font-size: 14px; letter-spacing: 0; }
 .brand-light { color: #77808b; font-weight: 650; }
@@ -90,6 +91,7 @@ h1 span { color: #89919a; }
   .brand { gap: 8px; font-size: 9px; letter-spacing: .1em; }
   .brand-mark { width: 24px; height: 24px; }
   .top-link { font-size: 10px; }
+  .top-links { gap: 12px; }
   .intro { padding: 55px 0 27px; }
   .intro-copy { font-size: 13px; }
   .viewer-card { padding: 13px; border-radius: 11px; }
@@ -108,6 +110,8 @@ h1 span { color: #89919a; }
 
 @media (max-width: 430px) {
   .brand-light { display: none; }
+  .top-links { gap: 9px; }
+  .top-link { font-size: 9px; }
   .viewer-heading { align-items: flex-start; }
   .viewer-meta { align-items: flex-end; padding-top: 1px; }
   .sync-indicator { font-size: 8px; }

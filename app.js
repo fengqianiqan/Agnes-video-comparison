@@ -116,7 +116,7 @@ function onMetadata(video) {
     const heightMatches = originalVideo.videoHeight === refinedVideo.videoHeight;
     const durationMatches = Math.abs(originalVideo.duration - refinedVideo.duration) <= 0.05;
     if (!widthMatches || !heightMatches || !durationMatches) {
-      statusMessage.textContent = "This pair has a resolution or duration mismatch; playback is synchronized to the original clip.";
+      statusMessage.textContent = document.body.dataset.mismatchMessage || "This pair has a resolution or duration mismatch; playback is synchronized to the original clip.";
     }
     originalVideo.currentTime = 0;
     refinedVideo.currentTime = 0;
@@ -127,8 +127,10 @@ function onMetadata(video) {
     hideLoading();
   }
   if (video.videoWidth && video.videoHeight && metadataReady === 2) {
-    fitStage(video.videoWidth, video.videoHeight);
-    document.querySelector("#video-spec").textContent = `${video.videoWidth} × ${video.videoHeight} · ${formatTime(video.duration)}`;
+    fitStage(originalVideo.videoWidth, originalVideo.videoHeight);
+    if (!selectedCase.specText) {
+      document.querySelector("#video-spec").textContent = `${video.videoWidth} × ${video.videoHeight} · ${formatTime(video.duration)}`;
+    }
   }
 }
 
@@ -145,9 +147,9 @@ function selectCase(item) {
   metadataReady = 0;
   loading.classList.remove("is-hidden");
   statusMessage.textContent = "";
-  document.querySelector("#case-kicker").textContent = `${item.id.toUpperCase()} / ${item.type.toUpperCase()}`;
-  document.querySelector("#case-title").textContent = `Production output · ${item.type.toUpperCase()}`;
-  document.querySelector("#video-spec").textContent = `${item.width} × ${item.height} · ${formatTime(item.duration)}`;
+  document.querySelector("#case-kicker").textContent = item.kicker || `${item.id.toUpperCase()} / ${item.type.toUpperCase()}`;
+  document.querySelector("#case-title").textContent = item.title || `Production output · ${item.type.toUpperCase()}`;
+  document.querySelector("#video-spec").textContent = item.specText || `${item.width} × ${item.height} · ${formatTime(item.duration)}`;
   fitStage(item.width, item.height);
   timeline.value = "0";
   currentTimeLabel.textContent = "0:00";
@@ -168,8 +170,14 @@ function renderCaseButtons() {
     button.type = "button";
     button.dataset.caseId = item.id;
     button.setAttribute("aria-current", "false");
-    button.setAttribute("aria-label", `Show ${item.id}, ${item.type}`);
-    button.innerHTML = `<span class="case-number">${item.id.replace("case_", "Case ")}</span><span class="case-type">${item.type.toUpperCase()}</span>`;
+    button.setAttribute("aria-label", `Show ${item.title || item.id}, ${item.type}`);
+    const number = document.createElement("span");
+    number.className = "case-number";
+    number.textContent = item.id.replace("case_", "Case ");
+    const label = document.createElement("span");
+    label.className = "case-type";
+    label.textContent = item.dimension || item.type.toUpperCase();
+    button.append(number, label);
     button.addEventListener("click", () => selectCase(item));
     fragment.append(button);
   }
@@ -259,7 +267,7 @@ for (const video of [originalVideo, refinedVideo]) video.addEventListener("error
   statusMessage.textContent = "A video could not be loaded. Check that both files are present in the videos folders.";
 });
 
-fetch("data/cases.json")
+fetch(document.body.dataset.casesUrl || "data/cases.json")
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
