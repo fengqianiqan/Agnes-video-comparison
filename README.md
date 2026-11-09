@@ -3,6 +3,7 @@
 A dependency-free, static HTML/CSS/JavaScript comparison page. Each case overlays two independent MP4 files and uses a draggable clip-path divider. Playback is muted, looping, and synchronized; the source files are not transcoded.
 
 The root page compares the existing production pairs. The dedicated [facecases3 page](facecases3.html) compares 29 original facecases3 videos (the no-LMS, pre-enhancement baseline) with the LMS LoRA `start_step_03 / scale 0.8` outputs.
+The [Base vs Hybrid+lms1.0 page](base-vs-hybrid-lms1p0.html) compares the same 29 base videos with Hybrid FP8 LMS `start_step_03 / scale 1.0` outputs.
 
 ## Prepare the videos
 
@@ -39,6 +40,14 @@ python3 scripts/sync_facecases3.py
 By default, the script reads `facecases3/case_manifest.json`, the original clips from `AgnesProdution/outputs/facecases3`, and the selected LMS outputs from `AgnesProductionLms/outputs/facecases3_lms_matrix/start_step_03_scale_0.8`. Override those locations with `--manifest`, `--original-dir`, or `--refined-dir` if needed.
 
 The left side is sourced from `/keyan/Video_group/fq/workspace/AgnesProdution/outputs/facecases3` and is treated as the pre-LMS original baseline. The right side is sourced from `/keyan/Video_group/fq/workspace/AgnesProductionLms/outputs/facecases3_lms_matrix/start_step_03_scale_0.8`. The page displays each copied file's actual dimensions and duration, and synchronizes playback to the original-video timeline.
+
+## Prepare the Base vs Hybrid+lms1.0 comparison
+
+```bash
+python3 scripts/sync_facecases3_hybrid_lms10.py
+```
+
+This reads the same 29-case facecases3 manifest and base videos, reuses the base assets already published under `videos/facecases3/original/` after checking their SHA-256 hashes, copies the matching Hybrid outputs from `/keyan/Video_group/fq/workspace/Hybrid/outputs/justminimaxh3_hybrid_fp8_lms/start_step_03_scale_1.0`, and writes `data/facecases3_hybrid_lms10.json`. The Hybrid outputs are published under `videos/facecases3_hybrid/lms_step_03_scale_1.0/`.
 
 ## GitHub Pages
 
