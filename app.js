@@ -100,6 +100,15 @@ function hideLoading() {
   if (metadataReady >= 2) loading.classList.add("is-hidden");
 }
 
+function fitStage(width, height) {
+  if (!width || !height) return;
+  const ratio = width / height;
+  const availableWidth = stage.parentElement.clientWidth;
+  const maxHeight = Math.min(window.innerHeight * 0.72, 760);
+  stage.style.aspectRatio = `${width} / ${height}`;
+  stage.style.width = `${Math.min(availableWidth, maxHeight * ratio)}px`;
+}
+
 function onMetadata(video) {
   metadataReady += 1;
   if (metadataReady === 2 && selectedCase) {
@@ -118,7 +127,7 @@ function onMetadata(video) {
     hideLoading();
   }
   if (video.videoWidth && video.videoHeight && metadataReady === 2) {
-    stage.style.aspectRatio = `${video.videoWidth} / ${video.videoHeight}`;
+    fitStage(video.videoWidth, video.videoHeight);
     document.querySelector("#video-spec").textContent = `${video.videoWidth} × ${video.videoHeight} · ${formatTime(video.duration)}`;
   }
 }
@@ -139,7 +148,7 @@ function selectCase(item) {
   document.querySelector("#case-kicker").textContent = `${item.id.toUpperCase()} / ${item.type.toUpperCase()}`;
   document.querySelector("#case-title").textContent = `Production output · ${item.type.toUpperCase()}`;
   document.querySelector("#video-spec").textContent = `${item.width} × ${item.height} · ${formatTime(item.duration)}`;
-  stage.style.aspectRatio = `${item.width} / ${item.height}`;
+  fitStage(item.width, item.height);
   timeline.value = "0";
   currentTimeLabel.textContent = "0:00";
   durationLabel.textContent = formatTime(item.duration);
@@ -213,6 +222,9 @@ document.querySelector("#fullscreen-control").addEventListener("click", async ()
     if (document.fullscreenElement) await document.exitFullscreen();
     else await document.querySelector(".viewer-card").requestFullscreen();
   } catch (_) { statusMessage.textContent = "Fullscreen is not available in this browser."; }
+});
+window.addEventListener("resize", () => {
+  if (selectedCase) fitStage(selectedCase.width, selectedCase.height);
 });
 
 timeline.addEventListener("input", () => {
