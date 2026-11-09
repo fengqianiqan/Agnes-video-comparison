@@ -1,0 +1,194 @@
+{
+  "cases": [
+    {
+      "id": "case_01",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_01.mp4",
+      "refined": "videos/refined/case_01.mp4"
+    },
+    {
+      "id": "case_02",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 8.0,
+      "original": "videos/original/case_02.mp4",
+      "refined": "videos/refined/case_02.mp4"
+    },
+    {
+      "id": "case_03",
+      "type": "fl2va",
+      "width": 720,
+      "height": 1260,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_03.mp4",
+      "refined": "videos/refined/case_03.mp4"
+    },
+    {
+      "id": "case_04",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 4.48,
+      "original": "videos/original/case_04.mp4",
+      "refined": "videos/refined/case_04.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 6.592,
+      "original": "videos/original/case_05.mp4",
+      "refined": "videos/refined/case_05.mp4"
+    },
+    {
+      "id": "case_06",
+      "type": "fl2va",
+      "width": 720,
+      "height": 1260,
+      "frameRate": "24/1",
+      "duration": 10.144,
+      "original": "videos/original/case_06.mp4",
+      "refined": "videos/refined/case_06.mp4"
+    },
+    {
+      "id": "case_07",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 8.0,
+      "original": "videos/original/case_07.mp4",
+      "refined": "videos/refined/case_07.mp4"
+    },
+    {
+      "id": "case_08",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 5.184,
+      "original": "videos/original/case_08.mp4",
+      "refined": "videos/refined/case_08.mp4"
+    },
+    {
+      "id": "case_09",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_09.mp4",
+      "refined": "videos/refined/case_09.mp4"
+    },
+    {
+      "id": "case_10",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 10.144,
+      "original": "videos/original/case_10.mp4",
+      "refined": "videos/refined/case_10.mp4"
+    },
+    {
+      "id": "case_11",
+      "type": "fl2va",
+      "width": 1260,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 10.144,
+      "original": "videos/original/case_11.mp4",
+      "refined": "videos/refined/case_11.mp4"
+    },
+    {
+      "id": "case_12",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 5.184,
+      "original": "videos/original/case_12.mp4",
+      "refined": "videos/refined/case_12.mp4"
+    },
+    {
+      "id": "case_13",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_13.mp4",
+      "refined": "videos/refined/case_13.mp4"
+    },
+    {
+      "id": "case_14",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 5.184,
+      "original": "videos/original/case_14.mp4",
+      "refined": "videos/refined/case_14.mp4"
+    },
+    {
+      "id": "case_15",
+      "type": "fl2va",
+      "width": 1260,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 10.144,
+      "original": "videos/original/case_15.mp4",
+      "refined": "videos/refined/case_15.mp4"
+    },
+    {
+      "id": "case_16",
+      "type": "ref2va",
+      "width": 834,
+      "height": 1112,
+      "frameRate": "24/1",
+      "duration": 12.25,
+      "original": "videos/original/case_16.mp4",
+      "refined": "videos/refined/case_16.mp4"
+    },
+    {
+      "id": "case_17",
+      "type": "ref2va",
+      "width": 720,
+      "height": 1280,
+      "frameRate": "24/1",
+      "duration": 10.144,
+      "original": "videos/original/case_17.mp4",
+      "refined": "videos/refined/case_17.mp4"
+    },
+    {
+      "id": "case_18",
+      "type": "fl2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_18.mp4",
+      "refined": "videos/refined/case_18.mp4"
+    },
+    {
+      "id": "case_19",
+      "type": "ref2va",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "24/1",
+      "duration": 12.256,
+      "original": "videos/original/case_19.mp4",
+      "refined": "videos/refined/case_19.mp4"
+    }
+  ]
+}
