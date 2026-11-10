@@ -104,6 +104,17 @@ h1 span { color: #89919a; }
 .method-links { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 14px; }
 .method-links a { padding: 7px 9px; border: 1px solid #e8ecee; border-radius: 6px; color: #536244; background: #fbfcf9; font-size: 10px; font-weight: 700; text-decoration: none; }
 .method-links a:hover { border-color: #b8d394; background: #f4f9ed; }
+.run-summary { margin-top: 21px; padding-top: 19px; border-top: 1px solid #edf0f1; }
+.run-summary-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 13px; }
+.run-summary-heading h3 { margin: 6px 0 0; font-size: 16px; font-weight: 650; letter-spacing: -.025em; }
+.run-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 9px; }
+.run-metric { min-width: 0; display: flex; flex-direction: column; gap: 6px; padding: 12px; border: 1px solid #edf0f1; border-radius: 8px; background: #fafbfb; }
+.run-metric-label { color: #77818a; font-size: 9px; font-weight: 700; }
+.run-metric strong { color: #303a32; font-size: 15px; font-weight: 720; font-variant-numeric: tabular-nums; }
+.run-metric > span:last-child { color: #828b93; font-size: 9px; line-height: 1.55; }
+.run-parameters, .run-footnote { margin: 12px 0 0; color: #69737d; font-size: 10px; line-height: 1.7; }
+.run-parameters strong { color: #3d4650; }
+.run-footnote { color: #858d94; font-size: 9px; }
 
 @media (max-width: 760px) {
   .page-shell { width: min(100% - 28px, 600px); }
@@ -126,6 +137,7 @@ h1 span { color: #89919a; }
   .case-section { padding: 53px 0 57px; }
   .case-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
   .case-button { min-height: 56px; padding: 8px; }
+  .run-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 430px) {
@@ -143,6 +155,7 @@ h1 span { color: #89919a; }
   .method-card { padding: 15px; }
   .method-sources { grid-template-columns: 1fr; gap: 8px; }
   .method-heading { align-items: flex-start; }
+  .run-summary-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .viewer-tools { align-items: flex-start; flex-direction: column; }
   .viewer-tools .viewer-hint { width: 100%; }
 }

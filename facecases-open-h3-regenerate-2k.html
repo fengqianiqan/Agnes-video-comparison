@@ -41,13 +41,11 @@
           <div class="method-sources">
             <div>
               <p class="method-label">左侧 · Agnes facecases 原视频</p>
-              <code>AgnesProdution/outputs/facecases</code>
-              <p>按案例编号与 Open-H3 输出配对；保留原视频文件。</p>
+              <p>Agnes facecases 原始输入，按案例编号与 Open-H3 输出配对；保留原视频文件。</p>
             </div>
             <div>
               <p class="method-label">右侧 · Open-H3-Regenerate-2K</p>
-              <code>Sol-Refiner/outputs/agnes_facecases_open_h3_regenerate_2k</code>
-              <p>输出与原视频保持对应方向和接近的宽高比；页面标注每条视频的实际分辨率。</p>
+              <p>使用 Open-H3-Regenerate-2K 生成；输出与原视频保持对应方向和接近的宽高比，页面标注每条视频的实际分辨率。</p>
             </div>
           </div>
           <p class="method-resolution"><strong>分辨率说明：</strong>Open-H3 输出约为原片 1.9 倍的线性尺寸。主视图将两边缩放到相同显示尺寸，便于比较整体画面；开启细节放大后，可查看相同区域中的细节差异。</p>
@@ -55,6 +53,36 @@
             <a href="https://modelscope.cn/models/Efficient-Large-Model/Open-H3-Regenerate-2K" target="_blank" rel="noopener noreferrer">ModelScope 模型权重 ↗</a>
             <a href="https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/" target="_blank" rel="noopener noreferrer">NVIDIA 项目说明 ↗</a>
             <a href="https://github.com/NVlabs/Sana" target="_blank" rel="noopener noreferrer">NVlabs/Sana 源码 ↗</a>
+          </div>
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">推理配置与运行开销</h3></div>
+              <span class="method-count">42 条 · 指标来自逐例运行记录</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric">
+                <span class="run-metric-label">单条处理耗时</span>
+                <strong>平均 9 分 39 秒</strong>
+                <span>中位数 10 分 32 秒 · 范围 3 分 28 秒–10 分 40 秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">其中模型推理</span>
+                <strong>平均 8 分 44 秒</strong>
+                <span>中位数 9 分 33 秒 · 范围 3 分 09 秒–9 分 40 秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单进程显存峰值</span>
+                <strong>约 133.5 GiB</strong>
+                <span>进程级采样，按参与设备上的显存用量合计；42 条均有记录</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">模型权重总大小</span>
+                <strong>约 164.9 GB</strong>
+                <span>约 153.6 GiB；含基础模型、LoRA、VAE 与 latent upsampler</span>
+              </div>
+            </div>
+            <p class="run-parameters"><strong>关键参数：</strong>官方 Open-H3 流程，3 步推理，standard forward 与 standard VAE；24 fps 输入，按 121 帧窗口处理、相邻窗口重叠 24 帧。输出短边为 1440 px，长边按原始方向与比例调整；每个案例使用其固定 prompt 和 seed。</p>
+            <p class="run-footnote">权重构成约为：基础模型 144.1 GB、LoRA 13.7 GB、可选 fast VAE 6.5 GB、latent upsampler 0.7 GB。单条处理耗时计入逐例输入编码、模型推理与输出封装；共用模型加载/初始化时间不计入。显存为运行进程在参与设备上的进程级峰值合计，不代表单卡容量。</p>
           </div>
         </section>
 
