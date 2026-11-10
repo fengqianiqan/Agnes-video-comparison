@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="逐例比较 facecases3 原视频与 LMS LoRA 1.0、start step 02 推理输出。">
+    <title>Facecases3 原视频 × LMS LoRA 1.0 · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body
+    data-cases-url="data/facecases3_lms10_step02.json"
+    data-mismatch-message="原视频与 LMS 输出保留各自的分辨率和时长，页面按原视频时间轴同步播放。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases3</span></span>
+        </a>
+        <nav class="top-links" aria-label="Comparison pages">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="facecases3.html">LMS 0.8 对比 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases3 · LMS LORA 1.0 · START STEP 02</p>
+          <h1 id="page-title">原视频与<br><span>LMS LoRA 1.0 对比。</span></h1>
+          <p class="intro-copy">左侧为 facecases3 原视频，右侧为 LMS LoRA scale 1.0、start step 02 的推理输出。拖动分隔线查看画面差异；两段视频同步播放，规格按各自文件的实际分辨率和时长展示。</p>
+        </section>
+
+        <section class="viewer-card" aria-label="原视频与 LMS LoRA 1.0 视频对比">
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">CASE 01 / FL2VA</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较原视频与 LMS LoRA 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="原视频，处理前"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="LMS LoRA 1.0 输出"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">原视频 <span>处理前基线</span></span>
+            <span class="side-label side-label-refined">LMS LoRA · 1.0 <span>start step 02</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">29 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 facecases3 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases3 原视频 × LMS LoRA 1.0 · start step 02</span></footer>
+    </div>
+  </body>
+</html>

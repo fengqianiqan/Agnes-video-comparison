@@ -1,0 +1,729 @@
+{
+  "cases": [
+    {
+      "id": "case_01",
+      "type": "fl2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 01 / FL2VA",
+      "title": "Case 01 · 远景人物模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · 12.26s → LMS 1.0 720 × 1280 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_01.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_01.mp4"
+    },
+    {
+      "id": "case_02",
+      "type": "ref2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 02 / REF2VA",
+      "title": "Case 02 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_02.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_02.mp4"
+    },
+    {
+      "id": "case_03",
+      "type": "ref2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 03 / REF2VA",
+      "title": "Case 03 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.144,
+      "specText": "原视频 1280 × 720 · 10.14s → LMS 1.0 1280 × 720 · 10.14s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_03.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_03.mp4"
+    },
+    {
+      "id": "case_04",
+      "type": "ref2va",
+      "dimension": "远景背景模糊",
+      "kicker": "CASE 04 / REF2VA",
+      "title": "Case 04 · 远景背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · 10.14s → LMS 1.0 720 × 1280 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_04.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_04.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "ref2va",
+      "dimension": "主体与背景模糊",
+      "kicker": "CASE 05 / REF2VA",
+      "title": "Case 05 · 主体与背景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_05.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_05.mp4"
+    },
+    {
+      "id": "case_06",
+      "type": "ref2va",
+      "dimension": "主体与背景模糊",
+      "kicker": "CASE 06 / REF2VA",
+      "title": "Case 06 · 主体与背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · 12.26s → LMS 1.0 720 × 1280 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_06.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_06.mp4"
+    },
+    {
+      "id": "case_07",
+      "type": "ref2va",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "CASE 07 / REF2VA",
+      "title": "Case 07 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_07.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_07.mp4"
+    },
+    {
+      "id": "case_08",
+      "type": "ref2va",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "CASE 08 / REF2VA",
+      "title": "Case 08 · 运动导致的远景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · 12.26s → LMS 1.0 720 × 1280 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_08.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_08.mp4"
+    },
+    {
+      "id": "case_09",
+      "type": "ref2va",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "CASE 09 / REF2VA",
+      "title": "Case 09 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_09.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_09.mp4"
+    },
+    {
+      "id": "case_10",
+      "type": "ref2va",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "CASE 10 / REF2VA",
+      "title": "Case 10 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_10.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_10.mp4"
+    },
+    {
+      "id": "case_11",
+      "type": "ref2va",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "CASE 11 / REF2VA",
+      "title": "Case 11 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_11.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_11.mp4"
+    },
+    {
+      "id": "case_12",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 12 / REF2VA",
+      "title": "Case 12 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_12.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_12.mp4"
+    },
+    {
+      "id": "case_13",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 13 / REF2VA",
+      "title": "Case 13 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_13.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_13.mp4"
+    },
+    {
+      "id": "case_14",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 14 / REF2VA",
+      "title": "Case 14 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_14.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_14.mp4"
+    },
+    {
+      "id": "case_15",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 15 / REF2VA",
+      "title": "Case 15 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · 10.14s → LMS 1.0 720 × 1280 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_15.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_15.mp4"
+    },
+    {
+      "id": "case_16",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 16 / REF2VA",
+      "title": "Case 16 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · 12.26s → LMS 1.0 720 × 1280 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_16.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_16.mp4"
+    },
+    {
+      "id": "case_17",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 17 / REF2VA",
+      "title": "Case 17 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 7.328,
+      "specText": "原视频 1280 × 720 · 7.33s → LMS 1.0 1280 × 720 · 7.33s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 7.328
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 7.328
+      },
+      "original": "videos/facecases3/original/case_17.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_17.mp4"
+    },
+    {
+      "id": "case_18",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 18 / REF2VA",
+      "title": "Case 18 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.144,
+      "specText": "原视频 1280 × 720 · 10.14s → LMS 1.0 1280 × 720 · 10.14s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_18.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_18.mp4"
+    },
+    {
+      "id": "case_19",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 19 / REF2VA",
+      "title": "Case 19 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · 12.26s → LMS 1.0 720 × 1280 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_19.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_19.mp4"
+    },
+    {
+      "id": "case_20",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 20 / REF2VA",
+      "title": "Case 20 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_20.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_20.mp4"
+    },
+    {
+      "id": "case_21",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 21 / REF2VA",
+      "title": "Case 21 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_21.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_21.mp4"
+    },
+    {
+      "id": "case_22",
+      "type": "ref2va",
+      "dimension": "人脸保真度",
+      "kicker": "CASE 22 / REF2VA",
+      "title": "Case 22 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · 12.26s → LMS 1.0 1280 × 720 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_22.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_22.mp4"
+    },
+    {
+      "id": "case_23",
+      "type": "ref2va",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "CASE 23 / REF2VA",
+      "title": "Case 23 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.184,
+      "specText": "原视频 1280 × 720 · 5.18s → LMS 1.0 1280 × 720 · 5.18s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 5.184
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 5.184
+      },
+      "original": "videos/facecases3/original/case_23.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_23.mp4"
+    },
+    {
+      "id": "case_24",
+      "type": "ref2va",
+      "dimension": "主体与背景模糊",
+      "kicker": "CASE 24 / REF2VA",
+      "title": "Case 24 · 主体与背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · 10.14s → LMS 1.0 720 × 1280 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_24.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_24.mp4"
+    },
+    {
+      "id": "case_25",
+      "type": "fl2va",
+      "dimension": "远景背景人脸模糊",
+      "kicker": "CASE 25 / FL2VA",
+      "title": "Case 25 · 远景背景人脸模糊",
+      "width": 720,
+      "height": 1260,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1260 · 10.14s → LMS 1.0 720 × 1260 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "original": "videos/facecases3/original/case_25.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_25.mp4"
+    },
+    {
+      "id": "case_26",
+      "type": "ref2va",
+      "dimension": "远景背景人脸模糊",
+      "kicker": "CASE 26 / REF2VA",
+      "title": "Case 26 · 远景背景人脸模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 6.592,
+      "specText": "原视频 720 × 1280 · 6.59s → LMS 1.0 720 × 1280 · 6.59s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 6.592
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 6.592
+      },
+      "original": "videos/facecases3/original/case_26.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_26.mp4"
+    },
+    {
+      "id": "case_27",
+      "type": "ref2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 27 / REF2VA",
+      "title": "Case 27 · 远景人物模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 4.48,
+      "specText": "原视频 720 × 1280 · 4.48s → LMS 1.0 720 × 1280 · 4.48s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 4.48
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 4.48
+      },
+      "original": "videos/facecases3/original/case_27.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_27.mp4"
+    },
+    {
+      "id": "case_28",
+      "type": "fl2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 28 / FL2VA",
+      "title": "Case 28 · 远景人物模糊",
+      "width": 720,
+      "height": 1260,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1260 · 12.26s → LMS 1.0 720 × 1260 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "videos/facecases3/original/case_28.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_28.mp4"
+    },
+    {
+      "id": "case_29",
+      "type": "ref2va",
+      "dimension": "远景人物模糊",
+      "kicker": "CASE 29 / REF2VA",
+      "title": "Case 29 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.0,
+      "specText": "原视频 1280 × 720 · 8.00s → LMS 1.0 1280 × 720 · 8.00s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "original": "videos/facecases3/original/case_29.mp4",
+      "refined": "videos/facecases3_lms10/start_step_02_scale_1.0/case_29.mp4"
+    }
+  ]
+}
