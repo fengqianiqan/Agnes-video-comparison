@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="Agnes 产线原视频与 AgnesProductionLms facecases2_task_seeds_lms10 输出的实测对比及推理配置。">
-    <title>产线视频 × LMS 精修配置 · Agnes</title>
+    <meta name="description" content="Agnes 产线原视频与 AgnesProductionLms facecases2_task_seeds_lms10（LMS r64 scale 1.0）输出的实测对比及推理配置。">
+    <title>产线视频 × LMS 1.0 精修配置 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="production.css">
     <script src="app.js" defer></script>
@@ -54,8 +54,8 @@
 
           <dl class="config-details">
             <div><dt>Transformer</dt><dd>产线 REF2VA / FL2VA</dd></div>
-            <div><dt>LoRA</dt><dd>LMS r64 · scale 0.5</dd></div>
-            <div><dt>推理步数</dt><dd>9 步：常规 8 步 + 1 步精修</dd></div>
+            <div><dt>LoRA</dt><dd>LMS r64 · scale 1.0</dd></div>
+            <div><dt>推理步数</dt><dd>8+1 调度：常规 8 步 + 1 步精修</dd></div>
             <div><dt>精修阶段</dt><dd>最后一步使用 0.2 → 0</dd></div>
             <div class="config-runtime"><dt>复用组件</dt><dd>VAE、文字编码器和推理运行时复用 Agnes-video-2.5-1015 产线配置。</dd></div>
           </dl>
