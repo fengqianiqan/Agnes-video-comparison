@@ -62,7 +62,13 @@ This reuses and verifies the original clips under `videos/facecases3/original/`,
 
 This is a plain static site and requires no build environment or dependencies. Publish the repository's root from the `main` branch in **Settings → Pages → Build and deployment → Deploy from a branch**. The GitHub Pages URL will be `https://<owner>.github.io/<repository>/`.
 
-The prepared videos are public repository assets when published in a public repository. For a new case, add matching files using the same case naming pattern in the two source folders, then rerun the preparation script.
+Video files are hosted in the Cloudflare R2 bucket and are not committed to GitHub. After preparing or replacing assets, run the publisher below; it uploads videos/, checks object sizes against the local files, and then writes the R2 public URLs into every manifest. Keep the local videos/ folder for staging and reruns.
+
+```bash
+python3 scripts/publish_media_to_r2.py
+```
+
+The script uses the videos rclone remote and the public R2 base URL configured for this site. You can override them with --remote and --public-base. Commit and push the updated manifests after publishing media.
 
 ## Replace the media
 

@@ -22,8 +22,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_01.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_01.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_01.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_01.mp4"
     },
     {
       "id": "case_02",
@@ -47,8 +47,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_02.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_02.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_02.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_02.mp4"
     },
     {
       "id": "case_03",
@@ -72,8 +72,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_03.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_03.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_03.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_03.mp4"
     },
     {
       "id": "case_04",
@@ -97,8 +97,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_04.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_04.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_04.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_04.mp4"
     },
     {
       "id": "case_05",
@@ -122,8 +122,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_05.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_05.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_05.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_05.mp4"
     },
     {
       "id": "case_06",
@@ -147,8 +147,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_06.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_06.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_06.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_06.mp4"
     },
     {
       "id": "case_07",
@@ -172,8 +172,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_07.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_07.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_07.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_07.mp4"
     },
     {
       "id": "case_08",
@@ -197,8 +197,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_08.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_08.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_08.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_08.mp4"
     },
     {
       "id": "case_09",
@@ -222,8 +222,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_09.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_09.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_09.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_09.mp4"
     },
     {
       "id": "case_10",
@@ -247,8 +247,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_10.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_10.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_10.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_10.mp4"
     },
     {
       "id": "case_11",
@@ -272,8 +272,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_11.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_11.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_11.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_11.mp4"
     },
     {
       "id": "case_12",
@@ -297,8 +297,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_12.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_12.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_12.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_12.mp4"
     },
     {
       "id": "case_13",
@@ -322,8 +322,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_13.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_13.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_13.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_13.mp4"
     },
     {
       "id": "case_14",
@@ -347,8 +347,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_14.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_14.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_14.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_14.mp4"
     },
     {
       "id": "case_15",
@@ -372,8 +372,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_15.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_15.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_15.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_15.mp4"
     },
     {
       "id": "case_16",
@@ -397,8 +397,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_16.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_16.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_16.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_16.mp4"
     },
     {
       "id": "case_17",
@@ -422,8 +422,8 @@
         "frame_rate": "24/1",
         "duration": 7.328
       },
-      "original": "videos/facecases3/original/case_17.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_17.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_17.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_17.mp4"
     },
     {
       "id": "case_18",
@@ -447,8 +447,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_18.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_18.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_18.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_18.mp4"
     },
     {
       "id": "case_19",
@@ -472,8 +472,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_19.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_19.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_19.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_19.mp4"
     },
     {
       "id": "case_20",
@@ -497,8 +497,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_20.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_20.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_20.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_20.mp4"
     },
     {
       "id": "case_21",
@@ -522,8 +522,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_21.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_21.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_21.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_21.mp4"
     },
     {
       "id": "case_22",
@@ -547,8 +547,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_22.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_22.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_22.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_22.mp4"
     },
     {
       "id": "case_23",
@@ -572,8 +572,8 @@
         "frame_rate": "24/1",
         "duration": 5.184
       },
-      "original": "videos/facecases3/original/case_23.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_23.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_23.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_23.mp4"
     },
     {
       "id": "case_24",
@@ -597,8 +597,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_24.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_24.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_24.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_24.mp4"
     },
     {
       "id": "case_25",
@@ -622,8 +622,8 @@
         "frame_rate": "24/1",
         "duration": 10.144
       },
-      "original": "videos/facecases3/original/case_25.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_25.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_25.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_25.mp4"
     },
     {
       "id": "case_26",
@@ -647,8 +647,8 @@
         "frame_rate": "24/1",
         "duration": 6.592
       },
-      "original": "videos/facecases3/original/case_26.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_26.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_26.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_26.mp4"
     },
     {
       "id": "case_27",
@@ -672,8 +672,8 @@
         "frame_rate": "24/1",
         "duration": 4.48
       },
-      "original": "videos/facecases3/original/case_27.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_27.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_27.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_27.mp4"
     },
     {
       "id": "case_28",
@@ -697,8 +697,8 @@
         "frame_rate": "24/1",
         "duration": 12.256
       },
-      "original": "videos/facecases3/original/case_28.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_28.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_28.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_28.mp4"
     },
     {
       "id": "case_29",
@@ -722,8 +722,8 @@
         "frame_rate": "24/1",
         "duration": 8.0
       },
-      "original": "videos/facecases3/original/case_29.mp4",
-      "refined": "videos/facecases3/lms_step_03_scale_0.8/case_29.mp4"
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/original/case_29.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3/lms_step_03_scale_0.8/case_29.mp4"
     }
   ]
 }
