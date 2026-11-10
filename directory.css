@@ -1,0 +1,26 @@
+.directory-intro { max-width: 810px; padding-bottom: 35px; }
+.directory-section { padding: 15px 0 82px; }
+.directory-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.directory-card { min-height: 235px; display: flex; flex-direction: column; padding: 22px 23px 19px; border: 1px solid #e2e6e9; border-radius: 13px; color: inherit; background: rgba(255,255,255,.82); text-decoration: none; box-shadow: 0 10px 28px rgba(25,34,44,.035); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.directory-card:hover, .directory-card:focus-visible { transform: translateY(-2px); border-color: #b7d593; box-shadow: 0 16px 36px rgba(25,34,44,.075); outline: none; }
+.directory-card-top, .directory-card-bottom { display: flex; align-items: center; justify-content: space-between; }
+.directory-number { color: #91a17f; font-size: 12px; font-weight: 780; letter-spacing: .12em; font-variant-numeric: tabular-nums; }
+.directory-count { padding: 5px 8px; border-radius: 99px; color: #61744b; background: #f0f6e8; font-size: 10px; font-weight: 700; }
+.directory-category { margin: 22px 0 7px; color: #7c8790; font-size: 10px; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; }
+.directory-card h3 { margin: 0; font-size: 23px; font-weight: 660; letter-spacing: -.045em; }
+.directory-description { max-width: 440px; margin: 8px 0 20px; color: #69737c; font-size: 12px; line-height: 1.7; }
+.directory-card-bottom { margin-top: auto; padding-top: 13px; border-top: 1px solid #edf0f1; color: #6f7981; font-size: 10px; font-weight: 650; }
+.directory-arrow { display: grid; width: 27px; height: 27px; place-items: center; border-radius: 50%; color: #26301e; background: var(--accent); font-size: 14px; transition: transform .18s ease; }
+.directory-card:hover .directory-arrow { transform: translate(2px, -2px); }
+
+@media (max-width: 680px) {
+  .directory-intro { padding-top: 55px; }
+  .directory-section { padding: 15px 0 58px; }
+  .directory-grid { grid-template-columns: 1fr; gap: 10px; }
+  .directory-card { min-height: 212px; padding: 18px; }
+  .directory-card h3 { font-size: 21px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .directory-card, .directory-arrow { transition: none; }
+}

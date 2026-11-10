@@ -2,7 +2,7 @@
 
 A dependency-free, static HTML/CSS/JavaScript comparison page. Each case overlays two independent MP4 files and uses a draggable clip-path divider. Playback is muted, looping, and synchronized; the source files are not transcoded.
 
-The root page compares the existing production pairs. The dedicated [facecases3 page](facecases3.html) compares 29 original facecases3 videos (the no-LMS, pre-enhancement baseline) with the LMS LoRA `start_step_03 / scale 0.8` outputs.
+The root page is a navigation directory for all comparison pages. [Production comparison](production-comparison.html) contains the original 19 production pairs. The dedicated [facecases3 page](facecases3.html) compares 29 original facecases3 videos (the no-LMS, pre-enhancement baseline) with the LMS LoRA `start_step_03 / scale 0.8` outputs.
 The [Base vs Hybrid+lms1.0 page](base-vs-hybrid-lms1p0.html) compares the same 29 base videos with Hybrid FP8 LMS `start_step_03 / scale 1.0` outputs.
 The [Facecases3 LMS 1.0 / start step 02 page](facecases3-lms10-step02.html) compares the same original clips with AgnesProductionLms `start_step_02 / scale 1.0` outputs.
 
