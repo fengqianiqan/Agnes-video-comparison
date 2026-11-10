@@ -70,6 +70,8 @@ python3 scripts/publish_media_to_r2.py
 
 The script uses the videos rclone remote and the public R2 base URL configured for this site. You can override them with --remote and --public-base. Commit and push the updated manifests after publishing media.
 
+R2 video objects must remain available indefinitely. Do not set object expiration or add lifecycle rules that expire this site's media; the publisher does not assign expiration metadata.
+
 ## Replace the media
 
 The page reads `data/cases.json`. Keep each pair's dimensions, aspect ratio, frame rate, and duration aligned. Put browser-compatible H.264 MP4s in the two video folders; no project dependencies are required.
