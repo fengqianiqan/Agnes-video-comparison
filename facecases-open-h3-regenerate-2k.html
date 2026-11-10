@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="逐例对比 Agnes facecases 原视频与 Open-H3-Regenerate-2K 输出，展示原始分辨率并支持同步细节放大。">
+    <title>Facecases × Open-H3 Regenerate 2K · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body
+    data-cases-url="data/facecases_open_h3_regenerate_2k.json"
+    data-large-viewer="true"
+    data-mismatch-message="两边按原始宽高比完整显示；分辨率与时长以页面标注为准，播放按原视频时间轴同步。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases · OPEN-H3</span></span>
+        </a>
+        <nav class="top-links" aria-label="Comparison pages">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases · OPEN-H3 REGENERATE 2K</p>
+          <h1 id="page-title">原视频与<br><span>Open-H3 2K 对比。</span></h1>
+          <p class="intro-copy">本页逐例对比 Agnes facecases 原视频与 Open-H3-Regenerate-2K 输出，共 42 组。主视图以相同屏幕尺寸显示两边完整画面，并按屏幕空间尽量放大；不会为对齐而裁切。原始像素尺寸分别标注，细节模式可同步放大查看同一中心区域。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES & DISPLAY</p><h2 id="method-title">对比来源与显示说明</h2></div>
+            <span class="method-count">42 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div>
+              <p class="method-label">左侧 · Agnes facecases 原视频</p>
+              <code>AgnesProdution/outputs/facecases</code>
+              <p>按案例编号与 Open-H3 输出配对；保留原视频文件。</p>
+            </div>
+            <div>
+              <p class="method-label">右侧 · Open-H3-Regenerate-2K</p>
+              <code>Sol-Refiner/outputs/agnes_facecases_open_h3_regenerate_2k</code>
+              <p>输出与原视频保持对应方向和接近的宽高比；页面标注每条视频的实际分辨率。</p>
+            </div>
+          </div>
+          <p class="method-resolution"><strong>分辨率说明：</strong>Open-H3 输出约为原片 1.9 倍的线性尺寸。主视图将两边缩放到相同显示尺寸，便于比较整体画面；开启细节放大后，可查看相同区域中的细节差异。</p>
+          <div class="method-links" aria-label="Open-H3 official resources">
+            <a href="https://modelscope.cn/models/Efficient-Large-Model/Open-H3-Regenerate-2K" target="_blank" rel="noopener noreferrer">ModelScope 模型权重 ↗</a>
+            <a href="https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/" target="_blank" rel="noopener noreferrer">NVIDIA 项目说明 ↗</a>
+            <a href="https://github.com/NVlabs/Sana" target="_blank" rel="noopener noreferrer">NVlabs/Sana 源码 ↗</a>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="Facecases Open-H3 视频对比">
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">CASE 01 / REF2VA</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较原视频与 Open-H3 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="原视频"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="Open-H3-Regenerate-2K 输出"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">原视频 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">OPEN-H3 · 2K <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="viewer-tools">
+            <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+            <button class="zoom-control" id="detail-zoom-control" type="button" aria-pressed="false">查看细节 · 2×</button>
+          </div>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">42 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 facecases 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases 原视频 × Open-H3 Regenerate 2K</span></footer>
+    </div>
+  </body>
+</html>

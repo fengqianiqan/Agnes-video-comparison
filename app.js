@@ -18,6 +18,8 @@ let dragFrame = 0;
 let playbackSyncFrame = 0;
 let lastSyncAt = 0;
 let metadataReady = 0;
+let detailZoomEnabled = false;
+const detailZoomControl = document.querySelector("#detail-zoom-control");
 
 function formatTime(seconds) {
   const whole = Math.max(0, Math.floor(Number.isFinite(seconds) ? seconds : 0));
@@ -104,7 +106,10 @@ function fitStage(width, height) {
   if (!width || !height) return;
   const ratio = width / height;
   const availableWidth = stage.parentElement.clientWidth;
-  const maxHeight = Math.min(window.innerHeight * 0.72, 760);
+  const useLargeViewer = document.body.dataset.largeViewer === "true";
+  const maxHeight = useLargeViewer
+    ? Math.min(window.innerHeight * 0.86, 1000)
+    : Math.min(window.innerHeight * 0.72, 760);
   stage.style.aspectRatio = `${width} / ${height}`;
   stage.style.width = `${Math.min(availableWidth, maxHeight * ratio)}px`;
 }
@@ -150,6 +155,14 @@ function selectCase(item) {
   document.querySelector("#case-kicker").textContent = item.kicker || `${item.id.toUpperCase()} / ${item.type.toUpperCase()}`;
   document.querySelector("#case-title").textContent = item.title || `Production output · ${item.type.toUpperCase()}`;
   document.querySelector("#video-spec").textContent = item.specText || `${item.width} × ${item.height} · ${formatTime(item.duration)}`;
+  const originalResolution = document.querySelector("#original-resolution");
+  const refinedResolution = document.querySelector("#refined-resolution");
+  if (originalResolution && item.originalMeta) {
+    originalResolution.textContent = `${item.originalMeta.width} × ${item.originalMeta.height} · 原始分辨率`;
+  }
+  if (refinedResolution && item.refinedMeta) {
+    refinedResolution.textContent = `${item.refinedMeta.width} × ${item.refinedMeta.height} · Open-H3 输出`;
+  }
   fitStage(item.width, item.height);
   timeline.value = "0";
   currentTimeLabel.textContent = "0:00";
@@ -225,6 +238,14 @@ stage.addEventListener("keydown", (event) => {
 });
 
 for (const button of playButtons) button.addEventListener("click", togglePlayback);
+if (detailZoomControl) {
+  detailZoomControl.addEventListener("click", () => {
+    detailZoomEnabled = !detailZoomEnabled;
+    stage.classList.toggle("is-detail-zoomed", detailZoomEnabled);
+    detailZoomControl.setAttribute("aria-pressed", String(detailZoomEnabled));
+    detailZoomControl.textContent = detailZoomEnabled ? "返回完整画面" : "查看细节 · 2×";
+  });
+}
 document.querySelector("#fullscreen-control").addEventListener("click", async () => {
   try {
     if (document.fullscreenElement) await document.exitFullscreen();

@@ -40,12 +40,26 @@ def main() -> None:
     parser.add_argument("--site-dir", type=Path, default=SITE_DIR)
     parser.add_argument("--remote", default=DEFAULT_REMOTE, help="rclone destination")
     parser.add_argument("--public-base", default=DEFAULT_PUBLIC_BASE)
+    parser.add_argument(
+        "--manifest",
+        type=Path,
+        help="publish only this manifest (relative to site root or an absolute path)",
+    )
     args = parser.parse_args()
 
     site_dir = args.site_dir.resolve()
     video_dir = site_dir / "videos"
     manifest_dir = site_dir / "data"
-    manifests = sorted(manifest_dir.glob("*.json"))
+    if args.manifest:
+        selected_manifest = args.manifest
+        if not selected_manifest.is_absolute():
+            selected_manifest = site_dir / selected_manifest
+        selected_manifest = selected_manifest.resolve()
+        if selected_manifest.parent != manifest_dir.resolve() or not selected_manifest.is_file():
+            raise SystemExit(f"Manifest must be an existing file under {manifest_dir}")
+        manifests = [selected_manifest]
+    else:
+        manifests = sorted(manifest_dir.glob("*.json"))
     if not video_dir.is_dir() or not manifests:
         raise SystemExit("Expected videos/ and at least one data/*.json manifest")
 
@@ -67,7 +81,10 @@ def main() -> None:
         [rclone, "copy", str(video_dir), args.remote, "--transfers", "4", "--checkers", "8"],
         check=True,
     )
-    subprocess.run([rclone, "check", str(video_dir), args.remote, "--size-only"], check=True)
+    subprocess.run(
+        [rclone, "check", str(video_dir), args.remote, "--size-only", "--one-way"],
+        check=True,
+    )
 
     # Rewrite manifests only after the remote copy has been verified.
     public_base = args.public_base.rstrip("/")
