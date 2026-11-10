@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="逐例对比 Agnes 原视频与 LMS 精修后的生产结果。">
-    <title>产线样例对比 · Agnes</title>
+    <meta name="description" content="Agnes 产线原视频与 AgnesProductionLms facecases2_task_seeds_lms10 输出的实测对比及推理配置。">
+    <title>产线视频 × LMS 精修配置 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="production.css">
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -27,9 +28,39 @@
 
       <main id="top">
         <section class="intro" aria-labelledby="page-title">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> PRODUCTION MODEL · LMS REFINEMENT</p>
-          <h1 id="page-title">One video.<br><span>Two levels of detail.</span></h1>
-          <p class="intro-copy">Compare the original production output with its LMS-refined version. Drag the divider to reveal each side while both clips stay in sync.</p>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> MINIMAX H3 · PRODUCTION LMS</p>
+          <h1 id="page-title">产线原视频<br><span>对比 LMS 精修结果。</span></h1>
+          <p class="intro-copy">本页对比 Agnes 产线原视频与 AgnesProductionLms 的推理输出。左右视频同步播放，可拖动分隔线逐例查看差异。</p>
+        </section>
+
+        <section class="production-config" aria-labelledby="config-title">
+          <div class="config-heading">
+            <div><p class="eyebrow">COMPARISON SETUP</p><h2 id="config-title">对比来源与推理配置</h2></div>
+            <span class="config-case-count">19 组 · REF2VA / FL2VA</span>
+          </div>
+
+          <div class="config-sources">
+            <div class="config-source">
+              <p class="config-label">左侧 · 产线原视频</p>
+              <code>/keyan/Video_group/fq/workspace/AgnesProdution/outputs/nolms</code>
+              <p>作为未启用 LMS 精修的基线。</p>
+            </div>
+            <div class="config-source">
+              <p class="config-label">右侧 · LMS 推理结果</p>
+              <code>/keyan/Video_group/fq/workspace/AgnesProductionLms/outputs/facecases2_task_seeds_lms10</code>
+              <p>与左侧按案例配对，展示精修后结果。</p>
+            </div>
+          </div>
+
+          <dl class="config-details">
+            <div><dt>Transformer</dt><dd>产线 REF2VA / FL2VA</dd></div>
+            <div><dt>LoRA</dt><dd>LMS r64 · scale 0.5</dd></div>
+            <div><dt>推理步数</dt><dd>9 步：常规 8 步 + 1 步精修</dd></div>
+            <div><dt>精修阶段</dt><dd>最后一步使用 0.2 → 0</dd></div>
+            <div class="config-runtime"><dt>复用组件</dt><dd>VAE、文字编码器和推理运行时复用 Agnes-video-2.5-1015 产线配置。</dd></div>
+          </dl>
+
+          <p class="config-delivery"><strong>720P 交付说明：</strong>先按产线 mapping 生成，再通过产线 app.jobs 适配到目标像素尺寸并确保交付编码；模型原始短边 768 的输出不直接作为交付成片。</p>
         </section>
 
         <section class="viewer-card" aria-label="Interactive video comparison">
