@@ -1,5 +1,6 @@
 const originalVideo = document.querySelector("#video-original");
 const refinedVideo = document.querySelector("#video-refined");
+const pairedVideos = [originalVideo, refinedVideo];
 const stage = document.querySelector("#compare-stage");
 const divider = document.querySelector("#split-divider");
 const loading = document.querySelector("#stage-loading");
@@ -18,6 +19,9 @@ let dragFrame = 0;
 let playbackSyncFrame = 0;
 let lastSyncAt = 0;
 let metadataReady = 0;
+let playbackRequested = false;
+let startingPair = false;
+let canplayDuringStart = false;
 let detailZoomEnabled = false;
 const detailZoomControl = document.querySelector("#detail-zoom-control");
 
@@ -54,7 +58,7 @@ function clearSyncLoop() {
 }
 
 function syncPlaybackFrame(now) {
-  if (originalVideo.paused || refinedVideo.paused) {
+  if (!playbackRequested || originalVideo.paused || refinedVideo.paused) {
     clearSyncLoop();
     return;
   }
@@ -74,28 +78,100 @@ function startSyncLoop() {
   playbackSyncFrame = requestAnimationFrame(syncPlaybackFrame);
 }
 
-async function playPair() {
-  statusMessage.textContent = "";
-  try {
-    const starts = await Promise.all([originalVideo.play(), refinedVideo.play()]);
-    if (starts.length === 2) startSyncLoop();
+function alignPairToOriginal() {
+  if (metadataReady < 2 || !Number.isFinite(originalVideo.currentTime)) return;
+  const drift = refinedVideo.currentTime - originalVideo.currentTime;
+  if (Math.abs(drift) > 0.08) {
+    try { refinedVideo.currentTime = originalVideo.currentTime; } catch (_) { /* Wait for media metadata. */ }
+  }
+}
+
+function showBufferingMessage() {
+  statusMessage.textContent = "较慢的一段正在缓冲；两边已同步暂停，缓存到可播放后会自动继续。";
+}
+
+async function startPairWhenReady() {
+  if (!playbackRequested) return;
+  if (startingPair) {
+    canplayDuringStart = true;
+    return;
+  }
+
+  alignPairToOriginal();
+  if (pairedVideos.some((video) => video.readyState < HTMLMediaElement.HAVE_FUTURE_DATA)) {
     setPlayingUi(true);
+    showBufferingMessage();
+    return;
+  }
+
+  if (pairedVideos.every((video) => !video.paused)) {
+    statusMessage.textContent = "";
+    setPlayingUi(true);
+    startSyncLoop();
+    return;
+  }
+
+  startingPair = true;
+  try {
+    await Promise.all(pairedVideos.map((video) => video.play()));
+    if (!playbackRequested) {
+      pairedVideos.forEach((video) => video.pause());
+      return;
+    }
+    statusMessage.textContent = "";
+    setPlayingUi(true);
+    startSyncLoop();
   } catch (error) {
-    setPlayingUi(false);
-    statusMessage.textContent = "Playback was blocked by the browser. Press play to start both clips.";
+    if (error.name === "NotAllowedError") {
+      playbackRequested = false;
+      pairedVideos.forEach((video) => video.pause());
+      setPlayingUi(false);
+      statusMessage.textContent = "浏览器限制了自动播放，请点击播放按钮同时启动两段视频。";
+    } else if (error.name === "AbortError") {
+      pairedVideos.forEach((video) => video.pause());
+      setPlayingUi(true);
+      showBufferingMessage();
+    } else {
+      playbackRequested = false;
+      pairedVideos.forEach((video) => video.pause());
+      setPlayingUi(false);
+      statusMessage.textContent = "视频暂时无法同时启动，请稍后再试或重新选择案例。";
+    }
+  } finally {
+    startingPair = false;
+    if (canplayDuringStart) {
+      canplayDuringStart = false;
+      queueMicrotask(() => {
+        if (playbackRequested && pairedVideos.some((video) => video.paused)) startPairWhenReady();
+      });
+    }
   }
 }
 
 function pausePair() {
-  originalVideo.pause();
-  refinedVideo.pause();
+  playbackRequested = false;
+  pairedVideos.forEach((video) => video.pause());
   clearSyncLoop();
   setPlayingUi(false);
+  statusMessage.textContent = "";
+}
+
+function playPair() {
+  playbackRequested = true;
+  startPairWhenReady();
+}
+
+function holdPairForBuffering() {
+  if (!playbackRequested || pairedVideos.every((video) => video.paused)) return;
+  pairedVideos.forEach((video) => video.pause());
+  clearSyncLoop();
+  setPlayingUi(true);
+  showBufferingMessage();
 }
 
 function togglePlayback() {
-  if (originalVideo.paused || refinedVideo.paused) playPair();
-  else pausePair();
+  if (playbackRequested) pausePair();
+  else playPair();
 }
 
 function hideLoading() {
@@ -268,25 +344,31 @@ timeline.addEventListener("input", () => {
 originalVideo.addEventListener("loadedmetadata", () => onMetadata(originalVideo));
 refinedVideo.addEventListener("loadedmetadata", () => onMetadata(refinedVideo));
 originalVideo.addEventListener("timeupdate", updateProgress);
-originalVideo.addEventListener("play", () => setPlayingUi(true));
-refinedVideo.addEventListener("play", () => setPlayingUi(true));
-originalVideo.addEventListener("pause", () => {
-  if (refinedVideo && !refinedVideo.paused) refinedVideo.pause();
-  clearSyncLoop();
-  setPlayingUi(false);
-});
-refinedVideo.addEventListener("pause", () => {
-  if (originalVideo && !originalVideo.paused) originalVideo.pause();
-  clearSyncLoop();
-  setPlayingUi(false);
-});
-originalVideo.addEventListener("waiting", () => loading.classList.remove("is-hidden"));
-originalVideo.addEventListener("playing", hideLoading);
-refinedVideo.addEventListener("playing", hideLoading);
-for (const video of [originalVideo, refinedVideo]) video.addEventListener("error", () => {
-  loading.classList.add("is-hidden");
-  statusMessage.textContent = "A video could not be loaded. Check that both files are present in the videos folders.";
-});
+for (const video of pairedVideos) {
+  video.addEventListener("play", () => {
+    if (playbackRequested) setPlayingUi(true);
+  });
+  video.addEventListener("pause", () => {
+    const otherVideo = video === originalVideo ? refinedVideo : originalVideo;
+    if (!otherVideo.paused) otherVideo.pause();
+    clearSyncLoop();
+    if (!playbackRequested) setPlayingUi(false);
+  });
+  video.addEventListener("canplay", () => {
+    if (playbackRequested) startPairWhenReady();
+  });
+  video.addEventListener("waiting", holdPairForBuffering);
+  video.addEventListener("stalled", holdPairForBuffering);
+  video.addEventListener("playing", hideLoading);
+  video.addEventListener("error", () => {
+    playbackRequested = false;
+    pairedVideos.forEach((pairedVideo) => pairedVideo.pause());
+    clearSyncLoop();
+    setPlayingUi(false);
+    loading.classList.add("is-hidden");
+    statusMessage.textContent = "一段视频加载失败，请检查网络后重试或重新选择案例。";
+  });
+}
 
 fetch(document.body.dataset.casesUrl || "data/cases.json")
   .then((response) => {
