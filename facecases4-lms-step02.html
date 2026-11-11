@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="逐例比较 facecases4 no-LMS 基线与 MiniMax H3 LMS LoRA 1.0、start step 02 输出，并展示运行耗时、进程显存和模型权重统计。">
+    <title>Facecases4 × LMS LoRA 1.0 · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js?v=5fab0e2" defer></script>
+  </head>
+  <body
+    data-cases-url="data/facecases4_lms_step02.json"
+    data-large-viewer="true"
+    data-original-resolution-label="no-LMS 基线"
+    data-refined-resolution-label="LMS LoRA 输出"
+    data-mismatch-message="两边按文件实际分辨率和时长同步播放；当前案例以 no-LMS 基线时间轴定位。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases4 · LMS 1.0</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · MINIMAX H3 · LMS LORA 1.0</p>
+          <h1 id="page-title">no-LMS 基线与<br><span>LMS LoRA 1.0 对比。</span></h1>
+          <p class="intro-copy">逐例对比 facecases4 的 no-LMS 基线与 LMS LoRA 推理结果，共 9 组。LMS 使用 start step 02、scale 1.0；拖动分隔线查看画面差异，两段视频同步播放，规格按文件实际值展示。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
+            <span class="method-count">9 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div>
+              <p class="method-label">左侧 · facecases4 no-LMS 基线</p>
+              <p>来自 Agnes MiniMax H3 Ref2VA 的 no-LMS 输出，按本次对比定义作为原视频基线；9 个案例编号与 LMS 输出一一对应。</p>
+            </div>
+            <div>
+              <p class="method-label">右侧 · facecases4 LMS LoRA</p>
+              <p>同一批案例使用 MiniMax H3 Ref2VA，启用 LMS LoRA：10 步推理，start step 02 起作用，scale 1.0。成片经 2× Real-ESRGAN 放大并按生产规格处理。</p>
+            </div>
+          </div>
+          <p class="method-resolution"><strong>画面说明：</strong>两侧视频均保留各自原文件，24 fps；页面逐例标注实际分辨率和时长。拖动分隔线比较画面，加载和缓冲期间两段视频保持同步。</p>
+          <div class="method-links" aria-label="MiniMax H3 上游模型和代码">
+            <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方权重 ↗</a>
+            <a href="https://github.com/MiniMax-AI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方代码 ↗</a>
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">运行时长、显存与权重</h3></div>
+              <span class="method-count">9 条逐例记录 · 双卡推理</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric">
+                <span class="run-metric-label">单条生成请求 · 平均</span>
+                <strong>no-LMS 1分41秒 · LMS 1分50秒</strong>
+                <span>中位数 no-LMS 1分39秒 / LMS 1分50秒；范围 51秒–2分00秒 / 58秒–2分09秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单条端到端处理 · 平均</span>
+                <strong>no-LMS 1分51秒 · LMS 2分05秒</strong>
+                <span>中位数 no-LMS 1分55秒 / LMS 2分07秒；范围 1分03秒–2分10秒 / 1分11秒–2分41秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单卡推理进程显存峰值</span>
+                <strong>LMS 34,856 MiB · no-LMS 27,906 MiB</strong>
+                <span>每张卡分别采样；LMS 与 no-LMS 各用 2 张卡</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">LMS 推理权重总大小</span>
+                <strong>111.55 GB · 103.89 GiB</strong>
+                <span>含 MiniMax H3、Qwen3-VL、LMS LoRA 与 Real-ESRGAN</span>
+              </div>
+            </div>
+            <p class="run-parameters"><strong>推理设置：</strong>MiniMax H3 Ref2VA，10 步，LMS LoRA scale 1.0 从第 2 步启用；no-LMS 基线不加载 LoRA。两组输出均经过生产分辨率适配与 2× Real-ESRGAN 超分处理。</p>
+            <p class="run-footnote">生成请求耗时记录模型生成阶段的逐例请求时间，不含后续生产分辨率适配、超分、后处理和最终文件写入。端到端处理时间包含这些逐例后处理步骤，不计共用模型加载和初始化；均为 9 条的平均值、中位数与范围，不代表整批墙钟时间。显存由运行期间的 nvidia-smi 进程级 used_memory 采样，报告主推理进程在每张卡上的峰值，不合并为双卡总量；客户端进程峰值另记为 3,024 MiB。权重按实际权重文件大小统计：Qwen3-VL FP8 66.71 GB、Ref2VA transformer 33.19 GB、视频与音频 VAE 11.02 GB、LMS LoRA 0.62 GB、Real-ESRGAN 0.005 GB；no-LMS 基线使用相同主模型权重但不含 LMS LoRA。</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="facecases4 no-LMS 基线与 LMS LoRA 输出对比">
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">CASE 01 / REF2VA</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较 no-LMS 基线与 LMS LoRA 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="facecases4 no-LMS 基线视频"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="facecases4 LMS LoRA 输出"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">no-LMS 基线 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">LMS LoRA · 1.0 <span id="refined-resolution">start step 02</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">9 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 facecases4 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases4 no-LMS 基线 × LMS LoRA 1.0 · start step 02</span></footer>
+    </div>
+  </body>
+</html>

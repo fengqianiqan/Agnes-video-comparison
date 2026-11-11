@@ -7,6 +7,7 @@ The [Base vs Hybrid+lms1.0 page](base-vs-hybrid-lms1p0.html) compares the same 2
 The [Facecases3 LMS 1.0 / start step 02 page](facecases3-lms10-step02.html) compares the same original clips with AgnesProductionLms `start_step_02 / scale 1.0` outputs.
 The [Facecases Open-H3 Regenerate 2K page](facecases-open-h3-regenerate-2k.html) compares all 42 facecases originals with Open-H3-Regenerate-2K outputs, labels both native resolutions, and links the upstream model and code.
 The [Facecases3 Open-H3 IC page](facecases3-open-h3-ic.html) compares all 29 facecases3 originals with Open-H3-Regenerate-2K-IC outputs, labels both native resolutions, links the upstream model and code, and summarizes per-video runtime and per-card process memory.
+The [Facecases4 LMS start-step-02 page](facecases4-lms-step02.html) compares nine no-LMS baseline clips with MiniMax H3 Ref2VA outputs using LMS LoRA scale 1.0 from step 02, and summarizes per-video runtime, per-card process memory, and model-weight size.
 
 Every comparison page must explain its source videos and material comparison differences. Keep source MP4s unchanged, publish every page's media through the configured Cloudflare R2 publisher, and verify the public page and media URLs after deployment.
 
@@ -33,6 +34,7 @@ python3 -m http.server 8000
 Then visit <http://localhost:8000>.
 
 Open <http://localhost:8000/facecases3.html> for the facecases3 comparison.
+Open <http://localhost:8000/facecases4-lms-step02.html> for the facecases4 LMS start-step-02 comparison.
 
 ## Prepare the facecases3 comparison
 
@@ -77,6 +79,16 @@ python3 scripts/sync_facecases3_open_h3_ic.py
 ```
 
 This matches the 29 originals in `AgnesProdution/outputs/facecases3` with `Sol-Refiner/outputs/open_h3_ic_facecases3` by the source case name embedded in each output filename. It checks aspect ratio, frame rate, and duration, stages unchanged source MP4s under the ignored `videos/` directory, and writes `data/facecases3_open_h3_ic.json`. The page shows both actual resolutions and links the upstream Open-H3 IC model and NVlabs/Sana code.
+
+## Prepare the Facecases4 LMS start-step-02 comparison
+
+```bash
+python3 scripts/sync_facecases4_lms_step02.py \
+  --original-dir /path/to/facecases4_no_lms \
+  --lms-dir /path/to/facecases4_lms_start_step_02_scale_1.0
+```
+
+This pairs nine `facecases4_no_lms` baseline clips with the matching `facecases4` LMS LoRA scale 1.0 / start-step-02 outputs. It stages unchanged MP4s under the ignored `videos/` directory, checks case IDs, frame rates, and durations, and writes `data/facecases4_lms_step02.json`. The page reports each side's actual resolution and duration, measured generation and end-to-end runtimes, process-level per-card memory peaks, and the measured model-weight breakdown. Publish these assets with `python3 scripts/publish_media_to_r2.py --manifest data/facecases4_lms_step02.json`.
 
 ## GitHub Pages
 

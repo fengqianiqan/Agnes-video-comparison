@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "case_01",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 01 / REF2VA",
+      "title": "Facecases4 · Case 01",
+      "width": 960,
+      "height": 960,
+      "duration": 12.25,
+      "specText": "no-LMS 960 × 960 · LMS 960 × 960 · 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 960,
+        "height": 960,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "refinedMeta": {
+        "width": 960,
+        "height": 960,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_01.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_01.mp4"
+    },
+    {
+      "id": "case_02",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 02 / REF2VA",
+      "title": "Facecases4 · Case 02",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_02.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_02.mp4"
+    },
+    {
+      "id": "case_03",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 03 / REF2VA",
+      "title": "Facecases4 · Case 03",
+      "width": 2560,
+      "height": 1440,
+      "duration": 8.0,
+      "specText": "no-LMS 2560 × 1440 · LMS 2560 × 1440 · 8.00s · 24 fps",
+      "originalMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_03.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_03.mp4"
+    },
+    {
+      "id": "case_04",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 04 / REF2VA",
+      "title": "Facecases4 · Case 04",
+      "width": 1920,
+      "height": 1080,
+      "duration": 12.25,
+      "specText": "no-LMS 1920 × 1080 · LMS 1920 × 1080 · 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "refinedMeta": {
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_04.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_04.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 05 / REF2VA",
+      "title": "Facecases4 · Case 05",
+      "width": 1920,
+      "height": 1080,
+      "duration": 12.25,
+      "specText": "no-LMS 1920 × 1080 · LMS 1920 × 1080 · 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "refinedMeta": {
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_05.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_05.mp4"
+    },
+    {
+      "id": "case_06",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 06 / REF2VA",
+      "title": "Facecases4 · Case 06",
+      "width": 1440,
+      "height": 2560,
+      "duration": 12.25,
+      "specText": "no-LMS 1440 × 2560 · LMS 1440 × 2560 · 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_06.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_06.mp4"
+    },
+    {
+      "id": "case_08",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 08 / REF2VA",
+      "title": "Facecases4 · Case 08",
+      "width": 2206,
+      "height": 946,
+      "duration": 12.25,
+      "specText": "no-LMS 2206 × 946 · LMS 2206 × 946 · 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 2206,
+        "height": 946,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "refinedMeta": {
+        "width": 2206,
+        "height": 946,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_08.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_08.mp4"
+    },
+    {
+      "id": "case_09",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 09 / REF2VA",
+      "title": "Facecases4 · Case 09",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_09.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_09.mp4"
+    },
+    {
+      "id": "case_11",
+      "type": "ref2va",
+      "dimension": "no-LMS × LMS 1.0",
+      "kicker": "CASE 11 / REF2VA",
+      "title": "Facecases4 · Case 11",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_11.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_11.mp4"
+    }
+  ]
+}

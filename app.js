@@ -234,10 +234,12 @@ function selectCase(item) {
   const originalResolution = document.querySelector("#original-resolution");
   const refinedResolution = document.querySelector("#refined-resolution");
   if (originalResolution && item.originalMeta) {
-    originalResolution.textContent = `${item.originalMeta.width} × ${item.originalMeta.height} · 原始分辨率`;
+    const label = document.body.dataset.originalResolutionLabel || "原始分辨率";
+    originalResolution.textContent = `${item.originalMeta.width} × ${item.originalMeta.height} · ${label}`;
   }
   if (refinedResolution && item.refinedMeta) {
-    refinedResolution.textContent = `${item.refinedMeta.width} × ${item.refinedMeta.height} · Open-H3 输出`;
+    const label = document.body.dataset.refinedResolutionLabel || "Open-H3 输出";
+    refinedResolution.textContent = `${item.refinedMeta.width} × ${item.refinedMeta.height} · ${label}`;
   }
   fitStage(item.width, item.height);
   timeline.value = "0";
