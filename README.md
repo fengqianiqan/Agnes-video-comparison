@@ -6,6 +6,7 @@ The root page is a navigation directory for all comparison pages. [Production co
 The [Base vs Hybrid+lms1.0 page](base-vs-hybrid-lms1p0.html) compares the same 29 base videos with Hybrid FP8 LMS `start_step_03 / scale 1.0` outputs.
 The [Facecases3 LMS 1.0 / start step 02 page](facecases3-lms10-step02.html) compares the same original clips with AgnesProductionLms `start_step_02 / scale 1.0` outputs.
 The [Facecases Open-H3 Regenerate 2K page](facecases-open-h3-regenerate-2k.html) compares all 42 facecases originals with Open-H3-Regenerate-2K outputs, labels both native resolutions, and links the upstream model and code.
+The [Facecases3 Open-H3 IC page](facecases3-open-h3-ic.html) compares all 29 facecases3 originals with Open-H3-Regenerate-2K-IC outputs, labels both native resolutions, links the upstream model and code, and summarizes per-video runtime and per-card process memory.
 
 Every comparison page must explain its source videos and material comparison differences. Keep source MP4s unchanged, publish every page's media through the configured Cloudflare R2 publisher, and verify the public page and media URLs after deployment.
 
@@ -68,6 +69,14 @@ python3 scripts/sync_facecases_open_h3.py
 ```
 
 This pairs all 42 source clips from `AgnesProdution/outputs/facecases` with `Sol-Refiner/outputs/agnes_facecases_open_h3_regenerate_2k`, validates case IDs, aspect ratio, frame rate, and duration, copies the original MP4s into the ignored `videos/` staging directory, and writes `data/facecases_open_h3_regenerate_2k.json`. The comparison page displays both native resolutions, includes official ModelScope/NVIDIA/NVlabs links, and supports synchronized detail zoom.
+
+## Prepare the Facecases3 Open-H3 IC comparison
+
+```bash
+python3 scripts/sync_facecases3_open_h3_ic.py
+```
+
+This matches the 29 originals in `AgnesProdution/outputs/facecases3` with `Sol-Refiner/outputs/open_h3_ic_facecases3` by the source case name embedded in each output filename. It checks aspect ratio, frame rate, and duration, stages unchanged source MP4s under the ignored `videos/` directory, and writes `data/facecases3_open_h3_ic.json`. The page shows both actual resolutions and links the upstream Open-H3 IC model and NVlabs/Sana code.
 
 ## GitHub Pages
 

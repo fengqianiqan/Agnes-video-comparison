@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 条件重绘输出，逐例展示实际分辨率与生成开销。">
+    <title>facecases3 × Open-H3 IC 条件重绘 · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js?v=5fab0e2" defer></script>
+  </head>
+  <body
+    data-cases-url="data/facecases3_open_h3_ic.json"
+    data-large-viewer="true"
+    data-mismatch-message="两边保留各自分辨率和时长；页面按原视频时间轴同步播放。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases3 · OPEN-H3 IC</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases3 · OPEN-H3 IC · 2K</p>
+          <h1 id="page-title">输入条件引导的<br><span>2K 视频重绘。</span></h1>
+          <p class="intro-copy">逐例对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 条件重绘结果，共 29 组。模型以配对原视频作为内容条件，生成短边 1440 像素的高分辨率输出；画面按原比例展示，分辨率和时长标注为文件实际值。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
+            <span class="method-count">29 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div>
+              <p class="method-label">左侧 · facecases3 原视频</p>
+              <p>Agnes facecases3 原始视频，作为本组对比基线，也作为 IC 推理对应的输入条件。保留原文件画面与编码。</p>
+            </div>
+            <div>
+              <p class="method-label">右侧 · Open-H3-Regenerate-2K-IC</p>
+              <p>Open-H3 IC 以配对视频作为条件输入，进行生成式细化并提升至 2K 级分辨率。每段成片与来源案例一一配对。</p>
+            </div>
+          </div>
+          <p class="method-resolution"><strong>画面说明：</strong>输入视频按短边 768 像素送入推理，输出短边为 1440 像素；横竖屏方向和原始帧率、时长均保留。拖动视频中的分隔线比较画面，双方原始分辨率会随案例显示。</p>
+          <div class="method-links" aria-label="Open-H3 IC 模型与源码">
+            <a href="https://modelscope.cn/models/Efficient-Large-Model/Open-H3-Regenerate-2K-IC" target="_blank" rel="noopener noreferrer">Open-H3 IC 模型 ↗</a>
+            <a href="https://github.com/NVlabs/Sana" target="_blank" rel="noopener noreferrer">NVlabs/Sana 源码 ↗</a>
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">运行时长、显存与权重</h3></div>
+              <span class="method-count">29 条逐例记录</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric">
+                <span class="run-metric-label">单条视频生成耗时</span>
+                <strong>平均 15 分 10 秒</strong>
+                <span>中位数 17 分 37 秒 · 范围 5 分 51 秒–21 分 05 秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单卡进程显存峰值</span>
+                <strong>GPU 0：76.2 GiB</strong>
+                <span>GPU 1：75.5 GiB；按卡分别采样</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">模型权重总大小</span>
+                <strong>约 162.9 GB</strong>
+                <span>约 151.7 GiB，含基础模型及推理权重</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">对比规模</span>
+                <strong>29 组视频</strong>
+                <span>24 fps · 输入短边 768 px · 输出短边 1440 px</span>
+              </div>
+            </div>
+            <p class="run-parameters"><strong>推理设置：</strong>Open-H3 IC，up3 采样器，3 步，fast H3 VAE，flash attention；每段最长 124 帧，长视频采用均匀分布的重叠窗口并交叉淡化拼接。</p>
+            <p class="run-footnote">单条耗时为逐例 VAE 编码、条件文本编码、采样、VAE 解码及片段拼接/封装时间之和；共用模型加载和初始化时间不计入。29 条中位数和范围反映不同源片段长度及窗口数带来的差异，不是整批墙钟时间。显存来自推理期间按进程采样的 nvidia-smi used_memory；两张卡分别报告各自进程峰值，不合并估算。权重构成约为：基础模型 143.4 GB、LoRA 12.3 GB、fast H3 VAE 6.5 GB、latent upsampler 0.7 GB。</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="facecases3 原视频与 Open-H3 IC 输出对比">
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">SOURCE FACECases 02</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较原视频与 Open-H3 IC 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="facecases3 原视频"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="Open-H3 IC 2K 输出"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">原视频 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">OPEN-H3 IC · 2K <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="viewer-tools">
+            <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+            <button class="zoom-control" id="detail-zoom-control" type="button" aria-pressed="false">查看细节 · 2×</button>
+          </div>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">29 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 facecases3 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>facecases3 原视频 × Open-H3 IC 2K 条件重绘</span></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,729 @@
+{
+  "cases": [
+    {
+      "id": "case_01",
+      "type": "facecases",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases 02",
+      "title": "FACECases 02 · 远景人物模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_01.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_01.mp4"
+    },
+    {
+      "id": "case_02",
+      "type": "facecases",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases 04",
+      "title": "FACECases 04 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_02.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_02.mp4"
+    },
+    {
+      "id": "case_03",
+      "type": "facecases",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases 05",
+      "title": "FACECases 05 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.144,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 10.14s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_03.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_03.mp4"
+    },
+    {
+      "id": "case_04",
+      "type": "facecases",
+      "dimension": "远景背景模糊",
+      "kicker": "SOURCE FACECases 07",
+      "title": "FACECases 07 · 远景背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_04.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_04.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "facecases",
+      "dimension": "主体与背景模糊",
+      "kicker": "SOURCE FACECases 13",
+      "title": "FACECases 13 · 主体与背景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_05.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_05.mp4"
+    },
+    {
+      "id": "case_06",
+      "type": "facecases",
+      "dimension": "主体与背景模糊",
+      "kicker": "SOURCE FACECases 14",
+      "title": "FACECases 14 · 主体与背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_06.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_06.mp4"
+    },
+    {
+      "id": "case_07",
+      "type": "facecases",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "SOURCE FACECases 18",
+      "title": "FACECases 18 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_07.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_07.mp4"
+    },
+    {
+      "id": "case_08",
+      "type": "facecases",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "SOURCE FACECases 19",
+      "title": "FACECases 19 · 运动导致的远景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_08.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_08.mp4"
+    },
+    {
+      "id": "case_09",
+      "type": "facecases",
+      "dimension": "运动导致的远景模糊",
+      "kicker": "SOURCE FACECases 21",
+      "title": "FACECases 21 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_09.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_09.mp4"
+    },
+    {
+      "id": "case_10",
+      "type": "facecases",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "SOURCE FACECases 24",
+      "title": "FACECases 24 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_10.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_10.mp4"
+    },
+    {
+      "id": "case_11",
+      "type": "facecases",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "SOURCE FACECases 25",
+      "title": "FACECases 25 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_11.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_11.mp4"
+    },
+    {
+      "id": "case_12",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 27",
+      "title": "FACECases 27 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_12.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_12.mp4"
+    },
+    {
+      "id": "case_13",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 28",
+      "title": "FACECases 28 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_13.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_13.mp4"
+    },
+    {
+      "id": "case_14",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 29",
+      "title": "FACECases 29 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_14.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_14.mp4"
+    },
+    {
+      "id": "case_15",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 34",
+      "title": "FACECases 34 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_15.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_15.mp4"
+    },
+    {
+      "id": "case_16",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 35",
+      "title": "FACECases 35 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_16.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_16.mp4"
+    },
+    {
+      "id": "case_17",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 36",
+      "title": "FACECases 36 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 7.328,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 7.33s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 7.328
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 7.292
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_17.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_17.mp4"
+    },
+    {
+      "id": "case_18",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 37",
+      "title": "FACECases 37 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.144,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 10.14s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_18.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_18.mp4"
+    },
+    {
+      "id": "case_19",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 38",
+      "title": "FACECases 38 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_19.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_19.mp4"
+    },
+    {
+      "id": "case_20",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 40",
+      "title": "FACECases 40 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_20.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_20.mp4"
+    },
+    {
+      "id": "case_21",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 41",
+      "title": "FACECases 41 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_21.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_21.mp4"
+    },
+    {
+      "id": "case_22",
+      "type": "facecases",
+      "dimension": "人脸保真度",
+      "kicker": "SOURCE FACECases 42",
+      "title": "FACECases 42 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 12.26s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_22.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_22.mp4"
+    },
+    {
+      "id": "case_23",
+      "type": "facecases2",
+      "dimension": "远近景变化时的模糊",
+      "kicker": "SOURCE FACECases2 14",
+      "title": "FACECases2 14 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.184,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 5.18s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 5.184
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 5.167
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_23.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_23.mp4"
+    },
+    {
+      "id": "case_24",
+      "type": "facecases2",
+      "dimension": "主体与背景模糊",
+      "kicker": "SOURCE FACECases2 10",
+      "title": "FACECases2 10 · 主体与背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_24.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_24.mp4"
+    },
+    {
+      "id": "case_25",
+      "type": "facecases2",
+      "dimension": "远景背景人脸模糊",
+      "kicker": "SOURCE FACECases2 06",
+      "title": "FACECases2 06 · 远景背景人脸模糊",
+      "width": 720,
+      "height": 1260,
+      "duration": 10.144,
+      "specText": "原视频 720 × 1260 · Open-H3 IC 1440 × 2528 · 10.14s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2528,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_25.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_25.mp4"
+    },
+    {
+      "id": "case_26",
+      "type": "facecases2",
+      "dimension": "远景背景人脸模糊",
+      "kicker": "SOURCE FACECases2 05",
+      "title": "FACECases2 05 · 远景背景人脸模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 6.592,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 6.59s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 6.592
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 6.584
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_26.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_26.mp4"
+    },
+    {
+      "id": "case_27",
+      "type": "facecases2",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases2 04",
+      "title": "FACECases2 04 · 远景人物模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 4.48,
+      "specText": "原视频 720 × 1280 · Open-H3 IC 1440 × 2560 · 4.48s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 4.48
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2560,
+        "frame_rate": "24/1",
+        "duration": 4.459
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_27.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_27.mp4"
+    },
+    {
+      "id": "case_28",
+      "type": "facecases2",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases2 03",
+      "title": "FACECases2 03 · 远景人物模糊",
+      "width": 720,
+      "height": 1260,
+      "duration": 12.256,
+      "specText": "原视频 720 × 1260 · Open-H3 IC 1440 × 2528 · 12.26s",
+      "originalMeta": {
+        "width": 720,
+        "height": 1260,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1440,
+        "height": 2528,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_28.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_28.mp4"
+    },
+    {
+      "id": "case_29",
+      "type": "facecases2",
+      "dimension": "远景人物模糊",
+      "kicker": "SOURCE FACECases2 02",
+      "title": "FACECases2 02 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.0,
+      "specText": "原视频 1280 × 720 · Open-H3 IC 2560 × 1440 · 8.00s",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "duration": 8.0
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/original/case_29.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases3_open_h3_ic/open_h3_ic_2k/case_29.mp4"
+    }
+  ]
+}
