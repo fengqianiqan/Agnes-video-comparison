@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 条件重绘输出，逐例展示实际分辨率与生成开销。">
-    <title>facecases3 × Open-H3 IC 条件重绘 · Agnes</title>
+    <meta name="description" content="对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 上下文引导重绘，逐例展示实际分辨率与生成开销。">
+    <title>facecases3 × Open-H3 IC 上下文重绘 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js?v=5fab0e2" defer></script>
   </head>
@@ -29,8 +29,8 @@
       <main id="top">
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases3 · OPEN-H3 IC · 2K</p>
-          <h1 id="page-title">输入条件引导的<br><span>2K 视频重绘。</span></h1>
-          <p class="intro-copy">逐例对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 条件重绘结果，共 29 组。模型以配对原视频作为内容条件，生成短边 1440 像素的高分辨率输出；画面按原比例展示，分辨率和时长标注为文件实际值。</p>
+          <h1 id="page-title">原片上下文引导的<br><span>2K 视频重绘。</span></h1>
+          <p class="intro-copy">逐例对比 facecases3 原视频与 Open-H3-Regenerate-2K-IC 重绘结果，共 29 组。IC（in-context）流程将配对原视频作为模型上下文中的参考，再生成短边 1440 像素的高分辨率画面；视频按原比例展示，分辨率和时长标注为文件实际值。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
@@ -45,13 +45,13 @@
             </div>
             <div>
               <p class="method-label">右侧 · Open-H3-Regenerate-2K-IC</p>
-              <p>Open-H3 IC 以配对视频作为条件输入，进行生成式细化并提升至 2K 级分辨率。每段成片与来源案例一一配对。</p>
+              <p>Open-H3 IC（in-context）在模型上下文中保留配对视频作为参考，并以此生成 2K 级高分辨率版本。每段成片与来源案例一一配对。</p>
             </div>
           </div>
           <p class="method-resolution"><strong>画面说明：</strong>输入视频按短边 768 像素送入推理，输出短边为 1440 像素；横竖屏方向和原始帧率、时长均保留。拖动视频中的分隔线比较画面，双方原始分辨率会随案例显示。</p>
           <div class="method-links" aria-label="Open-H3 IC 模型与源码">
-            <a href="https://modelscope.cn/models/Efficient-Large-Model/Open-H3-Regenerate-2K-IC" target="_blank" rel="noopener noreferrer">Open-H3 IC 模型 ↗</a>
-            <a href="https://github.com/NVlabs/Sana" target="_blank" rel="noopener noreferrer">NVlabs/Sana 源码 ↗</a>
+            <a href="https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC" target="_blank" rel="noopener noreferrer">Open-H3 IC 权重 ↗</a>
+            <a href="https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC" target="_blank" rel="noopener noreferrer">NVlabs/Sana IC 实现 ↗</a>
           </div>
 
           <div class="run-summary" aria-labelledby="run-summary-title">
