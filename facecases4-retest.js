@@ -55,11 +55,11 @@ function renderMaterials(item) {
   materialDetail.append(heading);
 
   const promptCard = element("div", "material-copy-card");
-  promptCard.append(element("h4", "", "detailed_description · 完整中文翻译"));
+  promptCard.append(element("h4", "", "全部 Prompt 完整中文翻译"));
   if (item.promptDetailedDescriptionZh) {
     promptCard.append(renderDetailedDescription(item.promptDetailedDescriptionZh));
   } else {
-    promptCard.append(element("p", "pending-copy", "此案例未提供 Prompt，因此没有 detailed_description 译文。"));
+    promptCard.append(element("p", "pending-copy", "此案例未提供 Prompt，因此没有完整中文译文。"));
   }
 
   materialDetail.append(promptCard);
