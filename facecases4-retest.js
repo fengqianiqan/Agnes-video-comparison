@@ -23,15 +23,6 @@ function element(tag, className, text) {
   return node;
 }
 
-function sourceLabel(item) {
-  const meta = item.sourceVideoMeta;
-  const dimensions = meta.width + " × " + meta.height;
-  const duration = Number(meta.duration).toFixed(2) + " 秒";
-  const format = item.sourceVideoName.toLowerCase().endsWith(".mov") ? "MOV" : "MP4";
-  const audio = meta.hasAudio ? " · 含音轨" : " · 无音轨";
-  return format + " · " + dimensions + " · " + duration + audio;
-}
-
 function renderMaterials(item) {
   materialDetail.replaceChildren();
 
@@ -44,7 +35,6 @@ function renderMaterials(item) {
   ));
   materialDetail.append(heading);
 
-  const copyGrid = element("div", "material-copy-grid");
   const promptCard = element("div", "material-copy-card");
   promptCard.append(element("h4", "", "Prompt 中文大意"));
   promptCard.append(element(
@@ -53,17 +43,7 @@ function renderMaterials(item) {
     item.promptSummaryZh || "素材包没有提供可执行的增强提示词。"
   ));
 
-  const videoCard = element("div", "material-copy-card");
-  videoCard.append(element("h4", "", "输入视频 · 含原始音轨"));
-  const video = element("video", "input-video");
-  video.controls = true;
-  video.playsInline = true;
-  video.preload = "metadata";
-  video.src = item.sourceVideo;
-  video.setAttribute("aria-label", "Facecases4 " + item.id.slice(-2) + " 输入视频");
-  videoCard.append(video, element("p", "", sourceLabel(item)));
-  copyGrid.append(promptCard, videoCard);
-  materialDetail.append(copyGrid);
+  materialDetail.append(promptCard);
 
   if (item.notRunReasonZh) materialDetail.append(element("p", "retest-note", item.notRunReasonZh));
 
@@ -134,7 +114,7 @@ fetch("data/facecases4_lms_step02.json")
     }
     if (materials.length) selectMaterial(materials[0], false);
     document.querySelector("#materials-count").textContent =
-      materials.length + " 组输入素材 · " +
+      materials.length + " 组复测条目 · " +
       materials.reduce((total, item) => total + item.references.length, 0) + " 张参考图 · " +
       materials.reduce((total, item) => total + item.audios.length, 0) + " 段独立音频";
   })

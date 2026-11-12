@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stage facecases4 source materials without copying or exposing raw prompts."""
+"""Stage Facecases4 inference references and audio without exposing raw prompts."""
 
 from __future__ import annotations
 
@@ -66,18 +66,6 @@ def probe(path: Path) -> dict:
     return json.loads(result.stdout)
 
 
-def video_metadata(path: Path) -> dict:
-    details = probe(path)
-    stream = next(item for item in details["streams"] if item["codec_type"] == "video")
-    return {
-        "width": int(stream["width"]),
-        "height": int(stream["height"]),
-        "frameRate": stream.get("avg_frame_rate", ""),
-        "duration": round(float(details["format"]["duration"]), 3),
-        "hasAudio": any(item["codec_type"] == "audio" for item in details["streams"]),
-    }
-
-
 def audio_metadata(path: Path) -> dict:
     details = probe(path)
     stream = next(item for item in details["streams"] if item["codec_type"] == "audio")
@@ -105,14 +93,6 @@ def main() -> None:
         source_dir = args.materials_dir / case_id
         if not source_dir.is_dir():
             raise SystemExit("Missing source-material folder: {}".format(case_id))
-
-        source_videos = sorted(source_dir.glob("source_video.*"))
-        if len(source_videos) != 1:
-            raise SystemExit("Expected one source video in {}".format(case_id))
-        source_video = source_videos[0]
-        staged_video = STAGE_ROOT / case_id / source_video.name
-        copy_unchanged(source_video, staged_video)
-        total_bytes += staged_video.stat().st_size
 
         references = []
         for index, source in enumerate(sorted(source_dir.glob("reference_*")), start=1):
@@ -144,9 +124,6 @@ def main() -> None:
             "status": status,
             "promptSummaryZh": PROMPT_SUMMARIES.get(case_id),
             "notRunReasonZh": NOT_RUN_REASONS.get(case_id),
-            "sourceVideo": "videos/facecases4_expanded_inputs/{}/{}".format(case_id, source_video.name),
-            "sourceVideoName": source_video.name,
-            "sourceVideoMeta": video_metadata(staged_video),
             "references": references,
             "audios": audios,
         }

@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="Facecases4 扩围复测：查看 11 组输入素材、Prompt 中文大意、参考图与音频，并逐例比较 9 组 no-LMS 基线和 LMS LoRA 结果。">
+    <meta name="description" content="Facecases4 扩围复测：查看 11 组案例的 Prompt 中文大意、参考图与音频，并逐例比较 9 组 no-LMS 基线和 LMS LoRA 结果。">
     <title>Facecases4 扩围复测 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-1">
+    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-2">
     <script src="app.js?v=facecases4-expanded-retest" defer></script>
-    <script src="facecases4-retest.js?v=expanded-1" defer></script>
+    <script src="facecases4-retest.js?v=expanded-2" defer></script>
   </head>
   <body
     data-cases-url="data/facecases4_lms_step02.json"
@@ -34,18 +34,18 @@
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · EXPANDED RETEST · MINIMAX H3</p>
           <h1 id="page-title">Facecases4<br><span>扩围复测。</span></h1>
-          <p class="intro-copy">按产品要求扩大复测素材范围：本页展示 11 组输入素材、Prompt 中文大意、参考图片和可播放音频；当前有 9 组已生成结果可与 no-LMS 基线配对。LMS 使用 start step 02、scale 1.0。拖动分隔线查看差异，规格按文件实际值展示。</p>
+          <p class="intro-copy">按产品要求扩大复测素材范围：本页展示 11 组案例的 Prompt 中文大意、参考图片和可播放音频；当前有 9 组已生成结果可与 no-LMS 基线配对。LMS 使用 start step 02、scale 1.0。拖动分隔线查看差异，规格按文件实际值展示。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
           <div class="method-heading">
             <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
-            <span class="method-count">11 组输入 · 9 组配对 · 24 fps</span>
+            <span class="method-count">11 组复测素材 · 9 组配对 · 24 fps</span>
           </div>
           <div class="method-sources">
             <div>
               <p class="method-label">左侧 · facecases4 no-LMS 基线</p>
-              <p>来自 Facecases4 no-LMS Ref2VA 成片集合，按本次复测定义作为基线；9 个案例编号与 LMS 输出一一对应。下方素材区另提供输入视频及其自带音轨。</p>
+              <p>来自 Facecases4 no-LMS Ref2VA 成片集合，按本次复测定义作为基线；9 个案例编号与 LMS 输出一一对应。下方素材区展示各案例的参考图片与独立音频素材。</p>
             </div>
             <div>
               <p class="method-label">右侧 · facecases4 LMS LoRA</p>
@@ -53,6 +53,7 @@
             </div>
           </div>
           <p class="method-resolution"><strong>画面说明：</strong>两侧视频均保留各自原文件，24 fps；页面逐例标注实际分辨率和时长。拖动分隔线比较画面，加载和缓冲期间两段视频保持同步。</p>
+          <p class="method-resolution"><strong>输入说明：</strong>本轮请求使用 Prompt、参考图片及部分案例的独立音频；素材目录中的原视频未作为参考视频提交，因此不展示为推理输入。</p>
           <div class="method-links" aria-label="MiniMax H3 上游模型和代码">
             <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方权重 ↗</a>
             <a href="https://github.com/MiniMax-AI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方代码 ↗</a>
@@ -136,10 +137,10 @@
         <section class="materials-section" id="materials" aria-labelledby="materials-title">
           <div class="materials-card">
             <div class="materials-heading">
-              <div><p class="eyebrow">INPUTS & PROMPT GIST</p><h2 id="materials-title">复测素材与 Prompt 大意</h2></div>
+              <div><p class="eyebrow">REFERENCES & PROMPT GIST</p><h2 id="materials-title">复测素材与 Prompt 中文大意</h2></div>
               <span class="materials-count" id="materials-count">正在载入素材…</span>
             </div>
-            <p class="materials-intro">选择案例查看输入视频、参考图片和独立音频。Prompt 仅呈现中文大意，便于快速了解场景与声音设计；视频内嵌原始音轨，独立音频可单独播放。标记“本轮未生成”的素材仍纳入扩围范围，但暂无配对成片。</p>
+            <p class="materials-intro">选择案例查看推理时实际使用的参考图片与独立音频。Prompt 仅呈现中文大意，便于快速了解场景与声音设计；音频片段可单独播放。标记“本轮未生成”的素材仍纳入扩围范围，但暂无配对成片。</p>
             <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
             <div class="material-detail" id="material-detail" aria-live="polite"></div>
           </div>
@@ -147,7 +148,7 @@
 
         <section class="case-section" id="cases" aria-labelledby="cases-title">
           <div class="section-heading">
-            <div><p class="eyebrow">9 组配对视频 · 输入素材共 11 组</p><h2 id="cases-title">选择案例</h2></div>
+            <div><p class="eyebrow">9 组配对视频 · 复测素材共 11 组</p><h2 id="cases-title">选择案例</h2></div>
             <p class="case-count" id="case-count">正在载入…</p>
           </div>
           <div class="case-grid" id="case-grid" aria-label="选择 facecases4 案例"></div>
