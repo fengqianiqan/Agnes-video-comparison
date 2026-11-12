@@ -4,28 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="Facecases4 扩围复测：查看 10 组案例的全部 Prompt 完整中文译文、参考图与音频；新一轮 LMS LoRA 视频生成完成后恢复对比。">
-    <title>Facecases4 扩围复测 · Agnes</title>
+    <meta name="description" content="Facecases4 扩围复测：比较 10 组 no-LMS 原视频与 LMS LoRA start step 04、scale 0.8 的 Ref2VA 成片，并查看完整中文 Prompt、参考图和音频。">
+    <title>Facecases4 LMS start step 04 · scale 0.8 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-6">
+    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-7">
     <script src="app.js?v=facecases4-expanded-retest-empty-state" defer></script>
-    <script src="facecases4-retest.js?v=expanded-6" defer></script>
+    <script src="facecases4-retest.js?v=expanded-7" defer></script>
   </head>
   <body
-    data-cases-url="data/facecases4_lms_step02.json"
+    data-cases-url="data/facecases4_lms_step02.json?v=expanded-7"
     data-large-viewer="true"
-    data-original-resolution-label="no-LMS 基线"
-    data-refined-resolution-label="LMS LoRA 输出"
+    data-original-resolution-label="no-LMS 原视频"
+    data-refined-resolution-label="LMS LoRA 输出 · 0.8"
     data-hide-viewer-when-empty="true"
-    data-empty-case-count="等待新成片"
-    data-empty-case-message="当前所有旧版 LMS LoRA 输出均已下线；新结果生成后会在此恢复视频对比。"
+    data-empty-case-count="暂无视频"
+    data-empty-case-message="当前没有可展示的视频配对。"
     data-mismatch-message="两边按文件实际分辨率和时长同步播放；当前案例以 no-LMS 基线时间轴定位。"
   >
     <div class="page-shell">
       <header class="topbar">
         <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
           <span class="brand-mark" aria-hidden="true">A</span>
-          <span>AGNES <span class="brand-light">/ FACECases4 · EXPANDED RETEST</span></span>
+          <span>AGNES <span class="brand-light">/ FACECases4 · LMS STEP 04 · SCALE 0.8</span></span>
         </a>
         <nav class="top-links" aria-label="比较页面导航">
           <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
@@ -37,26 +37,26 @@
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · EXPANDED RETEST · MINIMAX H3</p>
           <h1 id="page-title">Facecases4<br><span>扩围复测。</span></h1>
-          <p class="intro-copy">按产品要求扩大复测素材范围：本页保留 10 组案例的全部 Prompt 完整中文翻译、参考图片和可播放音频。上一轮 LMS LoRA 视频已下线，新一轮 start step 02、scale 1.0 的成片生成后再恢复视频对比。</p>
+          <p class="intro-copy">扩大复测范围后的 10 组 no-LMS 原视频与 LMS LoRA 成片已配对。页面同时保留全部案例的 Prompt 完整中文翻译、参考图片和可播放音频。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
           <div class="method-heading">
             <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
-            <span class="method-count">10 组复测素材 · 等待新视频 · 24 fps</span>
+            <span class="method-count">10 组视频配对 · 10 组素材 · 24 fps</span>
           </div>
           <div class="method-sources">
             <div>
-              <p class="method-label">基线 · facecases4 no-LMS</p>
-              <p>复测仍以 Facecases4 no-LMS Ref2VA 成片作为基线。旧版视频对已下线；下方保留各案例的完整 Prompt 翻译、参考图片与独立音频。</p>
+              <p class="method-label">原视频 · Facecases4 no-LMS</p>
+              <p>左侧来自 Facecases4 no-LMS Ref2VA 成片，作为本轮原视频与比较基线；右侧为同一案例条件下挂载 LMS LoRA 的 Ref2VA 输出。</p>
             </div>
             <div>
-              <p class="method-label">待更新 · facecases4 LMS LoRA</p>
-              <p>上一轮 LMS LoRA 成片已移除，等待重新生成。新一轮仍计划使用 MiniMax H3 Ref2VA：10 步推理，start step 02 起作用，scale 1.0；成片按生产规格处理。</p>
+              <p class="method-label">LMS LoRA · start step 04 / scale 0.8</p>
+              <p>右侧来自 Facecases4 LMS LoRA Ref2VA 输出：10 步推理，从第 4 步开始以 0.8 scale 应用 LoRA。两侧均保留原始 MP4、音轨和各自实际分辨率。</p>
             </div>
           </div>
-          <p class="method-resolution"><strong>视频状态：</strong>当前不展示旧版视频。待新一轮 LMS 输出完成后，将恢复逐例分辨率、时长标注和同步对比。</p>
-          <p class="method-resolution"><strong>输入说明：</strong>本轮请求使用 Prompt、参考图片及部分案例的独立音频；素材目录中的原视频未作为参考视频提交，因此不展示为推理输入。</p>
+          <p class="method-resolution"><strong>配对说明：</strong>本页共 10 对，包含 Case 01–06、08–11。视频逐例标注真实分辨率、时长和帧率；本组配对分辨率与时长相同。</p>
+          <p class="method-resolution"><strong>输入说明：</strong>推理使用 Prompt、参考图片及部分案例的独立音频；比较左侧的 no-LMS 原视频没有作为参考视频输入。</p>
           <div class="method-links" aria-label="MiniMax H3 上游模型和代码">
             <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方权重 ↗</a>
             <a href="https://github.com/MiniMax-AI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方代码 ↗</a>
@@ -65,23 +65,23 @@
           <div class="run-summary" aria-labelledby="run-summary-title">
             <div class="run-summary-heading">
               <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">运行时长、显存与权重</h3></div>
-              <span class="method-count">上一轮 9 条运行记录 · 双卡推理</span>
+              <span class="method-count">本轮 10 组视频 · 双卡推理</span>
             </div>
             <div class="run-metrics">
               <div class="run-metric">
-                <span class="run-metric-label">单条生成请求 · 平均</span>
-                <strong>no-LMS 1分41秒 · LMS 1分50秒</strong>
-                <span>中位数 no-LMS 1分39秒 / LMS 1分50秒；范围 51秒–2分00秒 / 58秒–2分09秒</span>
+            <span class="run-metric-label">单条模型生成阶段 · 平均</span>
+                <strong>no-LMS 3分02秒 · LMS 未记录</strong>
+                <span>no-LMS 中位数 1分59秒，范围 1分39秒–6分32秒；LMS 未记录逐条生成时间</span>
               </div>
               <div class="run-metric">
                 <span class="run-metric-label">单条端到端处理 · 平均</span>
-                <strong>no-LMS 1分51秒 · LMS 2分05秒</strong>
-                <span>中位数 no-LMS 1分55秒 / LMS 2分07秒；范围 1分03秒–2分10秒 / 1分11秒–2分41秒</span>
+                <strong>no-LMS 3分14秒 · LMS 未记录</strong>
+                <span>no-LMS 中位数 2分10秒，范围 1分41秒–6分44秒；LMS 未记录逐条端到端时间</span>
               </div>
               <div class="run-metric">
                 <span class="run-metric-label">单卡推理进程显存峰值</span>
-                <strong>LMS 34,856 MiB · no-LMS 27,906 MiB</strong>
-                <span>每张卡分别采样；LMS 与 no-LMS 各用 2 张卡</span>
+                <strong>LMS 36,082 / 36,082 MiB · no-LMS 27,906 / 27,904 MiB</strong>
+                <span>每组各用 2 张卡；依次为每张卡的推理进程峰值</span>
               </div>
               <div class="run-metric">
                 <span class="run-metric-label">LMS 推理权重总大小</span>
@@ -89,8 +89,8 @@
                 <span>含 MiniMax H3、Qwen3-VL、LMS LoRA 与 Real-ESRGAN</span>
               </div>
             </div>
-            <p class="run-parameters"><strong>推理设置：</strong>MiniMax H3 Ref2VA，10 步，LMS LoRA scale 1.0 从第 2 步启用；no-LMS 基线不加载 LoRA。两组输出均经过生产分辨率适配与 2× Real-ESRGAN 超分处理。</p>
-            <p class="run-footnote">以下耗时与显存是上一轮 9 条推理记录；对应旧版视频已下线，待新成片完成后再更新。生成请求耗时记录模型生成阶段的逐例请求时间，不含后续生产分辨率适配、超分、后处理和最终文件写入。端到端处理时间包含这些逐例后处理步骤，不计共用模型加载和初始化；均为 9 条的平均值、中位数与范围，不代表整批墙钟时间。显存由运行期间的 nvidia-smi 进程级 used_memory 采样，报告主推理进程在每张卡上的峰值，不合并为双卡总量；客户端进程峰值另记为 3,024 MiB。权重按实际权重文件大小统计：Qwen3-VL FP8 66.71 GB、Ref2VA transformer 33.19 GB、视频与音频 VAE 11.02 GB、LMS LoRA 0.62 GB、Real-ESRGAN 0.005 GB；no-LMS 基线使用相同主模型权重但不含 LMS LoRA。</p>
+            <p class="run-parameters"><strong>推理设置：</strong>MiniMax H3 Ref2VA，10 步，24 fps，guidance scale 1.0、embedded guidance scale 6.0、flow shift 12.0；no-LMS 不加载 LoRA，LMS LoRA 从第 4 步启用，scale 0.8。</p>
+            <p class="run-footnote">生成阶段耗时统计 10 条 no-LMS 最终成片对应的 Pixel data 计时，不含生产分辨率适配；端到端耗时按逐例生成完成时间加生产适配时间计算，不含共用模型加载和初始化，也不代表整批墙钟时间。LMS 这组没有留存逐条运行耗时，故标为“未记录”。显存来自运行期间按进程采样的 nvidia-smi used_memory，显示推理主进程在每张卡上的峰值，不合并为双卡总量；no-LMS 两卡为 27,906 / 27,904 MiB，LMS 两卡为 36,082 / 36,082 MiB。模型权重总大小 111.55 GB（103.89 GiB）：Qwen3-VL FP8 66.71 GB、Ref2VA transformer 33.19 GB、视频与音频 VAE 11.02 GB、LMS LoRA 0.62 GB、Real-ESRGAN 约 0.005 GB；no-LMS 不加载 LMS LoRA。</p>
           </div>
         </section>
 
@@ -107,11 +107,11 @@
           </div>
 
           <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较 no-LMS 基线与 LMS LoRA 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
-            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="facecases4 no-LMS 基线视频"></video>
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="facecases4 no-LMS 原视频"></video>
             <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="facecases4 LMS LoRA 输出"></video>
             <div class="video-vignette" aria-hidden="true"></div>
-            <span class="side-label side-label-original">no-LMS 基线 <span id="original-resolution">实际分辨率</span></span>
-            <span class="side-label side-label-refined">LMS LoRA · 1.0 <span id="refined-resolution">start step 02</span></span>
+            <span class="side-label side-label-original">no-LMS 原视频 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">LMS LoRA · 0.8 <span id="refined-resolution">start step 04</span></span>
             <div class="split-divider" id="split-divider" aria-hidden="true">
               <span class="split-grip"><span>‹</span><span>›</span></span>
             </div>
@@ -129,7 +129,7 @@
             <span>成片音轨 · 同一时间播放一路</span>
             <div class="paired-audio-options">
               <label><input type="radio" name="pair-audio" value="muted" checked> 静音</label>
-              <label><input type="radio" name="pair-audio" value="original"> no-LMS 基线</label>
+              <label><input type="radio" name="pair-audio" value="original"> no-LMS 原视频</label>
               <label><input type="radio" name="pair-audio" value="lms"> LMS LoRA</label>
             </div>
           </div>
@@ -143,7 +143,7 @@
               <div><p class="eyebrow">REFERENCES & FULL PROMPT TRANSLATION</p><h2 id="materials-title">复测素材与全部 Prompt 完整中文翻译</h2></div>
               <span class="materials-count" id="materials-count">正在载入素材…</span>
             </div>
-            <p class="materials-intro">选择案例查看该案例 Prompt 全部字段的完整中文翻译、参考图片和独立音频；详细场景描述按镜头分段，保留时间点和对白。音频片段可单独播放。标记“等待新视频”的案例仍保留相应素材。</p>
+            <p class="materials-intro">选择案例查看该案例 Prompt 全部字段的完整中文翻译、参考图片和独立音频；详细场景描述按镜头分段，保留时间点和对白。音频片段可单独播放。</p>
             <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
             <div class="material-detail" id="material-detail" aria-live="polite"></div>
           </div>
@@ -151,14 +151,14 @@
 
         <section class="case-section" id="cases" aria-labelledby="cases-title">
           <div class="section-heading">
-            <div><p class="eyebrow">旧版对比视频已下线 · 复测素材共 10 组</p><h2 id="cases-title">等待新视频生成</h2></div>
-            <p class="case-count" id="case-count">等待新成片</p>
+            <div><p class="eyebrow">10 组视频配对 · 10 组复测素材</p><h2 id="cases-title">Facecases4 视频对比</h2></div>
+            <p class="case-count" id="case-count">10 组视频配对</p>
           </div>
           <div class="case-grid" id="case-grid" aria-label="选择 facecases4 案例"></div>
         </section>
       </main>
 
-      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases4 扩围复测 · 等待新 LMS LoRA 视频</span></footer>
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases4 扩围复测 · LMS start step 04 / scale 0.8</span></footer>
     </div>
   </body>
 </html>

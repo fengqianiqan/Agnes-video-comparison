@@ -82,7 +82,7 @@ function renderMaterials(item) {
   heading.append(element(
     "span",
     "material-status" + (item.status === "paired" ? "" : " is-pending"),
-    item.status === "paired" ? "已有视频对比" : "等待新视频"
+    item.status === "paired" ? "已有视频对比" : "尚未配对"
   ));
   materialDetail.append(heading);
 
@@ -142,7 +142,7 @@ function selectMaterial(item, syncComparison) {
   }
 }
 
-fetch("data/facecases4_lms_step02.json?v=expanded-6")
+fetch("data/facecases4_lms_step02.json?v=expanded-7")
   .then((response) => {
     if (!response.ok) throw new Error("Facecases4 source manifest unavailable");
     return response.json();
@@ -156,7 +156,7 @@ fetch("data/facecases4_lms_step02.json?v=expanded-6")
       button.setAttribute("aria-pressed", "false");
       button.append(
         element("strong", "", "Case " + item.id.slice(-2)),
-        element("span", "", item.status === "paired" ? "可比较" : "等待新视频")
+        element("span", "", item.status === "paired" ? "可比较" : "尚未配对")
       );
       button.addEventListener("click", () => selectMaterial(item, true));
       materialPicker.append(button);
