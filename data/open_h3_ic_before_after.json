@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "id": "case_04",
+      "type": "open-h3-ic",
+      "dimension": "远景人物模糊",
+      "kicker": "FACECases 04 · OPEN-H3 IC",
+      "title": "Case 04 · 远景人物模糊",
+      "width": 1344,
+      "height": 768,
+      "duration": 5.166667,
+      "specText": "Before 768P 1344 × 768 · Open-H3 IC 2K 2560 × 1440 · 5.17s",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "frames": 124,
+        "duration": 5.166667
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "frames": 124,
+        "duration": 5.166667
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/open-h3-ic-before-after/left/case_04.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/open-h3-ic-before-after/right/case_04.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "open-h3-ic",
+      "dimension": "远景人物模糊",
+      "kicker": "FACECases 05 · OPEN-H3 IC",
+      "title": "Case 05 · 远景人物模糊",
+      "width": 1344,
+      "height": 768,
+      "duration": 5.166667,
+      "specText": "Before 768P 1344 × 768 · Open-H3 IC 2K 2560 × 1440 · 5.17s",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "frames": 124,
+        "duration": 5.166667
+      },
+      "refinedMeta": {
+        "width": 2560,
+        "height": 1440,
+        "frame_rate": "24/1",
+        "frames": 124,
+        "duration": 5.166667
+      },
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/open-h3-ic-before-after/left/case_05.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/open-h3-ic-before-after/right/case_05.mp4"
+    }
+  ]
+}

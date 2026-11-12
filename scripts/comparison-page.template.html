@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="$meta_description">
+    <title>$html_title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js?v=5fab0e2" defer></script>
+  </head>
+  <body
+    data-cases-url="$manifest_url"
+    data-large-viewer="true"
+    data-mismatch-message="$mismatch_message"
+    data-original-resolution-label="$left_resolution_label"
+    data-refined-resolution-label="$right_resolution_label"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ $brand_suffix</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> $eyebrow</p>
+          <h1 id="page-title">$heading_prefix<br><span>$heading_accent</span></h1>
+          <p class="intro-copy">$intro</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">$method_eyebrow</p><h2 id="method-title">$method_title</h2></div>
+            <span class="method-count">$case_count 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div><p class="method-label">左侧 · $left_label</p><p>$left_description</p></div>
+            <div><p class="method-label">右侧 · $right_label</p><p>$right_description</p></div>
+          </div>
+          <p class="method-resolution"><strong>显示说明：</strong>$resolution_note</p>
+          <div class="method-links" aria-label="相关资源">
+            $links_html
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">$run_title</h3></div>
+              <span class="method-count">$run_badge</span>
+            </div>
+            <div class="run-metrics">
+              $metrics_html
+            </div>
+            <p class="run-parameters"><strong>推理设置：</strong>$run_parameters</p>
+            <p class="run-footnote">$run_footnote</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="$viewer_aria">
+          <div class="viewer-heading">
+            <div><p class="case-kicker" id="case-kicker">$case_kicker</p><h2 id="case-title">正在载入对比视频…</h2></div>
+            <div class="viewer-meta"><span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span><span id="video-spec">—</span></div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="$viewer_aria" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="$left_overlay"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="$right_overlay"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">$left_overlay <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">$right_overlay <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true"><span class="split-grip"><span>‹</span><span>›</span></span></div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="viewer-tools">
+            <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+            <button class="zoom-control" id="detail-zoom-control" type="button" aria-pressed="false">查看细节 · 2×</button>
+          </div>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">$case_count 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="$case_grid_label"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>$footer</span></footer>
+    </div>
+  </body>
+</html>

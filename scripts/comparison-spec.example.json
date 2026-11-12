@@ -1,0 +1,50 @@
+{
+  "slug": "example-before-after",
+  "left_short": "Before",
+  "right_short": "After",
+  "page": {
+    "html_title": "Before × After · Agnes",
+    "meta_description": "可拖动的成对视频对比页面。",
+    "mismatch_message": "两边保留实际分辨率，按左侧时间轴同步播放。",
+    "left_resolution_label": "Before",
+    "right_resolution_label": "After",
+    "brand_suffix": "BEFORE × AFTER",
+    "eyebrow": "PAIRED VIDEO COMPARISON",
+    "heading_prefix": "同步播放与",
+    "heading_accent": "可拖动细节对比。",
+    "intro": "浏览器同时加载两段独立MP4，不生成拼接视频。",
+    "method_title": "视频来源与显示说明",
+    "left_label": "Before",
+    "left_description": "左侧视频来源说明。",
+    "right_label": "After",
+    "right_description": "右侧视频来源说明。",
+    "resolution_note": "两边按各自实际分辨率显示，拖动分隔线比较。",
+    "links": [],
+    "run_summary": {
+      "title": "运行信息",
+      "badge": "按实际记录填写",
+      "metrics": [
+        {"label": "案例数量", "value": "1 组", "detail": "示例"},
+        {"label": "显存峰值", "value": "未记录", "detail": "不估算"}
+      ],
+      "parameters": "在这里填写模型与处理参数。",
+      "footnote": "不得在公开页面写入私有路径、主机名、进程号或密钥。"
+    },
+    "viewer_aria": "拖动分隔线比较两段视频",
+    "left_overlay": "BEFORE",
+    "right_overlay": "AFTER",
+    "case_grid_label": "选择比较案例",
+    "footer": "Before × After"
+  },
+  "cases": [
+    {
+      "id": "case_01",
+      "type": "example",
+      "dimension": "示例案例",
+      "kicker": "CASE 01",
+      "title": "案例 01 · 示例",
+      "left": "/absolute/private/path/before.mp4",
+      "right": "/absolute/private/path/after.mp4"
+    }
+  ]
+}

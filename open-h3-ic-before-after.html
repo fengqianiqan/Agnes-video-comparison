@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="同步对比 Open-H3 IC 官方输入预处理可视化与对应 2K 输出，支持拖动分隔线和细节放大。">
+    <title>Open-H3 IC · Before 768P × After 2K · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js?v=5fab0e2" defer></script>
+  </head>
+  <body
+    data-cases-url="data/open_h3_ic_before_after.json"
+    data-large-viewer="true"
+    data-mismatch-message="左侧为 1344×768 官方输入预处理可视化，右侧为 2560×1440 输出；按相同 24 fps、124 帧时间轴同步播放。"
+    data-original-resolution-label="官方输入可视化"
+    data-refined-resolution-label="Open-H3 IC 输出"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ OPEN-H3 IC · BEFORE × AFTER</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> OPEN-H3 IC · OFFICIAL INPUT × 2K OUTPUT</p>
+          <h1 id="page-title">模型实际输入与<br><span>2K 输出滑动对比。</span></h1>
+          <p class="intro-copy">当前先发布已完成的 04、05 两组。左侧是调用官方 read_draft 得到的 1344×768 输入画面可视化，右侧是相同案例的 2560×1440 Open-H3-Regenerate-2K-IC 输出；两段独立 MP4 在浏览器中同步播放，无需生成拼接视频。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES &amp; DISPLAY</p><h2 id="method-title">素材来源与处理说明</h2></div>
+            <span class="method-count">2 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div><p class="method-label">左侧 · before_768p.mp4</p><p>由辅助导出脚本调用官方 IC read_draft：24 fps 取 124 帧，bilinear cover resize 并中心裁剪到 1344×768，再保存为便于播放的 MP4。它反映官方输入构图，但 MP4 编码不是内部浮点张量的逐像素无损副本。</p></div>
+            <div><p class="method-label">右侧 · after_2k.mp4</p><p>使用 Open-H3-Regenerate-2K-IC 的 up3、HyperFlow、IC LoRA 与 LMS Sharp 1.0 生成，实际文件为 2560×1440、24 fps、124 帧。</p></div>
+          </div>
+          <p class="method-resolution"><strong>显示说明：</strong>页面保留双方实际分辨率并按左侧时间轴同步。两边宽高比略有差异，因此以完整画面显示，不为像素对齐而裁切；可开启 2× 细节模式比较中心区域。</p>
+          <div class="method-links" aria-label="相关资源">
+            <a href="https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC" target="_blank" rel="noopener noreferrer">Open-H3 IC 权重 ↗</a>
+<a href="https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC" target="_blank" rel="noopener noreferrer">NVlabs/Sana IC 实现 ↗</a>
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">本次 04、05 运行记录</h3></div>
+              <span class="method-count">2 条已完成输出</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric"><span class="run-metric-label">up3 三步采样</span><strong>平均 5 分 07 秒</strong><span>范围 5 分 03 秒–5 分 10 秒</span></div>
+<div class="run-metric"><span class="run-metric-label">VAE 解码</span><strong>平均 7 分 58 秒</strong><span>两条均为标准 H3 VAE 回退</span></div>
+<div class="run-metric"><span class="run-metric-label">双条批次墙钟时间</span><strong>约 35 分 18 秒</strong><span>含共享编码、模型加载、采样、解码与写出</span></div>
+<div class="run-metric"><span class="run-metric-label">进程级显存峰值</span><strong>未记录</strong><span>未采集可靠峰值，不作估算</span></div>
+<div class="run-metric"><span class="run-metric-label">模型权重磁盘占用</span><strong>约 153 GB</strong><span>基础模型、LoRA、VAE、Fast VAE 与 latent upsampler</span></div>
+            </div>
+            <p class="run-parameters"><strong>推理设置：</strong>Open-H3 IC 2K（2560×1440），up3 三步，LMS Sharp 1.0，CFG 1，seed 0，FlashAttention-3，双卡 FSDP/Ulysses；本页 04、05 在解码阶段因 Fast VAE 可用显存检查未通过，按官方逻辑回退到标准 H3 VAE。</p>
+            <p class="run-footnote">采样与解码时间来自两条逐例日志；编码和模型加载由本批两条共享，因此只报告批次墙钟时间，不把共享时间人为均摊为单条数据。左侧 MP4 是官方 read_draft 预处理的查看版本，不是模型内部浮点张量文件。</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="拖动分隔线比较官方 Before 768P 与 Open-H3 IC 2K 输出">
+          <div class="viewer-heading">
+            <div><p class="case-kicker" id="case-kicker">FACECases 04 · OPEN-H3 IC</p><h2 id="case-title">正在载入对比视频…</h2></div>
+            <div class="viewer-meta"><span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span><span id="video-spec">—</span></div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较官方 Before 768P 与 Open-H3 IC 2K 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="BEFORE · 768P"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="OPEN-H3 IC · 2K"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">BEFORE · 768P <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">OPEN-H3 IC · 2K <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true"><span class="split-grip"><span>‹</span><span>›</span></span></div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="viewer-tools">
+            <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+            <button class="zoom-control" id="detail-zoom-control" type="button" aria-pressed="false">查看细节 · 2×</button>
+          </div>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">2 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 Open-H3 IC 输入输出对比案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Open-H3 IC · before_768p × after_2k</span></footer>
+    </div>
+  </body>
+</html>
