@@ -76,6 +76,7 @@
 .prompt-section + .prompt-section { padding-top: 13px; border-top: 1px solid #e9edeb; }
 .prompt-section-title { margin: 0 0 8px; color: #526944; font-size: 11px; font-weight: 750; letter-spacing: .02em; }
 .shot-label { display: inline-block; margin: 0 7px 3px 0; padding: 3px 7px; border-radius: 20px; color: #526944; background: #eef6e6; font-size: 9px; font-weight: 750; letter-spacing: .02em; white-space: nowrap; }
+.case-empty-message { grid-column: 1 / -1; margin: 0; padding: 18px; border: 1px dashed #d9dfd7; border-radius: 10px; color: #69737d; background: #fafbfb; font-size: 12px; line-height: 1.7; }
 .material-assets-heading { margin: 17px 0 9px; color: #69737d; font-size: 10px; font-weight: 750; }
 .reference-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 9px; }
 .reference-tile { overflow: hidden; border: 1px solid #e9ecee; border-radius: 7px; color: inherit; background: #fafbfb; text-decoration: none; }

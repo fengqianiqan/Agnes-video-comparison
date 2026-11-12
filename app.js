@@ -273,7 +273,22 @@ function renderCaseButtons() {
     fragment.append(button);
   }
   grid.replaceChildren(fragment);
-  document.querySelector("#case-count").textContent = `${cases.length} matched pairs`;
+  const caseCount = document.querySelector("#case-count");
+  const viewer = document.querySelector(".viewer-card");
+  if (cases.length) {
+    caseCount.textContent = `${cases.length} matched pairs`;
+    if (viewer) viewer.hidden = false;
+  } else {
+    caseCount.textContent = document.body.dataset.emptyCaseCount || "0 matched pairs";
+    if (viewer && document.body.dataset.hideViewerWhenEmpty === "true") viewer.hidden = true;
+    const emptyMessage = document.body.dataset.emptyCaseMessage;
+    if (emptyMessage) {
+      const note = document.createElement("p");
+      note.className = "case-empty-message";
+      note.textContent = emptyMessage;
+      grid.append(note);
+    }
+  }
 }
 
 function updateFromPointer(event) {

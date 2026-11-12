@@ -1,236 +1,10 @@
 {
-  "cases": [
-    {
-      "id": "case_01",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 01 / REF2VA",
-      "title": "Facecases4 · Case 01",
-      "width": 960,
-      "height": 960,
-      "duration": 12.25,
-      "specText": "no-LMS 960 × 960 · LMS 960 × 960 · 12.25s · 24 fps",
-      "originalMeta": {
-        "width": 960,
-        "height": 960,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "refinedMeta": {
-        "width": 960,
-        "height": 960,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_01.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_01.mp4"
-    },
-    {
-      "id": "case_02",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 02 / REF2VA",
-      "title": "Facecases4 · Case 02",
-      "width": 1280,
-      "height": 720,
-      "duration": 12.256,
-      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
-      "originalMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "refinedMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_02.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_02.mp4"
-    },
-    {
-      "id": "case_03",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 03 / REF2VA",
-      "title": "Facecases4 · Case 03",
-      "width": 2560,
-      "height": 1440,
-      "duration": 8.0,
-      "specText": "no-LMS 2560 × 1440 · LMS 2560 × 1440 · 8.00s · 24 fps",
-      "originalMeta": {
-        "width": 2560,
-        "height": 1440,
-        "frame_rate": "24/1",
-        "duration": 8.0
-      },
-      "refinedMeta": {
-        "width": 2560,
-        "height": 1440,
-        "frame_rate": "24/1",
-        "duration": 8.0
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_03.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_03.mp4"
-    },
-    {
-      "id": "case_04",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 04 / REF2VA",
-      "title": "Facecases4 · Case 04",
-      "width": 1920,
-      "height": 1080,
-      "duration": 12.25,
-      "specText": "no-LMS 1920 × 1080 · LMS 1920 × 1080 · 12.25s · 24 fps",
-      "originalMeta": {
-        "width": 1920,
-        "height": 1080,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "refinedMeta": {
-        "width": 1920,
-        "height": 1080,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_04.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_04.mp4"
-    },
-    {
-      "id": "case_05",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 05 / REF2VA",
-      "title": "Facecases4 · Case 05",
-      "width": 1920,
-      "height": 1080,
-      "duration": 12.25,
-      "specText": "no-LMS 1920 × 1080 · LMS 1920 × 1080 · 12.25s · 24 fps",
-      "originalMeta": {
-        "width": 1920,
-        "height": 1080,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "refinedMeta": {
-        "width": 1920,
-        "height": 1080,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_05.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_05.mp4"
-    },
-    {
-      "id": "case_06",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 06 / REF2VA",
-      "title": "Facecases4 · Case 06",
-      "width": 1440,
-      "height": 2560,
-      "duration": 12.25,
-      "specText": "no-LMS 1440 × 2560 · LMS 1440 × 2560 · 12.25s · 24 fps",
-      "originalMeta": {
-        "width": 1440,
-        "height": 2560,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "refinedMeta": {
-        "width": 1440,
-        "height": 2560,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_06.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_06.mp4"
-    },
-    {
-      "id": "case_08",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 08 / REF2VA",
-      "title": "Facecases4 · Case 08",
-      "width": 2206,
-      "height": 946,
-      "duration": 12.25,
-      "specText": "no-LMS 2206 × 946 · LMS 2206 × 946 · 12.25s · 24 fps",
-      "originalMeta": {
-        "width": 2206,
-        "height": 946,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "refinedMeta": {
-        "width": 2206,
-        "height": 946,
-        "frame_rate": "24/1",
-        "duration": 12.25
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_08.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_08.mp4"
-    },
-    {
-      "id": "case_09",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 09 / REF2VA",
-      "title": "Facecases4 · Case 09",
-      "width": 1280,
-      "height": 720,
-      "duration": 12.256,
-      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
-      "originalMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "refinedMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_09.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_09.mp4"
-    },
-    {
-      "id": "case_11",
-      "type": "ref2va",
-      "dimension": "no-LMS × LMS 1.0",
-      "kicker": "CASE 11 / REF2VA",
-      "title": "Facecases4 · Case 11",
-      "width": 1280,
-      "height": 720,
-      "duration": 12.256,
-      "specText": "no-LMS 1280 × 720 · LMS 1280 × 720 · 12.26s · 24 fps",
-      "originalMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "refinedMeta": {
-        "width": 1280,
-        "height": 720,
-        "frame_rate": "24/1",
-        "duration": 12.256
-      },
-      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/no_lms_baseline/case_11.mp4",
-      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_lms_step02/lms_start_step_02_scale_1.0/case_11.mp4"
-    }
-  ],
+  "cases": [],
   "sourceMaterials": [
     {
       "id": "case01",
-      "comparisonCaseId": "case_01",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是女主角 Su Wan（苏婉），由 <Picture 2> 定义：一位留着深棕色短发的年轻女性，发梢被场景中的黄昏光映成浅橙色；五官精致，佩戴金色垂坠耳环，身穿黑色荷叶边挂脖上衣和奶油色阔腿裤。在目标视频中，她慵懒地蜷坐在米色布艺沙发上，手握铅笔在手绘素描本上作画，羞怯地偷偷望向厨房，嘴角带着克制的浅笑。\n\n<Subject 2> 是男主角，由 <Picture 3> 定义：一位黑发略显凌乱、轮廓分明的年轻男子，佩戴银色圈形耳环和银项链，穿奶油色针织开衫、黑色 T 恤和蓝色牛仔裤。在目标视频中，他作为轻柔虚化的背景人物，安静地在厨房岛台和操作台旁忙碌。\n\n<Subject 3> 是 <Picture 1> 中的开放式公寓环境：米色布艺沙发配有靠垫和针织盖毯；木质茶几上放着咖啡杯和书；木质餐桌上有一瓶绿植；开放式厨房配有浅色木柜、白色岛台和温暖的橱柜底灯。落地窗外是黄金时刻的城市天际线，窗前垂着被夕光照亮的薄纱窗帘。\n\n<Picture 1> 是环境锚点和关键帧参考，定义整套公寓、黄昏光线及厨房背景层；这些内容在完整 12 秒画面中持续可见。",
         "summary": "【关键帧补全 + 参考生成】目标视频是在 <Subject 3> 中连续拍摄的 12 秒长镜头；这里是 <Picture 1> 所示的温暖黄昏公寓，它也作为开场画面的锚点。摄影机从阳光洒落的起居空间广角开始，缓慢柔和地向前推进，来到温暖的中景：<Subject 1> Su Wan 蜷坐在沙发上画素描，并羞怯地偷偷望向厨房；男主角 <Subject 2> 留在虚化的背景中。没有对白、没有画面文字、没有剪切，也没有空镜。",
@@ -258,8 +32,8 @@
     },
     {
       "id": "case02",
-      "comparisonCaseId": "case_02",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是来自 <Picture 2> 的年轻男子 Song Wuxian（宋无羡），留着长黑发，额间有蓝色印记，身穿深蓝与白色叠层长袍，肩部配有银色护甲。\n<Subject 3> 是来自 <Picture 3> 的长老：一位白发白须的老人，身穿白灰相间的叠层长袍，系青绿色腰带并佩戴玉坠。\n<Subject 4> 是来自 <Picture 4> 的年轻弟子，头发束成发髻，身穿深灰滚边的浅灰长袍，系着带有“弟子”牌饰的青绿色腰带，脚穿黑靴。\n<Picture 1> 是“登天宗·听风亭”亭阁环境的参考图，包含雕花廊柱、石桌和云海。",
         "summary": "【参考生成】目标视频展现 <Subject 1>、<Subject 3> 与 <Subject 4> 在“登天宗·听风亭”中的谈话。情节依次为：弟子前来报告冲突，宋无羡与长老谈及上古遗址，最后两人意识到事情仍毫无进展。",
@@ -295,8 +69,8 @@
     },
     {
       "id": "case03",
-      "comparisonCaseId": "case_03",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是主讲人：一位成年男性，留着深色短发，身穿深海军蓝西装、白衬衫和深色领带，如 <Picture 1> 所示。\n<Subject 2> 是项目方和客户方的八名人员（四男四女），均穿着正式深色商务服装，围坐在 <Picture 1> 中的会议桌旁。\n<Picture 1> 是 [镜头 1] 的建立镜头，定义会议室布局、深色长木桌、显示红色图形的屏幕，以及 <Subject 1> 和 <Subject 2> 的初始位置。\n<Audio 1> 是包含中文对白的旁白音轨。",
         "summary": "【参考生成 + 音频参考】目标视频是一段 8 秒的单镜头场景，地点为正式的企业会议室，展现项目团队与客户之间的项目僵局；画面以 <Picture 1> 为视觉锚点，并以 <Audio 1> 作为旁白参考。",
@@ -324,8 +98,8 @@
     },
     {
       "id": "case04",
-      "comparisonCaseId": "case_04",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是 Wang Tianyu（王天宇），一位神情严肃的年轻男子，身穿深灰色纹理长袍，头发束成高马尾，由 <Picture 1> 定义。\n<Subject 2> 是 Zhang Dao（张道），一位神情沉静、留着长发的男子，身穿浅灰色长袍，由 <Picture 2> 定义。\n<Subject 3> 是 Zhang Xin（张新），一位五官凌厉、头束高髻的男子，身穿深蓝色长袍，由 <Picture 3> 定义。\n<Subject 4> 是掘地兽：一种长有金棕色甲片、爪子锋利的爬行动物，由 <Picture 4> 定义。\n<Picture 5> 是洞穴环境，包含昏暗岩壁、发光的红色熔岩脉络和钟乳石，是场景的主要地点。",
         "summary": "【参考生成】目标视频是一段高保真的东方奇幻 3D CG 场景。<Subject 1>、<Subject 2> 和 <Subject 3> 从 <Picture 5> 中的岩缝观察 <Subject 4>。情节依次展现他们发现战术线索、掘地兽撞入蚁穴，以及随后袭来的镇魂冲击波。",
@@ -361,8 +135,8 @@
     },
     {
       "id": "case05",
-      "comparisonCaseId": "case_05",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是 Chen Fan（陈凡），一位高挑的年轻男子，身穿白色立领衬衫和黑色长裤，手持打开的红色戒指盒。\n<Subject 2> 是 Lin Ruowei（林若薇），一位身穿奶油色开衫和白裙的年轻女性。\n<Subject 3> 是 Lin Ruoxue（林若雪），一位身穿白衬衫和海军蓝百褶裙、神情痛苦的年轻女性。\n<Picture 4> 是外滩餐厅包间的空间布局参考，定义窗户、房门和地面倒影之间的位置关系。\n<Picture 5> 是外滩餐厅的环境参考，定义深色木质装饰、大理石和温暖的金色灯光。",
         "summary": "【参考生成】目标视频展现高档外滩餐厅包间里一场紧张的离场。<Subject 2> 走在前面，带着 <Subject 1> 朝出口走去；<Subject 3> 则僵立在窗边。离开前，<Subject 1> 对 <Subject 3> 作出最后而冷淡的告别。",
@@ -398,8 +172,8 @@
     },
     {
       "id": "case06",
-      "comparisonCaseId": "case_06",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是“舒客少年 SAVKIDS”牙膏；其薰衣草紫与薄荷绿斜向拼色、紫白双色翻盖以及品牌包装均须与 <Picture 1> 完全一致。\n<Audio 1> 是环境音轨，包含层叠的水声、风声和具有奇幻质感的音效。",
         "summary": "【参考生成】目标视频是一支为 <Subject 1> 制作的 12 秒电影质感 CGI 广告：画面从极简洗漱台转入超现实的微缩世界，以牙膏丝带擦拭转场，最后停在产品主视觉镜头。",
@@ -427,8 +201,8 @@
     },
     {
       "id": "case08",
-      "comparisonCaseId": "case_08",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是 <Picture 1> 中 30 岁的男性上班族，留着黑色短发，身穿浅蓝色纽扣衬衫和灰色长裤，背着黑色背包。\n<Picture 1> 用于定义 <Subject 1> 的外貌、服装，以及平静而疲惫的神情。",
         "summary": "【参考生成】目标视频以 12 秒的情节展现 <Subject 1> 的都市疲惫：从早高峰的拥挤地铁通勤，转入现代、雨天的办公室，最后在深夜离开。",
@@ -448,8 +222,8 @@
     },
     {
       "id": "case09",
-      "comparisonCaseId": "case_09",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是舰队指挥官，其外貌以 <Picture 1> 为锚点：有明显的美人尖，深棕色头发梳成利落的盘发，面部轮廓鲜明、神情沉着。指挥官身穿深色高科技星舰舰长制服，剪裁精确，肩部有金属徽章，并佩戴舰队指挥官标志。\n<Picture 1> 是 <Subject 1> 的视觉锚点，用于定义其身份、面部轮廓和发型。\n<Audio 1> 是画外无线电通话声（S2），说出“旗舰，请求批准起航”。\n<Audio 2> 是 <Subject 1> 的声音（S1），说出“批准起航”。",
         "summary": "【参考生成】目标视频是一支 12 秒、超写实的科幻预告片，以 <Subject 1> 舰队指挥官为主角。片段先展现星际舰队的宏大规模，随后是简短的军事授权对话、高速曲速跃迁，最后以角色自信的神态和标题“ONE COMMAND.”收尾。",
@@ -509,8 +283,8 @@
     },
     {
       "id": "case11",
-      "comparisonCaseId": "case_11",
-      "status": "paired",
+      "comparisonCaseId": null,
+      "status": "not_run",
       "promptFullZh": {
         "subject_definitions": "<Subject 1> 是 Shen Sui（沈穗），一位 17 岁的中国女学生，梳高马尾，身穿带金色滚边的海军蓝学院西装外套、白衬衫、条纹蝴蝶结和格纹百褶裙；人物设定见 <Picture 1>。\n<Subject 2> 是 Gu Yan（顾言），一位 17 岁的中国男学生，身高 188 厘米，留黑色短发，身穿海军蓝学院西装外套，左臂佩戴学生会袖标，下穿黑色长裤；人物设定见 <Picture 2>。",
         "summary": "【参考生成】目标视频是一段高质量中国 3D 动画，展现 Shen Sui（沈穗）和 Gu Yan（顾言）在校园喜剧场景中的互动。故事跟随 Shen Sui 忙碌的早晨：她赶去学校、在食堂工作，随后在走廊遇到学生会主席 Gu Yan，最后以一段关于兼职工资的幽默对话收尾。",
