@@ -8,12 +8,30 @@ import json
 import os
 import shutil
 import subprocess
+from urllib.request import Request, urlopen
 from pathlib import Path
 
 
 DEFAULT_PUBLIC_BASE = "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev"
 DEFAULT_REMOTE = "videos:videos/agnes-video-comparison"
 SITE_DIR = Path(__file__).resolve().parents[1]
+
+
+def iter_media_fields(data: dict):
+    for case in data.get("cases", []):
+        for field in ("original", "refined"):
+            if case.get(field):
+                yield case, field
+
+    for material in data.get("sourceMaterials", []):
+        if material.get("sourceVideo"):
+            yield material, "sourceVideo"
+        for reference in material.get("references", []):
+            if reference.get("src"):
+                yield reference, "src"
+        for audio in material.get("audios", []):
+            if audio.get("src"):
+                yield audio, "src"
 
 
 def find_rclone() -> str:
@@ -33,6 +51,20 @@ def media_key(value: str, public_base: str) -> str:
     if value.startswith("videos/"):
         return value.removeprefix("videos/")
     raise ValueError(f"Unsupported media path in manifest: {value}")
+
+
+def verify_public_url(value: str) -> None:
+    request = Request(
+        value,
+        headers={"Range": "bytes=0-0", "User-Agent": "Mozilla/5.0"},
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            if response.status not in (200, 206):
+                raise SystemExit(f"Public media URL returned HTTP {response.status}: {value}")
+            response.read(1)
+    except Exception as error:
+        raise SystemExit(f"Could not verify existing public media URL {value}: {error}") from error
 
 
 def main() -> None:
@@ -67,14 +99,16 @@ def main() -> None:
     references: set[str] = set()
     for manifest_path in manifests:
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
-        for case in data.get("cases", []):
-            for field in ("original", "refined"):
-                value = case.get(field)
-                if value:
-                    key = media_key(value, args.public_base)
-                    if not (video_dir / key).is_file():
-                        raise SystemExit(f"Missing local media for {manifest_path.name}: videos/{key}")
-                    references.add(key)
+        for owner, field in iter_media_fields(data):
+            value = owner[field]
+            key = media_key(value, args.public_base)
+            if not (video_dir / key).is_file():
+                public_prefix = args.public_base.rstrip("/") + "/agnes-video-comparison/"
+                if not value.startswith(public_prefix):
+                    raise SystemExit(f"Missing local media for {manifest_path.name}: videos/{key}")
+                verify_public_url(value)
+            else:
+                references.add(key)
 
     rclone = find_rclone()
     subprocess.run(
@@ -92,15 +126,13 @@ def main() -> None:
     for manifest_path in manifests:
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
         changed = False
-        for case in data.get("cases", []):
-            for field in ("original", "refined"):
-                value = case.get(field)
-                if value:
-                    key = media_key(value, public_base)
-                    public_url = f"{public_base}/agnes-video-comparison/{key}"
-                    if value != public_url:
-                        case[field] = public_url
-                        changed = True
+        for owner, field in iter_media_fields(data):
+            value = owner[field]
+            key = media_key(value, public_base)
+            public_url = f"{public_base}/agnes-video-comparison/{key}"
+            if value != public_url:
+                owner[field] = public_url
+                changed = True
         if changed:
             manifest_path.write_text(
                 json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

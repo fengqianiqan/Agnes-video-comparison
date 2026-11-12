@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="逐例比较 facecases4 no-LMS 基线与 MiniMax H3 LMS LoRA 1.0、start step 02 输出，并展示运行耗时、进程显存和模型权重统计。">
-    <title>Facecases4 × LMS LoRA 1.0 · Agnes</title>
+    <meta name="description" content="Facecases4 扩围复测：查看 11 组输入素材、Prompt 中文大意、参考图与音频，并逐例比较 9 组 no-LMS 基线和 LMS LoRA 结果。">
+    <title>Facecases4 扩围复测 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js?v=facecases4-lms-step02" defer></script>
+    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-1">
+    <script src="app.js?v=facecases4-expanded-retest" defer></script>
+    <script src="facecases4-retest.js?v=expanded-1" defer></script>
   </head>
   <body
     data-cases-url="data/facecases4_lms_step02.json"
@@ -20,7 +22,7 @@
       <header class="topbar">
         <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
           <span class="brand-mark" aria-hidden="true">A</span>
-          <span>AGNES <span class="brand-light">/ FACECases4 · LMS 1.0</span></span>
+          <span>AGNES <span class="brand-light">/ FACECases4 · EXPANDED RETEST</span></span>
         </a>
         <nav class="top-links" aria-label="比较页面导航">
           <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
@@ -30,20 +32,20 @@
 
       <main id="top">
         <section class="intro" aria-labelledby="page-title">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · MINIMAX H3 · LMS LORA 1.0</p>
-          <h1 id="page-title">no-LMS 基线与<br><span>LMS LoRA 1.0 对比。</span></h1>
-          <p class="intro-copy">逐例对比 facecases4 的 no-LMS 基线与 LMS LoRA 推理结果，共 9 组。LMS 使用 start step 02、scale 1.0；拖动分隔线查看画面差异，两段视频同步播放，规格按文件实际值展示。</p>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · EXPANDED RETEST · MINIMAX H3</p>
+          <h1 id="page-title">Facecases4<br><span>扩围复测。</span></h1>
+          <p class="intro-copy">按产品要求扩大复测素材范围：本页展示 11 组输入素材、Prompt 中文大意、参考图片和可播放音频；当前有 9 组已生成结果可与 no-LMS 基线配对。LMS 使用 start step 02、scale 1.0。拖动分隔线查看差异，规格按文件实际值展示。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
           <div class="method-heading">
             <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
-            <span class="method-count">9 组 · 24 fps</span>
+            <span class="method-count">11 组输入 · 9 组配对 · 24 fps</span>
           </div>
           <div class="method-sources">
             <div>
               <p class="method-label">左侧 · facecases4 no-LMS 基线</p>
-              <p>来自 Agnes MiniMax H3 Ref2VA 的 no-LMS 输出，按本次对比定义作为原视频基线；9 个案例编号与 LMS 输出一一对应。</p>
+              <p>来自 Facecases4 no-LMS Ref2VA 成片集合，按本次复测定义作为基线；9 个案例编号与 LMS 输出一一对应。下方素材区另提供输入视频及其自带音轨。</p>
             </div>
             <div>
               <p class="method-label">右侧 · facecases4 LMS LoRA</p>
@@ -88,7 +90,7 @@
           </div>
         </section>
 
-        <section class="viewer-card" aria-label="facecases4 no-LMS 基线与 LMS LoRA 输出对比">
+        <section class="viewer-card" aria-label="Facecases4 扩围复测：no-LMS 基线与 LMS LoRA 输出对比">
           <div class="viewer-heading">
             <div>
               <p class="case-kicker" id="case-kicker">CASE 01 / REF2VA</p>
@@ -119,20 +121,40 @@
             <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
             <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
           </div>
+          <div class="paired-audio" role="group" aria-label="选择一侧成片的音轨">
+            <span>成片音轨 · 同一时间播放一路</span>
+            <div class="paired-audio-options">
+              <label><input type="radio" name="pair-audio" value="muted" checked> 静音</label>
+              <label><input type="radio" name="pair-audio" value="original"> no-LMS 基线</label>
+              <label><input type="radio" name="pair-audio" value="lms"> LMS LoRA</label>
+            </div>
+          </div>
           <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
           <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
         </section>
 
+        <section class="materials-section" id="materials" aria-labelledby="materials-title">
+          <div class="materials-card">
+            <div class="materials-heading">
+              <div><p class="eyebrow">INPUTS & PROMPT GIST</p><h2 id="materials-title">复测素材与 Prompt 大意</h2></div>
+              <span class="materials-count" id="materials-count">正在载入素材…</span>
+            </div>
+            <p class="materials-intro">选择案例查看输入视频、参考图片和独立音频。Prompt 仅呈现中文大意，便于快速了解场景与声音设计；视频内嵌原始音轨，独立音频可单独播放。标记“本轮未生成”的素材仍纳入扩围范围，但暂无配对成片。</p>
+            <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
+            <div class="material-detail" id="material-detail" aria-live="polite"></div>
+          </div>
+        </section>
+
         <section class="case-section" id="cases" aria-labelledby="cases-title">
           <div class="section-heading">
-            <div><p class="eyebrow">9 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <div><p class="eyebrow">9 组配对视频 · 输入素材共 11 组</p><h2 id="cases-title">选择案例</h2></div>
             <p class="case-count" id="case-count">正在载入…</p>
           </div>
           <div class="case-grid" id="case-grid" aria-label="选择 facecases4 案例"></div>
         </section>
       </main>
 
-      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases4 no-LMS 基线 × LMS LoRA 1.0 · start step 02</span></footer>
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases4 扩围复测 · no-LMS × LMS LoRA 1.0 · start step 02</span></footer>
     </div>
   </body>
 </html>
