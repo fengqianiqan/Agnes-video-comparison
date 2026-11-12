@@ -70,6 +70,9 @@
 .material-copy-card h4 { margin: 0 0 7px; color: #65705b; font-size: 10px; font-weight: 750; }
 .material-copy-card p { margin: 0; color: #65707a; font-size: 11px; line-height: 1.7; }
 .material-copy-card .pending-copy { color: #8d693a; }
+.prompt-translation { display: grid; gap: 13px; }
+.prompt-translation .prompt-paragraph { color: #5d6872; font-size: 11px; line-height: 1.85; overflow-wrap: anywhere; }
+.shot-label { display: inline-block; margin: 0 7px 3px 0; padding: 3px 7px; border-radius: 20px; color: #526944; background: #eef6e6; font-size: 9px; font-weight: 750; letter-spacing: .02em; white-space: nowrap; }
 .material-assets-heading { margin: 17px 0 9px; color: #69737d; font-size: 10px; font-weight: 750; }
 .reference-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 9px; }
 .reference-tile { overflow: hidden; border: 1px solid #e9ecee; border-radius: 7px; color: inherit; background: #fafbfb; text-decoration: none; }

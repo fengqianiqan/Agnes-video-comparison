@@ -23,6 +23,25 @@ function element(tag, className, text) {
   return node;
 }
 
+function renderDetailedDescription(translationText) {
+  const translation = element("div", "prompt-translation");
+  const paragraphs = translationText.split(/\n\s*\n/).filter(Boolean);
+
+  for (const text of paragraphs) {
+    const paragraph = element("p", "prompt-paragraph");
+    const shot = text.match(/^(【镜头\s*\d+】)\s*([\s\S]*)$/);
+    if (shot) {
+      paragraph.append(element("span", "shot-label", shot[1]));
+      paragraph.append(document.createTextNode(shot[2]));
+    } else {
+      paragraph.textContent = text;
+    }
+    translation.append(paragraph);
+  }
+
+  return translation;
+}
+
 function renderMaterials(item) {
   materialDetail.replaceChildren();
 
@@ -36,12 +55,12 @@ function renderMaterials(item) {
   materialDetail.append(heading);
 
   const promptCard = element("div", "material-copy-card");
-  promptCard.append(element("h4", "", "Prompt 中文大意"));
-  promptCard.append(element(
-    "p",
-    item.promptSummaryZh ? "" : "pending-copy",
-    item.promptSummaryZh || "素材包没有提供可执行的增强提示词。"
-  ));
+  promptCard.append(element("h4", "", "detailed_description · 完整中文翻译"));
+  if (item.promptDetailedDescriptionZh) {
+    promptCard.append(renderDetailedDescription(item.promptDetailedDescriptionZh));
+  } else {
+    promptCard.append(element("p", "pending-copy", "此案例未提供 Prompt，因此没有 detailed_description 译文。"));
+  }
 
   materialDetail.append(promptCard);
 
@@ -93,7 +112,7 @@ function selectMaterial(item, syncComparison) {
   }
 }
 
-fetch("data/facecases4_lms_step02.json")
+fetch("data/facecases4_lms_step02.json?v=expanded-3")
   .then((response) => {
     if (!response.ok) throw new Error("Facecases4 source manifest unavailable");
     return response.json();

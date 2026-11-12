@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="Facecases4 扩围复测：查看 11 组案例的 Prompt 中文大意、参考图与音频，并逐例比较 9 组 no-LMS 基线和 LMS LoRA 结果。">
+    <meta name="description" content="Facecases4 扩围复测：查看 11 组案例的 detailed_description 完整中文译文、参考图与音频，并比较 9 组 no-LMS 基线和 LMS LoRA 结果。">
     <title>Facecases4 扩围复测 · Agnes</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-2">
+    <link rel="stylesheet" href="facecases4-retest.css?v=expanded-3">
     <script src="app.js?v=facecases4-expanded-retest" defer></script>
-    <script src="facecases4-retest.js?v=expanded-2" defer></script>
+    <script src="facecases4-retest.js?v=expanded-3" defer></script>
   </head>
   <body
     data-cases-url="data/facecases4_lms_step02.json"
@@ -34,7 +34,7 @@
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases4 · EXPANDED RETEST · MINIMAX H3</p>
           <h1 id="page-title">Facecases4<br><span>扩围复测。</span></h1>
-          <p class="intro-copy">按产品要求扩大复测素材范围：本页展示 11 组案例的 Prompt 中文大意、参考图片和可播放音频；当前有 9 组已生成结果可与 no-LMS 基线配对。LMS 使用 start step 02、scale 1.0。拖动分隔线查看差异，规格按文件实际值展示。</p>
+          <p class="intro-copy">按产品要求扩大复测素材范围：本页展示 11 组案例的 Prompt detailed_description 完整中文翻译、参考图片和可播放音频；当前有 9 组已生成结果可与 no-LMS 基线配对。LMS 使用 start step 02、scale 1.0。拖动分隔线查看差异，规格按文件实际值展示。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
@@ -137,10 +137,10 @@
         <section class="materials-section" id="materials" aria-labelledby="materials-title">
           <div class="materials-card">
             <div class="materials-heading">
-              <div><p class="eyebrow">REFERENCES & PROMPT GIST</p><h2 id="materials-title">复测素材与 Prompt 中文大意</h2></div>
+              <div><p class="eyebrow">REFERENCES & FULL PROMPT TRANSLATION</p><h2 id="materials-title">复测素材与 Prompt 完整译文</h2></div>
               <span class="materials-count" id="materials-count">正在载入素材…</span>
             </div>
-            <p class="materials-intro">选择案例查看推理时实际使用的参考图片与独立音频。Prompt 仅呈现中文大意，便于快速了解场景与声音设计；音频片段可单独播放。标记“本轮未生成”的素材仍纳入扩围范围，但暂无配对成片。</p>
+            <p class="materials-intro">选择案例查看参考图片、独立音频，以及 Prompt 中 detailed_description 字段的完整中文翻译；译文按镜头分段，保留时间点和对白。音频片段可单独播放。标记“本轮未生成”的案例仍保留相应素材，但暂无配对成片。</p>
             <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
             <div class="material-detail" id="material-detail" aria-live="polite"></div>
           </div>
