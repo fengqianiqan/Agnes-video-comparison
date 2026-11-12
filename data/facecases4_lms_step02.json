@@ -384,20 +384,6 @@
       ]
     },
     {
-      "id": "case07",
-      "comparisonCaseId": null,
-      "status": "not_run",
-      "promptDetailedDescriptionZh": null,
-      "notRunReasonZh": "未提供可执行的增强提示词，因此没有生成对应结果。",
-      "references": [
-        {
-          "label": "参考素材 01",
-          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases4_expanded_inputs/case07/reference_01.png"
-        }
-      ],
-      "audios": []
-    },
-    {
       "id": "case08",
       "comparisonCaseId": "case_08",
       "status": "paired",

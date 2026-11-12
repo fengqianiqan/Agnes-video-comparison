@@ -15,6 +15,7 @@ from pathlib import Path
 SITE_DIR = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = SITE_DIR / "data/facecases4_lms_step02.json"
 STAGE_ROOT = SITE_DIR / "videos/facecases4_expanded_inputs"
+MATERIAL_CASE_NUMBERS = (1, 2, 3, 4, 5, 6, 8, 9, 10, 11)
 
 DETAILED_DESCRIPTIONS_ZH = {
     "case01": textwrap.dedent("""\
@@ -122,7 +123,6 @@ DETAILED_DESCRIPTIONS_ZH = {
 }
 
 NOT_RUN_REASONS = {
-    "case07": "未提供可执行的增强提示词，因此没有生成对应结果。",
     "case10": "源片长 45.116 秒，超过单次请求 12 秒上限；本轮不截短素材，也未生成对应结果。",
 }
 
@@ -184,7 +184,7 @@ def main() -> None:
     material_cases = []
     total_bytes = 0
 
-    for number in range(1, 12):
+    for number in MATERIAL_CASE_NUMBERS:
         case_id = "case{:02d}".format(number)
         source_dir = args.materials_dir / case_id
         if not source_dir.is_dir():
@@ -249,7 +249,9 @@ def main() -> None:
         sum(len(item["references"]) for item in material_cases),
         sum(len(item["audios"]) for item in material_cases),
     ))
-    print("Comparison outputs available: {} of 11.".format(len(paired_ids)))
+    print("Comparison outputs available: {} of {}.".format(
+        len(paired_ids), len(MATERIAL_CASE_NUMBERS)
+    ))
     print("Copied unchanged: {:.1f} MiB.".format(total_bytes / 1024**2))
     print("Manifest: {}".format(MANIFEST_PATH.name))
 

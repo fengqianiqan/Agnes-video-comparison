@@ -112,7 +112,7 @@ function selectMaterial(item, syncComparison) {
   }
 }
 
-fetch("data/facecases4_lms_step02.json?v=expanded-3")
+fetch("data/facecases4_lms_step02.json?v=expanded-4")
   .then((response) => {
     if (!response.ok) throw new Error("Facecases4 source manifest unavailable");
     return response.json();
