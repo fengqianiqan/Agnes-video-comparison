@@ -1,0 +1,463 @@
+{
+  "cases": [
+    {
+      "id": "case_02",
+      "type": "t2va",
+      "dimension": "T2VA · 远景人物模糊",
+      "kicker": "CASE 02 / T2VA",
+      "title": "Facecases3 · Case 02 · 远景人物模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1997.379,
+      "peakProcessMemoryMiB": 64182,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_02.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_02.mp4"
+    },
+    {
+      "id": "case_05",
+      "type": "ref2va",
+      "dimension": "REF2VA · 远景人物模糊",
+      "kicker": "CASE 05 / REF2VA",
+      "title": "Facecases3 · Case 05 · 远景人物模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 10.144,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 10.14s / 10.12s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "runtimeSeconds": 2281.504,
+      "peakProcessMemoryMiB": 93030,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_05.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_05.mp4"
+    },
+    {
+      "id": "case_07",
+      "type": "ref2va",
+      "dimension": "REF2VA · 远景背景模糊",
+      "kicker": "CASE 07 / REF2VA",
+      "title": "Facecases3 · Case 07 · 远景背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 10.14s / 10.12s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "runtimeSeconds": 1528.918,
+      "peakProcessMemoryMiB": 69048,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_07.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_07.mp4"
+    },
+    {
+      "id": "case_13",
+      "type": "ref2va",
+      "dimension": "REF2VA · 主体与背景模糊",
+      "kicker": "CASE 13 / REF2VA",
+      "title": "Facecases3 · Case 13 · 主体与背景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1568.798,
+      "peakProcessMemoryMiB": 64182,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_13.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_13.mp4"
+    },
+    {
+      "id": "case_14",
+      "type": "ref2va",
+      "dimension": "REF2VA · 主体与背景模糊",
+      "kicker": "CASE 14 / REF2VA",
+      "title": "Facecases3 · Case 14 · 主体与背景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1640.775,
+      "peakProcessMemoryMiB": 69314,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_14.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_14.mp4"
+    },
+    {
+      "id": "case_18",
+      "type": "ref2va",
+      "dimension": "REF2VA · 运动导致的远景模糊",
+      "kicker": "CASE 18 / REF2VA",
+      "title": "Facecases3 · Case 18 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1640.554,
+      "peakProcessMemoryMiB": 64182,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_18.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_18.mp4"
+    },
+    {
+      "id": "case_19",
+      "type": "ref2va",
+      "dimension": "REF2VA · 运动导致的远景模糊",
+      "kicker": "CASE 19 / REF2VA",
+      "title": "Facecases3 · Case 19 · 运动导致的远景模糊",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1425.299,
+      "peakProcessMemoryMiB": 65888,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_19.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_19.mp4"
+    },
+    {
+      "id": "case_21",
+      "type": "ref2va",
+      "dimension": "REF2VA · 运动导致的远景模糊",
+      "kicker": "CASE 21 / REF2VA",
+      "title": "Facecases3 · Case 21 · 运动导致的远景模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1425.698,
+      "peakProcessMemoryMiB": 64534,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_21.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_21.mp4"
+    },
+    {
+      "id": "case_24",
+      "type": "ref2va",
+      "dimension": "REF2VA · 远近景变化时的模糊",
+      "kicker": "CASE 24 / REF2VA",
+      "title": "Facecases3 · Case 24 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1428.586,
+      "peakProcessMemoryMiB": 67208,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_24.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_24.mp4"
+    },
+    {
+      "id": "case_25",
+      "type": "ref2va",
+      "dimension": "REF2VA · 远近景变化时的模糊",
+      "kicker": "CASE 25 / REF2VA",
+      "title": "Facecases3 · Case 25 · 远近景变化时的模糊",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1428.495,
+      "peakProcessMemoryMiB": 85666,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_25.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_25.mp4"
+    },
+    {
+      "id": "case_28",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 28 / REF2VA",
+      "title": "Facecases3 · Case 28 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1622.627,
+      "peakProcessMemoryMiB": 93298,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_28.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_28.mp4"
+    },
+    {
+      "id": "case_29",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 29 / REF2VA",
+      "title": "Facecases3 · Case 29 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1538.163,
+      "peakProcessMemoryMiB": 85094,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_29.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_29.mp4"
+    },
+    {
+      "id": "case_34",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 34 / REF2VA",
+      "title": "Facecases3 · Case 34 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.144,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 10.14s / 10.12s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 10.144
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125
+      },
+      "runtimeSeconds": 1109.402,
+      "peakProcessMemoryMiB": 77122,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_34.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_34.mp4"
+    },
+    {
+      "id": "case_36",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 36 / REF2VA",
+      "title": "Facecases3 · Case 36 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 7.328,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 7.33s / 7.29s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 7.328
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 7.292
+      },
+      "runtimeSeconds": 937.195,
+      "peakProcessMemoryMiB": 64182,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_36.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_36.mp4"
+    },
+    {
+      "id": "case_38",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 38 / REF2VA",
+      "title": "Facecases3 · Case 38 · 人脸保真度",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.256,
+      "specText": "原片 720×1280 / H3 Flex 768×1344 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 720,
+        "height": 1280,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1350.868,
+      "peakProcessMemoryMiB": 66690,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_38.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_38.mp4"
+    },
+    {
+      "id": "case_40",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 40 / REF2VA",
+      "title": "Facecases3 · Case 40 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1322.312,
+      "peakProcessMemoryMiB": 83800,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_40.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_40.mp4"
+    },
+    {
+      "id": "case_41",
+      "type": "ref2va",
+      "dimension": "REF2VA · 人脸保真度",
+      "kicker": "CASE 41 / REF2VA",
+      "title": "Facecases3 · Case 41 · 人脸保真度",
+      "width": 1280,
+      "height": 720,
+      "duration": 12.256,
+      "specText": "原片 1280×720 / H3 Flex 1344×768 · 12.26s / 12.25s · 24 fps",
+      "originalMeta": {
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1",
+        "duration": 12.256
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25
+      },
+      "runtimeSeconds": 1554.02,
+      "peakProcessMemoryMiB": 92754,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/original/case_41.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/pika_h3_flex_facecases3/pika_h3_flex/case_41.mp4"
+    }
+  ]
+}

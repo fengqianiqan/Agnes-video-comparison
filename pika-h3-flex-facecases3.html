@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="逐例比较 facecases3 原片与 Pika H3 Flex 生成结果，附官方源码、权重、技术论文、推理时耗和显存峰值。">
+    <title>Facecases3 × Pika H3 Flex · Agnes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js?v=pika-h3-flex-facecases3-1" defer></script>
+  </head>
+  <body
+    data-cases-url="data/pika_h3_flex_facecases3.json"
+    data-large-viewer="true"
+    data-original-resolution-label="facecases3 原片"
+    data-refined-resolution-label="Pika H3 Flex 输出"
+    data-mismatch-message="两段视频按文件实际规格同步播放；当前案例以 facecases3 原片时间轴定位。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases3 · PIKA H3 FLEX</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases3 · PIKA H3 FLEX · 768P</p>
+          <h1 id="page-title">参考引导的<br><span>H3 Flex 生成结果。</span></h1>
+          <p class="intro-copy">逐例比较 facecases3 原片与 Pika H3 Flex 输出，共 17 组案例名匹配的视频。16 组使用 Ref2VA，Case 02 使用 T2VA；这个 T2VA 案例按名称配对展示，但生成时没有把左侧视频作为参考输入。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">素材来源与推理说明</h2></div>
+            <span class="method-count">17 组 · 24 fps</span>
+          </div>
+          <div class="method-sources">
+            <div>
+              <p class="method-label">左侧 · facecases3 原片</p>
+              <p>Agnes facecases3 案例原视频，作为视觉比较基线。只选取在 Pika 输出和基线中都能按案例名对应上的视频。</p>
+            </div>
+            <div>
+              <p class="method-label">右侧 · Pika H3 Flex</p>
+              <p>来自 Pika H3 Flex 本地开源推理输出。16 条为参考条件生成（Ref2VA）；Case 02 为文本条件生成（T2VA），未用左侧视频作输入条件。</p>
+            </div>
+          </div>
+          <p class="method-resolution"><strong>规格说明：</strong>Pika 输出为 768p 档，短边 768 px、长边 1344 px；facecases3 原片为 720p 档，短边 720 px、长边 1280 px。两侧均为 24 fps，实际分辨率与时长随所选案例显示；原片约 7.33–12.26 秒，Pika 输出约 7.29–12.25 秒。页面保留各自 MP4，不做拼接或转码。</p>
+          <div class="method-links" aria-label="Pika H3 Flex 官方资料">
+            <a href="https://github.com/Pika-Labs/Pika-H3-Flex" target="_blank" rel="noopener noreferrer">官方推理代码 ↗</a>
+            <a href="https://huggingface.co/Pika-Labs/Pika-H3-Flex" target="_blank" rel="noopener noreferrer">官方模型权重 ↗</a>
+            <a href="https://pika.art/blog/pika-h3-flex-research" target="_blank" rel="noopener noreferrer">官方技术论文 · Technical Deep Dive ↗</a>
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">运行时长、显存与权重</h3></div>
+              <span class="method-count">17 条逐例计时与显存采样</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric">
+                <span class="run-metric-label">单条阶段计时合计 · 平均</span>
+                <strong>25 分 18 秒</strong>
+                <span>中位数 25 分 29 秒 · 范围 15 分 37 秒–38 分 02 秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单卡进程显存峰值</span>
+                <strong>最高 91.11 GiB</strong>
+                <span>逐条范围 62.68–91.11 GiB · 每进程单卡采样</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">模型快照总大小</span>
+                <strong>219.91 GB</strong>
+                <span>204.80 GiB · 包含两种任务的 transformer 与 adapter</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">配对规模与推理任务</span>
+                <strong>17 组 · 768p</strong>
+                <span>16 条 Ref2VA · 1 条 T2VA · 24 fps · 6 步采样</span>
+              </div>
+            </div>
+            <p class="run-parameters"><strong>运行方法：</strong>使用官方 Pika H3 Flex 推理包 pika-h3-pro；按逐例记录的 task 执行 Ref2VA 或 T2VA，输出设为 768p，并启用 transformer CPU offload。模型采用六步采样，单条请求由一个 H200 GPU 进程执行；两路 worker 并行处理不同案例。</p>
+            <p class="run-footnote">单条耗时是 metadata 中 assets、conditioning、transformer load、sampling、decode/encode 阶段耗时之和，包含条件准备、逐条模型装载、采样与编解码；不含启动器和排队时间，也不代表整批墙钟时间。单独完整进程端到端耗时：未记录。显存来自运行时按进程采样的 nvidia-smi used_memory；报告每条单卡进程峰值，没有合并两张卡。权重快照约由两个 transformer 变体 132.56 GB、文本编码器 66.72 GB、视频 VAE 10.42 GB、音频 VAE 0.61 GB、两种任务 adapter 5.53 GB及其他处理器/UI 文件 4.08 GB构成；该快照包含未同时加载的任务权重。</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="facecases3 原片与 Pika H3 Flex 输出对比">
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">CASE 02 / T2VA</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较 facecases3 原片与 Pika H3 Flex 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent generated">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="facecases3 原片"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="Pika H3 Flex 输出"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">原片 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">PIKA H3 FLEX <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="viewer-tools">
+            <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+            <button class="zoom-control" id="detail-zoom-control" type="button" aria-pressed="false">查看细节 · 2×</button>
+          </div>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">17 组配对视频</p><h2 id="cases-title">选择案例</h2></div>
+            <p class="case-count" id="case-count">正在载入…</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 facecases3 与 Pika H3 Flex 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>facecases3 原片 × Pika H3 Flex 768p</span></footer>
+    </div>
+  </body>
+</html>
