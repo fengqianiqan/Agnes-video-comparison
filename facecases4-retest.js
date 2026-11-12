@@ -42,6 +42,38 @@ function renderDetailedDescription(translationText) {
   return translation;
 }
 
+function renderPromptText(translationText) {
+  const translation = element("div", "prompt-translation");
+  const paragraphs = translationText.split(/\n\s*\n/).filter(Boolean);
+  for (const text of paragraphs) {
+    translation.append(element("p", "prompt-paragraph", text));
+  }
+  return translation;
+}
+
+function renderFullPrompt(prompt) {
+  const fields = [
+    ["subject_definitions", "主体与参考素材定义"],
+    ["summary", "提示摘要"],
+    ["retention_analysis", "素材保留分析"],
+    ["detailed_description", "详细场景描述"],
+    ["overall_soundscape", "整体声音设计"],
+    ["non_diegetic_music", "非画内配乐"],
+  ];
+  const content = element("div", "full-prompt-translation");
+
+  for (const [key, label] of fields) {
+    const section = element("section", "prompt-section");
+    section.append(element("h5", "prompt-section-title", label));
+    section.append(key === "detailed_description"
+      ? renderDetailedDescription(prompt[key])
+      : renderPromptText(prompt[key]));
+    content.append(section);
+  }
+
+  return content;
+}
+
 function renderMaterials(item) {
   materialDetail.replaceChildren();
 
@@ -56,15 +88,13 @@ function renderMaterials(item) {
 
   const promptCard = element("div", "material-copy-card");
   promptCard.append(element("h4", "", "全部 Prompt 完整中文翻译"));
-  if (item.promptDetailedDescriptionZh) {
-    promptCard.append(renderDetailedDescription(item.promptDetailedDescriptionZh));
+  if (item.promptFullZh) {
+    promptCard.append(renderFullPrompt(item.promptFullZh));
   } else {
     promptCard.append(element("p", "pending-copy", "此案例未提供 Prompt，因此没有完整中文译文。"));
   }
 
   materialDetail.append(promptCard);
-
-  if (item.notRunReasonZh) materialDetail.append(element("p", "retest-note", item.notRunReasonZh));
 
   materialDetail.append(element("h4", "material-assets-heading", "参考图片 · 点击查看原图"));
   const references = element("div", "reference-grid");
@@ -112,7 +142,7 @@ function selectMaterial(item, syncComparison) {
   }
 }
 
-fetch("data/facecases4_lms_step02.json?v=expanded-4")
+fetch("data/facecases4_lms_step02.json?v=expanded-5")
   .then((response) => {
     if (!response.ok) throw new Error("Facecases4 source manifest unavailable");
     return response.json();
