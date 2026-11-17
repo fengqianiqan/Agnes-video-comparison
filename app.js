@@ -387,7 +387,11 @@ for (const video of pairedVideos) {
   });
 }
 
-fetch(document.body.dataset.casesUrl || "data/cases.json")
+Promise.resolve(document.body.dataset.casesUrl)
+  .then((manifestUrl) => {
+    if (!manifestUrl) throw new Error("Missing data-cases-url");
+    return fetch(manifestUrl);
+  })
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
@@ -400,6 +404,6 @@ fetch(document.body.dataset.casesUrl || "data/cases.json")
   .catch((error) => {
     loading.classList.add("is-hidden");
     document.querySelector("#case-title").textContent = "Comparison manifest unavailable";
-    statusMessage.textContent = "Run the local web server from this project folder and confirm data/cases.json exists.";
+    statusMessage.textContent = "Run a local web server and check this page's video manifest URL.";
     console.error(error);
   });
