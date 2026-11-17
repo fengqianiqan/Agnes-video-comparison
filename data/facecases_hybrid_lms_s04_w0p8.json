@@ -1,0 +1,2955 @@
+{
+  "cases": [
+    {
+      "id": "case_11",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 11 / R2VA",
+      "title": "Facecases · Case 11",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "主体边缘与背景粘连",
+      "agnesGenerationSeconds": 110.04,
+      "agnesEndToEndSeconds": 110.13,
+      "hybridGenerationSeconds": 388.03,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_11.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_11.mp4"
+    },
+    {
+      "id": "case_35",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 35 / R2VA",
+      "title": "Facecases · Case 35",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "远景人物模糊",
+      "agnesGenerationSeconds": 109.33,
+      "agnesEndToEndSeconds": 109.42,
+      "hybridGenerationSeconds": 397.04,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_35.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_35.mp4"
+    },
+    {
+      "id": "case_47",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 47 / R2VA",
+      "title": "Facecases · Case 47",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "agnesGenerationSeconds": 117.9,
+      "agnesEndToEndSeconds": 117.97,
+      "hybridGenerationSeconds": 425.18,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_47.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_47.mp4"
+    },
+    {
+      "id": "case_49",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 49 / R2VA",
+      "title": "Facecases · Case 49",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "agnesGenerationSeconds": 99.87,
+      "agnesEndToEndSeconds": 99.95,
+      "hybridGenerationSeconds": 363.86,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_49.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_49.mp4"
+    },
+    {
+      "id": "case_51",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 51 / R2VA",
+      "title": "Facecases · Case 51",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "agnesGenerationSeconds": 107.02,
+      "agnesEndToEndSeconds": 107.11,
+      "hybridGenerationSeconds": 388.48,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_51.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_51.mp4"
+    },
+    {
+      "id": "case_53",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 53 / R2VA",
+      "title": "Facecases · Case 53",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "agnesGenerationSeconds": 127.15,
+      "agnesEndToEndSeconds": 127.23,
+      "hybridGenerationSeconds": 459.83,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_53.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_53.mp4"
+    },
+    {
+      "id": "case_60",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 60 / R2VA",
+      "title": "Facecases · Case 60",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 110.16,
+      "agnesEndToEndSeconds": 110.24,
+      "hybridGenerationSeconds": 121.72,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_60.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_60.mp4"
+    },
+    {
+      "id": "case_65",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 65 / R2VA",
+      "title": "Facecases · Case 65",
+      "width": 768,
+      "height": 1344,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 79.48,
+      "agnesEndToEndSeconds": 79.57,
+      "hybridGenerationSeconds": 282.24,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_65.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_65.mp4"
+    },
+    {
+      "id": "case_66",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 66 / R2VA",
+      "title": "Facecases · Case 66",
+      "width": 1344,
+      "height": 768,
+      "duration": 7.3,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 7.30s / 7.30s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 7.3,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 7.3,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 46.68,
+      "agnesEndToEndSeconds": 46.77,
+      "hybridGenerationSeconds": 174.54,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_66.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_66.mp4"
+    },
+    {
+      "id": "case_67",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 67 / R2VA",
+      "title": "Facecases · Case 67",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 76.44,
+      "agnesEndToEndSeconds": 76.52,
+      "hybridGenerationSeconds": 275.41,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_67.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_67.mp4"
+    },
+    {
+      "id": "case_76",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 76 / R2VA",
+      "title": "Facecases · Case 76",
+      "width": 768,
+      "height": 1344,
+      "duration": 6.583,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 6.58s / 6.58s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 6.583,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 6.583,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "远景背景人脸模糊",
+      "agnesGenerationSeconds": 43.26,
+      "agnesEndToEndSeconds": 43.34,
+      "hybridGenerationSeconds": 160.48,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_76.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_76.mp4"
+    },
+    {
+      "id": "case_80",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 80 / R2VA",
+      "title": "Facecases · Case 80",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "agnesGenerationSeconds": 113.59,
+      "agnesEndToEndSeconds": 113.69,
+      "hybridGenerationSeconds": 394.01,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_80.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_80.mp4"
+    },
+    {
+      "id": "case_81",
+      "type": "ref2va",
+      "dimension": "R2VA · good 文件标记",
+      "kicker": "CASE 81 / R2VA",
+      "title": "Facecases · Case 81",
+      "width": 768,
+      "height": 1344,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "agnesGenerationSeconds": 79.69,
+      "agnesEndToEndSeconds": 79.78,
+      "hybridGenerationSeconds": 288.17,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_81.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_81.mp4"
+    },
+    {
+      "id": "case_01",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 01 / R2VA",
+      "title": "Facecases · Case 01",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 537.1,
+      "agnesEndToEndSeconds": 537.19,
+      "hybridGenerationSeconds": 347.56,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_01.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_01.mp4"
+    },
+    {
+      "id": "case_03",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 03 / R2VA",
+      "title": "Facecases · Case 03",
+      "width": 768,
+      "height": 1344,
+      "duration": 8.0,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 8.00s / 8.00s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 178.1,
+      "agnesEndToEndSeconds": 178.18,
+      "hybridGenerationSeconds": 398.14,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_03.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_03.mp4"
+    },
+    {
+      "id": "case_04",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 04 / R2VA",
+      "title": "Facecases · Case 04",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 213.93,
+      "agnesEndToEndSeconds": 214.02,
+      "hybridGenerationSeconds": 349.78,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_04.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_04.mp4"
+    },
+    {
+      "id": "case_06",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 06 / R2VA",
+      "title": "Facecases · Case 06",
+      "width": 768,
+      "height": 1344,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 102.06,
+      "agnesEndToEndSeconds": 102.14,
+      "hybridGenerationSeconds": 360.7,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_06.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_06.mp4"
+    },
+    {
+      "id": "case_07",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 07 / R2VA",
+      "title": "Facecases · Case 07",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 104.47,
+      "agnesEndToEndSeconds": 104.55,
+      "hybridGenerationSeconds": 376.45,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_07.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_07.mp4"
+    },
+    {
+      "id": "case_08",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 08 / R2VA",
+      "title": "Facecases · Case 08",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 196.04,
+      "agnesEndToEndSeconds": 196.12,
+      "hybridGenerationSeconds": 380.08,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_08.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_08.mp4"
+    },
+    {
+      "id": "case_09",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 09 / R2VA",
+      "title": "Facecases · Case 09",
+      "width": 768,
+      "height": 1344,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "agnesGenerationSeconds": 212.41,
+      "agnesEndToEndSeconds": 212.5,
+      "hybridGenerationSeconds": 405.27,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_09.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_09.mp4"
+    },
+    {
+      "id": "case_10",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 10 / R2VA",
+      "title": "Facecases · Case 10",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "agnesGenerationSeconds": 105.9,
+      "agnesEndToEndSeconds": 106.0,
+      "hybridGenerationSeconds": 366.06,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_10.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_10.mp4"
+    },
+    {
+      "id": "case_13",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 13 / R2VA",
+      "title": "Facecases · Case 13",
+      "width": 768,
+      "height": 1344,
+      "duration": 8.0,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 8.00s / 8.00s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "agnesGenerationSeconds": 61.93,
+      "agnesEndToEndSeconds": 62.03,
+      "hybridGenerationSeconds": 218.59,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_13.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_13.mp4"
+    },
+    {
+      "id": "case_14",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 14 / R2VA",
+      "title": "Facecases · Case 14",
+      "width": 768,
+      "height": 1344,
+      "duration": 8.0,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 8.00s / 8.00s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "agnesGenerationSeconds": 67.89,
+      "agnesEndToEndSeconds": 68.0,
+      "hybridGenerationSeconds": 222.52,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_14.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_14.mp4"
+    },
+    {
+      "id": "case_15",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 15 / R2VA",
+      "title": "Facecases · Case 15",
+      "width": 768,
+      "height": 1344,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "agnesGenerationSeconds": 84.88,
+      "agnesEndToEndSeconds": 84.97,
+      "hybridGenerationSeconds": 291.25,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_15.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_15.mp4"
+    },
+    {
+      "id": "case_16",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 16 / R2VA",
+      "title": "Facecases · Case 16",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "agnesGenerationSeconds": 80.87,
+      "agnesEndToEndSeconds": 80.96,
+      "hybridGenerationSeconds": 290.54,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_16.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_16.mp4"
+    },
+    {
+      "id": "case_20",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 20 / R2VA",
+      "title": "Facecases · Case 20",
+      "width": 1344,
+      "height": 768,
+      "duration": 8.0,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 8.00s / 8.00s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "agnesGenerationSeconds": 61.35,
+      "agnesEndToEndSeconds": 61.44,
+      "hybridGenerationSeconds": 222.27,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_20.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_20.mp4"
+    },
+    {
+      "id": "case_21",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 21 / R2VA",
+      "title": "Facecases · Case 21",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "agnesGenerationSeconds": 97.73,
+      "agnesEndToEndSeconds": 97.81,
+      "hybridGenerationSeconds": 352.16,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_21.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_21.mp4"
+    },
+    {
+      "id": "case_24",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 24 / R2VA",
+      "title": "Facecases · Case 24",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 92.21,
+      "agnesEndToEndSeconds": 92.3,
+      "hybridGenerationSeconds": 339.55,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_24.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_24.mp4"
+    },
+    {
+      "id": "case_25",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 25 / R2VA",
+      "title": "Facecases · Case 25",
+      "width": 768,
+      "height": 1344,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 103.49,
+      "agnesEndToEndSeconds": 103.58,
+      "hybridGenerationSeconds": 378.75,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_25.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_25.mp4"
+    },
+    {
+      "id": "case_26",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 26 / R2VA",
+      "title": "Facecases · Case 26",
+      "width": 768,
+      "height": 1344,
+      "duration": 7.3,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 7.30s / 7.30s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 7.3,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 7.3,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 45.92,
+      "agnesEndToEndSeconds": 46.0,
+      "hybridGenerationSeconds": 172.03,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_26.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_26.mp4"
+    },
+    {
+      "id": "case_29",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 29 / R2VA",
+      "title": "Facecases · Case 29",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 75.5,
+      "agnesEndToEndSeconds": 75.61,
+      "hybridGenerationSeconds": 274.63,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_29.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_29.mp4"
+    },
+    {
+      "id": "case_30",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 30 / R2VA",
+      "title": "Facecases · Case 30",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 113.22,
+      "agnesEndToEndSeconds": 113.32,
+      "hybridGenerationSeconds": 411.72,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_30.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_30.mp4"
+    },
+    {
+      "id": "case_31",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 31 / R2VA",
+      "title": "Facecases · Case 31",
+      "width": 1344,
+      "height": 768,
+      "duration": 5.175,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 5.17s / 5.17s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 5.175,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 5.175,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "agnesGenerationSeconds": 29.47,
+      "agnesEndToEndSeconds": 29.57,
+      "hybridGenerationSeconds": 106.32,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_31.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_31.mp4"
+    },
+    {
+      "id": "case_32",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 32 / R2VA",
+      "title": "Facecases · Case 32",
+      "width": 768,
+      "height": 1344,
+      "duration": 8.0,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 8.00s / 8.00s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 8.0,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "agnesGenerationSeconds": 53.24,
+      "agnesEndToEndSeconds": 53.32,
+      "hybridGenerationSeconds": 196.7,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_32.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_32.mp4"
+    },
+    {
+      "id": "case_34",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 34 / R2VA",
+      "title": "Facecases · Case 34",
+      "width": 768,
+      "height": 1344,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "agnesGenerationSeconds": 100.26,
+      "agnesEndToEndSeconds": 100.36,
+      "hybridGenerationSeconds": 367.11,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_34.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_34.mp4"
+    },
+    {
+      "id": "case_36",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 36 / R2VA",
+      "title": "Facecases · Case 36",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "agnesGenerationSeconds": 86.43,
+      "agnesEndToEndSeconds": 86.52,
+      "hybridGenerationSeconds": 318.08,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_36.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_36.mp4"
+    },
+    {
+      "id": "case_38",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 38 / R2VA",
+      "title": "Facecases · Case 38",
+      "width": 768,
+      "height": 1344,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景背景模糊",
+      "agnesGenerationSeconds": 75.65,
+      "agnesEndToEndSeconds": 75.74,
+      "hybridGenerationSeconds": 279.99,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_38.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_38.mp4"
+    },
+    {
+      "id": "case_43",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 43 / R2VA",
+      "title": "Facecases · Case 43",
+      "width": 768,
+      "height": 1344,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景背景模糊",
+      "agnesGenerationSeconds": 76.06,
+      "agnesEndToEndSeconds": 76.15,
+      "hybridGenerationSeconds": 276.94,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_43.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_43.mp4"
+    },
+    {
+      "id": "case_58",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 58 / R2VA",
+      "title": "Facecases · Case 58",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 118.27,
+      "agnesEndToEndSeconds": 118.38,
+      "hybridGenerationSeconds": 424.18,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_58.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_58.mp4"
+    },
+    {
+      "id": "case_62",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 62 / R2VA",
+      "title": "Facecases · Case 62",
+      "width": 768,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 768 × 768 · Hybrid 768 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 32.35,
+      "agnesEndToEndSeconds": 32.43,
+      "hybridGenerationSeconds": 127.5,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_62.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_62.mp4"
+    },
+    {
+      "id": "case_68",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 68 / R2VA",
+      "title": "Facecases · Case 68",
+      "width": 768,
+      "height": 1344,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 101.3,
+      "agnesEndToEndSeconds": 101.39,
+      "hybridGenerationSeconds": 370.25,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_68.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_68.mp4"
+    },
+    {
+      "id": "case_69",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 69 / R2VA",
+      "title": "Facecases · Case 69",
+      "width": 1344,
+      "height": 768,
+      "duration": 10.125,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 10.12s / 10.12s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 10.125,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 75.6,
+      "agnesEndToEndSeconds": 75.69,
+      "hybridGenerationSeconds": 278.7,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_69.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_69.mp4"
+    },
+    {
+      "id": "case_70",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 70 / R2VA",
+      "title": "Facecases · Case 70",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 108.71,
+      "agnesEndToEndSeconds": 108.8,
+      "hybridGenerationSeconds": 386.06,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_70.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_70.mp4"
+    },
+    {
+      "id": "case_71",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 71 / R2VA",
+      "title": "Facecases · Case 71",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 116.98,
+      "agnesEndToEndSeconds": 117.1,
+      "hybridGenerationSeconds": 419.42,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_71.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_71.mp4"
+    },
+    {
+      "id": "case_75",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 75 / R2VA",
+      "title": "Facecases · Case 75",
+      "width": 768,
+      "height": 1344,
+      "duration": 4.458,
+      "specText": "Agnes 768 × 1344 · Hybrid 768 × 1344 · 4.46s / 4.46s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 4.458,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1344,
+        "frame_rate": "24/1",
+        "duration": 4.458,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "agnesGenerationSeconds": 25.11,
+      "agnesEndToEndSeconds": 25.21,
+      "hybridGenerationSeconds": 93.21,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_75.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_75.mp4"
+    },
+    {
+      "id": "case_87",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 87 / R2VA",
+      "title": "Facecases · Case 87",
+      "width": 768,
+      "height": 1024,
+      "duration": 12.25,
+      "specText": "Agnes 768 × 1024 · Hybrid 768 × 1024 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 768,
+        "height": 1024,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 768,
+        "height": 1024,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "远近景变化时的模糊",
+      "agnesGenerationSeconds": 64.78,
+      "agnesEndToEndSeconds": 64.86,
+      "hybridGenerationSeconds": 225.63,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_87.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_87.mp4"
+    },
+    {
+      "id": "case_90",
+      "type": "ref2va",
+      "dimension": "R2VA",
+      "kicker": "CASE 90 / R2VA",
+      "title": "Facecases · Case 90",
+      "width": 1344,
+      "height": 768,
+      "duration": 12.25,
+      "specText": "Agnes 1344 × 768 · Hybrid 1344 × 768 · 12.25s / 12.25s · 24.00 fps",
+      "originalMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "refinedMeta": {
+        "width": 1344,
+        "height": 768,
+        "frame_rate": "24/1",
+        "duration": 12.25,
+        "codec": "h264",
+        "hasAudio": true
+      },
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "agnesGenerationSeconds": 116.71,
+      "agnesEndToEndSeconds": 116.81,
+      "hybridGenerationSeconds": 415.66,
+      "original": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/agnes_original/case_90.mp4",
+      "refined": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8/hybrid_lms/case_90.mp4"
+    }
+  ],
+  "sourceMaterials": [
+    {
+      "id": "case11",
+      "comparisonCaseId": "case_11",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "主体边缘与背景粘连",
+      "sceneScale": "中近景",
+      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_11/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_11/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_11/reference_03.jpg"
+        }
+      ],
+      "audios": [
+        {
+          "label": "音频参考 01",
+          "duration": 3.146,
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_11/audio_01.wav"
+        }
+      ]
+    },
+    {
+      "id": "case35",
+      "comparisonCaseId": "case_35",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "远景人物模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_35/reference_01.png"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_35/reference_02.png"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_35/reference_03.png"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_35/reference_04.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case47",
+      "comparisonCaseId": "case_47",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_05.jpg"
+        },
+        {
+          "label": "参考图 06",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_06.jpg"
+        },
+        {
+          "label": "参考图 07",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_47/reference_07.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case49",
+      "comparisonCaseId": "case_49",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_49/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_49/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case51",
+      "comparisonCaseId": "case_51",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_51/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_51/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_51/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case53",
+      "comparisonCaseId": "case_53",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "运动导致的远景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_05.jpg"
+        },
+        {
+          "label": "参考图 06",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_06.jpg"
+        },
+        {
+          "label": "参考图 07",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_07.jpg"
+        },
+        {
+          "label": "参考图 08",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_53/reference_08.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case60",
+      "comparisonCaseId": "case_60",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_60/reference_01.png"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_60/reference_02.png"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_60/reference_03.png"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_60/reference_04.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case65",
+      "comparisonCaseId": "case_65",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_65/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_65/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_65/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case66",
+      "comparisonCaseId": "case_66",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_66/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_66/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case67",
+      "comparisonCaseId": "case_67",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_67/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_67/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_67/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case76",
+      "comparisonCaseId": "case_76",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "远景背景人脸模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持背景远景人脸的身份特征和可辨识度，避免面部细节在连续画面中漂移或消失。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_76/reference_01.png"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_76/reference_02.png"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_76/reference_03.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case80",
+      "comparisonCaseId": "case_80",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_80/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_80/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_80/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_80/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_80/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case81",
+      "comparisonCaseId": "case_81",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "good",
+      "category": "主体与背景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_81/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_81/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_81/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case01",
+      "comparisonCaseId": "case_01",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "中景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_01/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_01/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_01/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_01/reference_04.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case03",
+      "comparisonCaseId": "case_03",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "近景/中近景及镜头转换；按原片核查",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_03/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_03/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_03/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case04",
+      "comparisonCaseId": "case_04",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "中远景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_04/reference_01.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case06",
+      "comparisonCaseId": "case_06",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "近景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_06/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_06/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case07",
+      "comparisonCaseId": "case_07",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "人物近景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_07/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_07/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_07/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case08",
+      "comparisonCaseId": "case_08",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "人物近景/中近景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_08/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_08/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_08/reference_03.jpg"
+        }
+      ],
+      "audios": [
+        {
+          "label": "音频参考 01",
+          "duration": 4.24,
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_08/audio_01.wav"
+        },
+        {
+          "label": "音频参考 02",
+          "duration": 3.92,
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_08/audio_02.wav"
+        }
+      ]
+    },
+    {
+      "id": "case09",
+      "comparisonCaseId": "case_09",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸五官与口部细节异常",
+      "sceneScale": "中景及近景",
+      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_09/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_09/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_09/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_09/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_09/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case10",
+      "comparisonCaseId": "case_10",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "sceneScale": "中近景",
+      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_10/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_10/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_10/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case13",
+      "comparisonCaseId": "case_13",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "sceneScale": "人物、手部与物体/背景接触边缘",
+      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_13/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_13/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_13/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_13/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_13/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case14",
+      "comparisonCaseId": "case_14",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "主体边缘与背景粘连",
+      "sceneScale": "中景及近景",
+      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_14/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_14/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_14/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_14/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_14/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case15",
+      "comparisonCaseId": "case_15",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "sceneScale": "近景/中近景及镜头转换；按原片核查",
+      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_15/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_15/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_15/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_15/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_15/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case16",
+      "comparisonCaseId": "case_16",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "sceneScale": "近景→眼部特写",
+      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_16/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_16/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_16/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case20",
+      "comparisonCaseId": "case_20",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "sceneScale": "多人中景",
+      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_20/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_20/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_20/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_20/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_20/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case21",
+      "comparisonCaseId": "case_21",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "异常重影与运动拖影",
+      "sceneScale": "动作与运动轮廓",
+      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_21/reference_01.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case24",
+      "comparisonCaseId": "case_24",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "中远景",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_05.jpg"
+        },
+        {
+          "label": "参考图 06",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_06.jpg"
+        },
+        {
+          "label": "参考图 07",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_24/reference_07.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case25",
+      "comparisonCaseId": "case_25",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "中景",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_25/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_25/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_25/reference_03.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case26",
+      "comparisonCaseId": "case_26",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "近景/中近景及镜头转换；按原片核查",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_26/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_26/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case29",
+      "comparisonCaseId": "case_29",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "中景/近远景变化",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_29/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_29/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case30",
+      "comparisonCaseId": "case_30",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "镜头/景别变化与细节稳定性",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_30/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_30/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_30/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_30/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_30/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case31",
+      "comparisonCaseId": "case_31",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "清晰度跳变与细节恢复异常",
+      "sceneScale": "镜头/景别变化与细节稳定性",
+      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_31/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_31/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case32",
+      "comparisonCaseId": "case_32",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_32/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_32/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case34",
+      "comparisonCaseId": "case_34",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_34/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_34/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case36",
+      "comparisonCaseId": "case_36",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_36/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_36/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_36/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_36/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_36/reference_05.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case38",
+      "comparisonCaseId": "case_38",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景背景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注远景背景层次和焦点关系，保持主体与环境的空间分离及背景模糊程度的连续性。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_38/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_38/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case43",
+      "comparisonCaseId": "case_43",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景背景模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注远景背景层次和焦点关系，保持主体与环境的空间分离及背景模糊程度的连续性。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_43/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_43/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case58",
+      "comparisonCaseId": "case_58",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_05.jpg"
+        },
+        {
+          "label": "参考图 06",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_06.jpg"
+        },
+        {
+          "label": "参考图 07",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_58/reference_07.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case62",
+      "comparisonCaseId": "case_62",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_62/reference_01.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case68",
+      "comparisonCaseId": "case_68",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_68/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_68/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case69",
+      "comparisonCaseId": "case_69",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_69/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_69/reference_02.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case70",
+      "comparisonCaseId": "case_70",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_70/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_70/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_70/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_70/reference_04.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case71",
+      "comparisonCaseId": "case_71",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_71/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_71/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_71/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_71/reference_04.png"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_71/reference_05.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case75",
+      "comparisonCaseId": "case_75",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远景人物模糊",
+      "sceneScale": null,
+      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_75/reference_01.png"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_75/reference_02.png"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case87",
+      "comparisonCaseId": "case_87",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "远近景变化时的模糊",
+      "sceneScale": null,
+      "promptSummary": "提示关注远近景切换时主体焦点与纹理细节的稳定过渡，避免清晰度突然跳变。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_87/reference_01.jpg"
+        }
+      ],
+      "audios": []
+    },
+    {
+      "id": "case90",
+      "comparisonCaseId": "case_90",
+      "status": "paired",
+      "requestType": "REF2VA",
+      "variantSuffix": "standard",
+      "category": "人脸保真度",
+      "sceneScale": null,
+      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
+      "references": [
+        {
+          "label": "参考图 01",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_01.jpg"
+        },
+        {
+          "label": "参考图 02",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_02.jpg"
+        },
+        {
+          "label": "参考图 03",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_03.jpg"
+        },
+        {
+          "label": "参考图 04",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_04.jpg"
+        },
+        {
+          "label": "参考图 05",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_05.jpg"
+        },
+        {
+          "label": "参考图 06",
+          "src": "https://pub-88d378d7d6e94a07a7fc30386f6d9a71.r2.dev/agnes-video-comparison/facecases_hybrid_lms_s04_w0p8_inputs/case_90/reference_06.jpg"
+        }
+      ],
+      "audios": []
+    }
+  ],
+  "runSummary": {
+    "pairedCaseCount": 47,
+    "goodSuffixCaseCount": 13,
+    "excludedBadPairCount": 28,
+    "availableOutputTypeCounts": {
+      "T2VA": 0,
+      "FL2VA": 15,
+      "REF2VA": 75
+    },
+    "unpairedOutputTypeCounts": {
+      "FL2VA": 15
+    },
+    "requestTypeCounts": {
+      "REF2VA": 47
+    },
+    "inputImageCount": 162,
+    "inputAudioCount": 3,
+    "agnes": {
+      "model": "Agnes Production · MiniMax H3 Ref2VA",
+      "generationSeconds": {
+        "mean": 105.03,
+        "median": 99.87,
+        "min": 25.11,
+        "max": 537.1
+      },
+      "endToEndSeconds": {
+        "mean": 105.12,
+        "median": 99.95,
+        "min": 25.21,
+        "max": 537.19
+      },
+      "peakProcessMemoryMiBPerDevice": null,
+      "peakMemoryLabel": "未记录",
+      "weightBytes": 110924151100
+    },
+    "hybrid": {
+      "model": "Hybrid FP8 · MiniMax H3 Ref2VA",
+      "lora": {
+        "startStep": 4,
+        "scale": 0.8
+      },
+      "generationSeconds": {
+        "mean": 309.85,
+        "median": 347.56,
+        "min": 93.21,
+        "max": 459.83
+      },
+      "endToEndSeconds": null,
+      "peakProcessMemoryMiBPerDevice": [
+        37242,
+        37242
+      ],
+      "peakMemorySampling": "nvidia-smi 按进程 PID 查询 used_memory，每 2 秒采样",
+      "weightBytes": 111566403980
+    },
+    "settings": {
+      "inferenceSteps": 10,
+      "seed": 42,
+      "fps": 24,
+      "guidanceScale": 1.0,
+      "embeddedGuidanceScale": 6.0,
+      "flowShift": 12.0,
+      "gpuCount": 2,
+      "parallelism": "tensor parallel"
+    },
+    "weightBreakdownBytes": {
+      "agnesTransformerBytes": 33188260600,
+      "hybridTransformerBytes": 33210228360,
+      "textEncoderBytes": 66714912872,
+      "videoVaeBytes": 10415548320,
+      "audioVaeBytes": 605429308,
+      "loraBytes": 620285120
+    },
+    "weightSizeBasis": "decimal bytes on disk; total includes transformer, text encoder, video/audio VAE, and LMS LoRA where loaded"
+  }
+}

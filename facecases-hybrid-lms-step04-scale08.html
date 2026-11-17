@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="Facecases Agnes 原版成片与 Hybrid FP8 LMS LoRA start step 04、scale 0.8 对比；包含 R2VA 请求类型、参考素材摘要、运行耗时和显存记录。">
+    <title>Facecases · Hybrid LMS start step 04 · scale 0.8</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="facecases4-retest.css?v=shared-material-layout">
+    <link rel="stylesheet" href="facecases-hybrid.css?v=1">
+    <script src="app.js?v=facecases-hybrid-s04-w08" defer></script>
+    <script src="facecases-hybrid-materials.js?v=1" defer></script>
+  </head>
+  <body
+    data-cases-url="data/facecases_hybrid_lms_s04_w0p8.json?v=1"
+    data-large-viewer="true"
+    data-original-resolution-label="Agnes 原版成片"
+    data-refined-resolution-label="Hybrid FP8 · LMS LoRA"
+    data-mismatch-message="两侧按各自实际分辨率和时长同步播放；请查看案例规格。"
+  >
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="返回 Agnes 对比首页">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>AGNES <span class="brand-light">/ FACECases · HYBRID LMS</span></span>
+        </a>
+        <nav class="top-links" aria-label="比较页面导航">
+          <a class="top-link" href="index.html">对比首页 <span aria-hidden="true">↗</span></a>
+          <a class="top-link" href="#materials">素材与 Prompt <span aria-hidden="true">↘</span></a>
+          <a class="top-link" href="#cases">全部案例 <span aria-hidden="true">↘</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases · HYBRID FP8 · LMS LoRA</p>
+          <h1 id="page-title">Facecases<br><span>Hybrid LMS 对照。</span></h1>
+          <p class="intro-copy">按案例编号配对 Agnes 原版成片与 Hybrid FP8 LMS LoRA 输出。仅展示有对应原片且 LMS 文件不带 bad 标记的结果；good 标记案例优先排列。</p>
+        </section>
+
+        <section class="method-card" aria-labelledby="method-title">
+          <div class="method-heading">
+            <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">视频来源、请求类型与推理说明</h2></div>
+            <span class="method-count">47 组配对 · 13 个 good 标记 · 双卡运行</span>
+          </div>
+          <div class="method-sources">
+            <div>
+              <p class="method-label">左侧 · Agnes 原版成片</p>
+              <p>来自 Agnes Production 的 Facecases R2VA 成片，作为原版对照。左侧成片没有作为右侧推理输入。</p>
+            </div>
+            <div>
+              <p class="method-label">右侧 · Hybrid FP8 + LMS LoRA</p>
+              <p>来自 Hybrid 的 Facecases LMS 输出，LoRA 从第 4 步开始以 0.8 scale 应用。视频按原文件展示，不拼接、不转码。</p>
+            </div>
+          </div>
+          <p class="method-resolution"><strong>配对和请求类型：</strong>当前 47 对全部是 R2VA。目录中没有 T2VA 输出；15 条 FL2VA 输出没有同编号的 Agnes 原片，因此不配对。所有带 bad 后缀的结果均排除；若同一案例有多个可用版本，good 文件优先。本轮 13 个 good 标记案例排在列表前部；good 是源文件名标记，不是页面对成片质量的判断。</p>
+          <p class="method-resolution"><strong>输入素材：</strong>素材和提示词来自对应 Facecases 案例。本页只展示实际送入请求的参考图片与独立音频；目录中的其他视频文件没有作为本轮 R2VA 输入。提示词以主题摘要呈现，不公开完整提示词。</p>
+          <div class="method-links" aria-label="MiniMax H3 上游模型和代码">
+            <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方权重 ↗</a>
+            <a href="https://github.com/MiniMax-AI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方代码 ↗</a>
+          </div>
+
+          <div class="run-summary" aria-labelledby="run-summary-title">
+            <div class="run-summary-heading">
+              <div><p class="eyebrow">INFERENCE DETAILS</p><h3 id="run-summary-title">逐条耗时、显存与权重</h3></div>
+              <span class="method-count">47 组 R2VA · 每侧 2 张 GPU</span>
+            </div>
+            <div class="run-metrics">
+              <div class="run-metric">
+                <span class="run-metric-label">单条模型生成 · 平均</span>
+                <strong>Agnes 105.03 秒 · Hybrid 309.85 秒</strong>
+                <span>Agnes 中位数 99.87 秒，范围 25.11–537.10 秒；Hybrid 中位数 347.56 秒，范围 93.21–459.83 秒</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单条端到端处理 · 平均</span>
+                <strong>Agnes 105.12 秒 · Hybrid 未记录</strong>
+                <span>Agnes 中位数 99.95 秒，范围 25.21–537.19 秒；Hybrid 未单独记录端到端逐条时间</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">单卡推理进程显存峰值</span>
+                <strong>Agnes 未记录 · Hybrid 37,242 MiB / 卡</strong>
+                <span>Hybrid 数值来自 R2VA 运行期间按进程采样；不合并为双卡总量</span>
+              </div>
+              <div class="run-metric">
+                <span class="run-metric-label">模型权重文件大小</span>
+                <strong>Agnes 110.92 GB · Hybrid 111.57 GB</strong>
+                <span>约 103.31 / 103.90 GiB；按实际加载的 Transformer、Qwen3-VL、VAE 和 LoRA 权重文件合计</span>
+              </div>
+            </div>
+            <p class="run-parameters"><strong>推理设置：</strong>两侧均为 MiniMax H3 Ref2VA、10 步、seed 42、24 fps、guidance scale 1.0、embedded guidance scale 6.0、flow shift 12.0；Agnes 不加载 LMS LoRA，Hybrid 使用 FP8 Transformer，并从第 4 步以 0.8 scale 加载 LMS LoRA。</p>
+            <p class="run-footnote">Agnes 模型生成耗时来自逐例推理状态；端到端耗时包含逐例生产交付处理，不含共用模型加载。Hybrid 耗时为 generator.generate() 调用区间，含生成和输出写入；单独的端到端计时未记录。Hybrid 峰值来自 nvidia-smi 按进程 PID 查询 used_memory、每 2 秒采样，并按单卡记录；Agnes 本轮显存峰值未记录。权重文件大小为相关模型组件文件的实际字节合计：Agnes / Hybrid Transformer 33.19 / 33.21 GB，Qwen3-VL FP8 66.71 GB，视频 VAE 10.42 GB，音频 VAE 0.61 GB，Hybrid LMS LoRA 0.62 GB；两侧共用的模型权重口径相同。</p>
+          </div>
+        </section>
+
+        <section class="viewer-card" aria-label="Agnes 原版与 Hybrid LMS LoRA 视频对比" hidden>
+          <div class="viewer-heading">
+            <div>
+              <p class="case-kicker" id="case-kicker">CASE 11 / R2VA</p>
+              <h2 id="case-title">正在载入对比视频…</h2>
+            </div>
+            <div class="viewer-meta">
+              <span class="sync-indicator"><span class="sync-dot"></span> 同步播放</span>
+              <span id="video-spec">—</span>
+            </div>
+          </div>
+
+          <div class="compare-stage" id="compare-stage" role="slider" tabindex="0" aria-label="拖动分隔线比较 Agnes 原版与 Hybrid LMS 输出" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50 percent original, 50 percent refined">
+            <video class="video-layer video-original" id="video-original" muted loop playsinline preload="metadata" aria-label="Agnes 原版成片"></video>
+            <video class="video-layer video-refined" id="video-refined" muted loop playsinline preload="metadata" aria-label="Hybrid FP8 LMS LoRA 成片"></video>
+            <div class="video-vignette" aria-hidden="true"></div>
+            <span class="side-label side-label-original">Agnes 原版 <span id="original-resolution">实际分辨率</span></span>
+            <span class="side-label side-label-refined">Hybrid LMS · 0.8 <span id="refined-resolution">实际分辨率</span></span>
+            <div class="split-divider" id="split-divider" aria-hidden="true">
+              <span class="split-grip"><span>‹</span><span>›</span></span>
+            </div>
+            <div class="stage-loading" id="stage-loading"><span class="spinner"></span><span>正在载入成对视频</span></div>
+            <button class="stage-play" id="stage-play" type="button" aria-label="暂停两段视频"><span id="play-icon">Ⅱ</span></button>
+          </div>
+
+          <div class="player-controls">
+            <button class="control-button play-control" id="play-control" type="button" aria-label="暂停两段视频"><span id="control-play-icon">Ⅱ</span></button>
+            <span class="time-readout"><span id="current-time">0:00</span><span class="time-slash">/</span><span id="duration">0:00</span></span>
+            <input class="timeline" id="timeline" type="range" min="0" max="1000" value="0" aria-label="同步定位两段视频">
+            <button class="control-button fullscreen-control" id="fullscreen-control" type="button" aria-label="切换全屏">⤢</button>
+          </div>
+          <div class="paired-audio" role="group" aria-label="选择一侧成片的音轨">
+            <span>成片音轨 · 同一时间播放一路</span>
+            <div class="paired-audio-options">
+              <label><input type="radio" name="pair-audio" value="muted" checked> 静音</label>
+              <label><input type="radio" name="pair-audio" value="original"> Agnes 原版</label>
+              <label><input type="radio" name="pair-audio" value="lms"> Hybrid LMS</label>
+            </div>
+          </div>
+          <p class="viewer-hint"><span aria-hidden="true">↔</span> 拖动分隔线 · 使用 ← → 键微调</p>
+          <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="materials-section" id="materials" aria-labelledby="materials-title">
+          <div class="materials-card">
+            <div class="materials-heading">
+              <div><p class="eyebrow">REFERENCES & PROMPT SUMMARY</p><h2 id="materials-title">输入素材与 Prompt 摘要</h2></div>
+              <span class="materials-count" id="materials-count">正在载入素材…</span>
+            </div>
+            <p class="materials-intro">选择案例查看该 R2VA 请求对应的 Prompt 主题摘要、实际参考图片、独立音频和该案例的生成计时。只展示实际输入素材；完整提示词不放入公开页面。</p>
+            <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
+            <div class="material-detail" id="material-detail" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section class="case-section" id="cases" aria-labelledby="cases-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">47 组配对 · GOOD 标记优先</p><h2 id="cases-title">Facecases 视频对比</h2></div>
+            <p class="case-count" id="case-count">47 组视频配对</p>
+          </div>
+          <div class="case-grid" id="case-grid" aria-label="选择 Facecases 案例"></div>
+        </section>
+      </main>
+
+      <footer class="footer"><span>AGNES VIDEO COMPARISON</span><span>Facecases · Hybrid FP8 LMS start step 04 / scale 0.8</span></footer>
+    </div>
+  </body>
+</html>

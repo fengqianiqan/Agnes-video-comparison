@@ -8,6 +8,7 @@ The [Facecases3 LMS 1.0 / start step 02 page](facecases3-lms10-step02.html) comp
 The [Facecases Open-H3 Regenerate 2K page](facecases-open-h3-regenerate-2k.html) compares all 42 facecases originals with Open-H3-Regenerate-2K outputs, labels both native resolutions, and links the upstream model and code.
 The [Facecases4 expanded-retest page](facecases4-lms-step02.html) compares 10 no-LMS originals with LMS LoRA `start step 04 / scale 0.8` Ref2VA outputs. It presents all six fields of each retained prompt in full Chinese translation, with reference images, associated standalone audio, measured runtimes, process-level GPU memory, and model-weight size. Case 07 is excluded; all other retained cases, including case 10, have paired videos. Source videos are intentionally excluded as inference inputs.
 The [Facecases3 Pika H3 Flex page](pika-h3-flex-facecases3.html) compares 17 filename-matched originals and outputs, links the official code, weights, and technical deep dive, and reports per-video phase timing, process memory, and model snapshot size.
+The [Facecases Hybrid LMS step 04 page](facecases-hybrid-lms-step04-scale08.html) compares 47 same-case Agnes originals with non-bad Hybrid FP8 LMS `start step 04 / scale 0.8` outputs. All displayed requests are R2VA; good-marked outputs appear first. It shows only the reference images and audio passed to each request, plus concise prompt summaries.
 
 Every comparison page must explain its source videos and material comparison differences. Keep source MP4s unchanged, publish every page's media through the configured Cloudflare R2 publisher, and verify the public page and media URLs after deployment.
 
@@ -22,6 +23,7 @@ python3 -m http.server 8000
 Then visit <http://localhost:8000>.
 
 Open <http://localhost:8000/facecases4-lms-step02.html> for the Facecases4 expanded retest (LMS start step 04, scale 0.8).
+Open <http://localhost:8000/facecases-hybrid-lms-step04-scale08.html> for the Facecases Hybrid LMS comparison.
 
 ## Prepare shared Facecases3 source videos
 
@@ -70,6 +72,15 @@ This matches the 10 retained Facecases4 no-LMS originals with Ref2VA outputs usi
 ## Prepare the Facecases3 Pika H3 Flex comparison
 
 Run the sync script with the Pika output directory, facecases3 source directory, and inference status JSON supplied as --pika-dir, --original-dir, and --status-file. It pairs exact source case names, verifies copied MP4s by SHA-256, records video specifications plus per-case timing and process-memory metrics, writes the comparison manifest, and stages the unmodified videos under the ignored videos/ directory. Publish these assets with python3 scripts/publish_media_to_r2.py --manifest data/pika_h3_flex_facecases3.json.
+
+## Prepare the Facecases Hybrid LMS step 04 comparison
+
+```bash
+python3 scripts/sync_facecases_hybrid_lms_step04.py
+python3 scripts/publish_media_to_r2.py --manifest data/facecases_hybrid_lms_s04_w0p8.json
+```
+
+The sync script pairs same-number Agnes originals and Hybrid `start_step_04_scale_0.8` outputs. It excludes `bad` suffixes, prioritizes `good` outputs, and stages only request-listed reference images and audio from the Facecases input set. This run has 47 valid pairs, all R2VA; 15 FL2VA outputs have no same-number Agnes original, and no T2VA output is present. Public prompt content is limited to issue-category summaries. The manifest records per-video timings, the Hybrid process-level GPU memory peak, weight sizes, and actual resolution and duration for each clip.
 
 ## GitHub Pages
 
