@@ -38,17 +38,122 @@ function formatSeconds(value) {
   return `${Number(value).toFixed(2)} 秒`;
 }
 
+function renderPromptText(text) {
+  const content = makeElement("div", "prompt-translation");
+  for (const paragraphText of String(text || "").split(/\n+/).filter(Boolean)) {
+    content.append(makeElement("p", "prompt-paragraph", paragraphText));
+  }
+  return content;
+}
+
+function renderDetailedDescription(text) {
+  const content = makeElement("div", "prompt-translation");
+  const paragraphs = String(text || "")
+    .replace(/\n(?=\[Shot\s+\d+\]|【镜头\s*\d+】)/g, "\n\n")
+    .split(/\n\s*\n/)
+    .filter(Boolean);
+  for (const paragraphText of paragraphs) {
+    const paragraph = makeElement("p", "prompt-paragraph");
+    const shot = paragraphText.match(/^(?:\[Shot\s*(\d+)\]|【镜头\s*(\d+)】)\s*([\s\S]*)$/);
+    if (shot) {
+      paragraph.append(makeElement("span", "shot-label", `镜头 ${shot[1] || shot[2]}`));
+      paragraph.append(document.createTextNode(shot[3]));
+    } else {
+      paragraph.textContent = paragraphText;
+    }
+    content.append(paragraph);
+  }
+  return content;
+}
+
+function renderFullPrompt(prompt) {
+  const labels = {
+    subject_definitions: "主体与参考素材定义",
+    summary: "提示摘要",
+    retention_analysis: "素材保留分析",
+    detailed_description: "详细场景描述",
+    integrated_multimodal_description: "综合多模态场景描述",
+    overall_soundscape: "整体声音设计",
+    non_diegetic_music: "非画内配乐",
+    reference_alignment: "参考图片与时间点对应关系",
+    full_prompt: "完整提示词",
+    主体与参考素材定义: "主体与参考素材定义",
+    主体定义: "主体定义",
+    参考素材定义: "参考素材定义",
+    提示摘要: "提示摘要",
+    概要: "提示摘要",
+    素材保留分析: "素材保留分析",
+    保留要求: "保留要求",
+    详细场景描述: "详细场景描述",
+    完整场景描述: "详细场景描述",
+    综合多模态场景描述: "综合多模态场景描述",
+    完整多模态描述: "综合多模态场景描述",
+    参考图片与视频时间点对应关系: "参考图片与时间点对应关系",
+    参考图与时间对应: "参考图与时间对应",
+    参考绑定: "参考绑定",
+    参考图与角色设定: "参考图与角色设定",
+    参考图: "参考图",
+    剧情: "剧情与镜头安排",
+    视觉风格: "视觉风格",
+    整体画面风格: "整体画面风格",
+    本段视觉风格: "本段视觉风格",
+    生成要求: "生成要求",
+    整体声音设计: "整体声音设计",
+    整体声音: "整体声音设计",
+    整体音频: "整体音频要求",
+    全局声音: "整体声音设计",
+    非画内配乐: "非画内配乐",
+    非画内音乐: "非画内音乐",
+  };
+  const preferredOrder = [
+    "subject_definitions", "主体与参考素材定义", "主体定义", "参考素材定义", "参考绑定",
+    "reference_alignment", "参考图片与视频时间点对应关系", "参考图与时间对应",
+    "参考图与角色设定", "参考图", "summary", "提示摘要", "概要", "剧情",
+    "retention_analysis", "素材保留分析", "保留要求", "detailed_description", "详细场景描述",
+    "完整场景描述", "integrated_multimodal_description", "综合多模态场景描述",
+    "完整多模态描述", "生成要求", "视觉风格", "整体画面风格", "本段视觉风格",
+    "overall_soundscape", "整体声音设计", "整体声音", "整体音频", "全局声音",
+    "non_diegetic_music", "非画内配乐", "非画内音乐", "full_prompt",
+  ];
+  const detailedFields = new Set([
+    "detailed_description", "integrated_multimodal_description", "详细场景描述",
+    "完整场景描述", "综合多模态场景描述", "完整多模态描述", "剧情",
+  ]);
+  const fields = Object.entries(prompt || {}).filter(([, value]) => typeof value === "string" && value.trim());
+  fields.sort(([left], [right]) => {
+    const leftIndex = preferredOrder.indexOf(left);
+    const rightIndex = preferredOrder.indexOf(right);
+    return (leftIndex < 0 ? preferredOrder.length : leftIndex) -
+      (rightIndex < 0 ? preferredOrder.length : rightIndex);
+  });
+
+  const content = makeElement("div", "full-prompt-translation");
+  for (const [key, text] of fields) {
+    const section = makeElement("section", "prompt-section");
+    section.append(makeElement("h5", "prompt-section-title", labels[key] || key));
+    section.append(detailedFields.has(key)
+      ? renderDetailedDescription(text)
+      : renderPromptText(text));
+    content.append(section);
+  }
+  return content;
+}
+
 function renderMaterial(item) {
   materialsDetail.replaceChildren();
 
   const heading = makeElement("div", "material-detail-heading");
   heading.append(makeElement("h3", "", `Case ${item.id.slice(-2)} · ${item.requestType}`));
-  heading.append(makeElement("span", "material-status", item.variantSuffix === "good" ? "选用 good 标记文件" : "已配对"));
+  heading.append(makeElement("span", "material-status", "已配对"));
   materialsDetail.append(heading);
 
   const summaryCard = makeElement("div", "material-copy-card");
-  summaryCard.append(makeElement("h4", "", `Prompt 主题摘要 · ${item.category}`));
-  summaryCard.append(makeElement("p", "", item.promptSummary));
+  summaryCard.append(makeElement("h4", "", `全部 Prompt 完整中文翻译 · ${item.category}`));
+  if (item.promptFullZh && Object.keys(item.promptFullZh).length) {
+    summaryCard.append(renderFullPrompt(item.promptFullZh));
+  } else {
+    summaryCard.append(makeElement("p", "pending-copy", "此案例的完整中文翻译尚未载入。"));
+  }
   if (item.sceneScale) {
     summaryCard.append(makeElement("p", "material-scene-scale", `场景范围：${item.sceneScale}`));
   }
@@ -101,13 +206,20 @@ function renderMaterial(item) {
   }
 }
 
-fetch(document.body.dataset.casesUrl)
-  .then((response) => {
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return response.json();
-  })
-  .then((data) => {
+const fetchJson = (url) => fetch(url).then((response) => {
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+});
+
+Promise.all([
+  fetchJson(document.body.dataset.casesUrl),
+  fetchJson(document.body.dataset.promptTranslationsUrl),
+])
+  .then(([data, promptTranslations]) => {
     sourceMaterials = data.sourceMaterials || [];
+    for (const item of sourceMaterials) {
+      item.promptFullZh = promptTranslations[item.id] || {};
+    }
     const fragment = document.createDocumentFragment();
     for (const item of sourceMaterials) {
       const button = makeElement("button", "material-case");
@@ -116,7 +228,7 @@ fetch(document.body.dataset.casesUrl)
       button.setAttribute("aria-pressed", "false");
       button.append(
         makeElement("strong", "", `Case ${item.id.slice(-2)}`),
-        makeElement("span", "", `${item.requestType}${item.variantSuffix === "good" ? " · good" : ""}`)
+        makeElement("span", "", item.requestType)
       );
       button.addEventListener("click", () => selectMaterial(item, true));
       fragment.append(button);

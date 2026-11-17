@@ -38,6 +38,7 @@ HYBRID_INFERENCE = HYBRID_STATE_DIR / "inference_state.json"
 
 SLUG = "facecases_hybrid_lms_s04_w0p8"
 MANIFEST_PATH = SITE_DIR / "data" / f"{SLUG}.json"
+PROMPT_TRANSLATIONS_PATH = SITE_DIR / "data" / f"{SLUG}_prompt_zh.json"
 VIDEO_STAGE = SITE_DIR / "videos" / SLUG
 MATERIAL_STAGE = SITE_DIR / "videos" / f"{SLUG}_inputs"
 
@@ -47,43 +48,6 @@ HYBRID_PATTERN = re.compile(
     r"lms_facecases_s04_w0p8(?:-(?P<suffix>good|bad))?\.mp4$",
     re.IGNORECASE,
 )
-
-PROMPT_SUMMARIES = {
-    "人脸五官与口部细节异常": (
-        "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。"
-    ),
-    "主体边缘与背景粘连": (
-        "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。"
-    ),
-    "异常重影与运动拖影": (
-        "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。"
-    ),
-    "清晰度跳变与细节恢复异常": (
-        "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。"
-    ),
-    "远景人物模糊": (
-        "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。"
-    ),
-    "远景背景模糊": (
-        "提示关注远景背景层次和焦点关系，保持主体与环境的空间分离及背景模糊程度的连续性。"
-    ),
-    "主体与背景模糊": (
-        "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。"
-    ),
-    "运动导致的远景模糊": (
-        "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。"
-    ),
-    "远近景变化时的模糊": (
-        "提示关注远近景切换时主体焦点与纹理细节的稳定过渡，避免清晰度突然跳变。"
-    ),
-    "远景背景人脸模糊": (
-        "提示重点保持背景远景人脸的身份特征和可辨识度，避免面部细节在连续画面中漂移或消失。"
-    ),
-    "人脸保真度": (
-        "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。"
-    ),
-}
-
 
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
@@ -243,6 +207,7 @@ def model_weight_summary() -> dict[str, Any]:
 
 
 def main() -> None:
+    prompt_translations = json.loads(PROMPT_TRANSLATIONS_PATH.read_text(encoding="utf-8"))
     original_files: dict[int, Path] = {}
     for path in BASELINE_DIR.glob("*.mp4"):
         match = ORIGINAL_PATTERN.fullmatch(path.name)
@@ -287,7 +252,7 @@ def main() -> None:
             continue
         selected.append((number, original_files[number], chosen))
 
-    # Surface filename-marked good files first, then keep case-number order.
+    # Put the preferred eligible variant first, then keep case-number order.
     selected.sort(key=lambda item: (item[2]["suffix"] != "good", item[0]))
     if not selected:
         raise RuntimeError("No valid same-case video pairs were found")
@@ -348,11 +313,10 @@ def main() -> None:
         hybrid_generation.append(hybrid_seconds)
 
         dimension = str(case.get("dimension") or "Facecases 视频质量案例")
-        selected_label = "good 文件标记" if chosen["suffix"] == "good" else "常规非 bad 文件"
         cases.append({
             "id": case_id,
             "type": request_kind,
-            "dimension": f"R2VA · {selected_label}" if chosen["suffix"] == "good" else "R2VA",
+            "dimension": "R2VA",
             "kicker": f"CASE {number:02d} / R2VA",
             "title": f"Facecases · Case {number:02d}",
             "width": original_meta["width"],
@@ -361,7 +325,6 @@ def main() -> None:
             "specText": spec_text,
             "originalMeta": original_meta,
             "refinedMeta": hybrid_meta,
-            "variantSuffix": chosen["suffix"],
             "category": dimension,
             "agnesGenerationSeconds": round(baseline_seconds, 2),
             "agnesEndToEndSeconds": round(baseline_total, 2),
@@ -403,17 +366,21 @@ def main() -> None:
             "id": material_id,
             "comparisonCaseId": case_id,
             "status": "paired",
-            "requestType": request_kind.upper(),
-            "variantSuffix": chosen["suffix"],
+            "requestType": "R2VA" if request_kind == "ref2va" else request_kind.upper(),
             "category": dimension,
             "sceneScale": case.get("scene_scale"),
-            "promptSummary": PROMPT_SUMMARIES.get(
-                dimension,
-                "提示围绕该案例标注的问题展开，并按所列参考图和音频保持人物、主体及场景表现的一致性。",
-            ),
             "references": references,
             "audios": audios,
         })
+
+    missing_translations = [
+        item["id"] for item in source_materials if item["id"] not in prompt_translations
+    ]
+    if missing_translations:
+        raise RuntimeError(
+            "Full Chinese prompt translations are missing for: "
+            + ", ".join(missing_translations)
+        )
 
     weight_sizes = model_weight_summary()
     gpu_peaks = selected_r2va_peaks()
@@ -437,13 +404,15 @@ def main() -> None:
         "sourceMaterials": source_materials,
         "runSummary": {
             "pairedCaseCount": len(cases),
-            "goodSuffixCaseCount": sum(item[2]["suffix"] == "good" for item in selected),
             "excludedBadPairCount": bad_pairable,
             "availableOutputTypeCounts": {
                 key: output_number_types.get(key, 0) for key in ("T2VA", "FL2VA", "REF2VA")
             },
             "unpairedOutputTypeCounts": dict(unpaired_types),
-            "requestTypeCounts": dict(Counter(item["type"].upper() for item in cases)),
+            "requestTypeCounts": dict(Counter(
+                "R2VA" if item["type"].upper() == "REF2VA" else item["type"].upper()
+                for item in cases
+            )),
             "inputImageCount": material_image_count,
             "inputAudioCount": material_audio_count,
             "agnes": {
@@ -492,7 +461,7 @@ def main() -> None:
         f"Prepared {len(cases)} R2VA pairs ({material_image_count} reference images, "
         f"{material_audio_count} audio references)."
     )
-    print(f"Good-marked outputs prioritized: {manifest['runSummary']['goodSuffixCaseCount']}.")
+    print("Preferred eligible variants prioritized within each case.")
     print(f"Staged media: {video_bytes / 1024**2:.1f} MiB video, {input_bytes / 1024**2:.1f} MiB inputs.")
     print(f"Manifest: {MANIFEST_PATH.name}")
 

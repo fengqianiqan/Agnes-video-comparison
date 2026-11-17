@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f6f8">
-    <meta name="description" content="Facecases Agnes 原版成片与 Hybrid FP8 LMS LoRA start step 04、scale 0.8 对比；包含 R2VA 请求类型、参考素材摘要、运行耗时和显存记录。">
+    <meta name="description" content="Facecases Agnes 原版成片与 Hybrid FP8 LMS LoRA start step 04、scale 0.8 对比；包含 R2VA 请求类型、输入素材、完整 Prompt 中文翻译、运行耗时和显存记录。">
     <title>Facecases · Hybrid LMS start step 04 · scale 0.8</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="facecases4-retest.css?v=shared-material-layout">
     <link rel="stylesheet" href="facecases-hybrid.css?v=1">
     <script src="app.js?v=facecases-hybrid-s04-w08" defer></script>
-    <script src="facecases-hybrid-materials.js?v=1" defer></script>
+    <script src="facecases-hybrid-materials.js?v=2" defer></script>
   </head>
   <body
-    data-cases-url="data/facecases_hybrid_lms_s04_w0p8.json?v=1"
+    data-cases-url="data/facecases_hybrid_lms_s04_w0p8.json?v=2"
+    data-prompt-translations-url="data/facecases_hybrid_lms_s04_w0p8_prompt_zh.json?v=2"
     data-large-viewer="true"
     data-original-resolution-label="Agnes 原版成片"
     data-refined-resolution-label="Hybrid FP8 · LMS LoRA"
@@ -36,13 +37,13 @@
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow"><span class="eyebrow-dot"></span> FACECases · HYBRID FP8 · LMS LoRA</p>
           <h1 id="page-title">Facecases<br><span>Hybrid LMS 对照。</span></h1>
-          <p class="intro-copy">按案例编号配对 Agnes 原版成片与 Hybrid FP8 LMS LoRA 输出。仅展示有对应原片且 LMS 文件不带 bad 标记的结果；good 标记案例优先排列。</p>
+          <p class="intro-copy">按案例编号配对 Agnes 原版成片与 Hybrid FP8 LMS LoRA 输出。仅展示有对应原片且 LMS 文件不带 bad 标记的结果；多版本案例按筛选规则选取。</p>
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
           <div class="method-heading">
             <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">视频来源、请求类型与推理说明</h2></div>
-            <span class="method-count">47 组配对 · 13 个 good 标记 · 双卡运行</span>
+            <span class="method-count">47 组配对 · 双卡运行</span>
           </div>
           <div class="method-sources">
             <div>
@@ -54,8 +55,8 @@
               <p>来自 Hybrid 的 Facecases LMS 输出，LoRA 从第 4 步开始以 0.8 scale 应用。视频按原文件展示，不拼接、不转码。</p>
             </div>
           </div>
-          <p class="method-resolution"><strong>配对和请求类型：</strong>当前 47 对全部是 R2VA。目录中没有 T2VA 输出；15 条 FL2VA 输出没有同编号的 Agnes 原片，因此不配对。所有带 bad 后缀的结果均排除；若同一案例有多个可用版本，good 文件优先。本轮 13 个 good 标记案例排在列表前部；good 是源文件名标记，不是页面对成片质量的判断。</p>
-          <p class="method-resolution"><strong>输入素材：</strong>素材和提示词来自对应 Facecases 案例。本页只展示实际送入请求的参考图片与独立音频；目录中的其他视频文件没有作为本轮 R2VA 输入。提示词以主题摘要呈现，不公开完整提示词。</p>
+          <p class="method-resolution"><strong>配对和请求类型：</strong>当前 47 对全部是 R2VA。目录中没有 T2VA 输出；15 条 FL2VA 输出没有同编号的 Agnes 原片，因此不配对。所有带 bad 后缀的结果均排除；每个案例只展示一个符合筛选条件的结果。</p>
+          <p class="method-resolution"><strong>输入素材：</strong>素材和提示词来自对应 Facecases 案例。本页展示实际送入请求的参考图片、独立音频，以及全部 Prompt 字段的完整中文翻译；目录中的其他视频文件没有作为本轮 R2VA 输入。</p>
           <div class="method-links" aria-label="MiniMax H3 上游模型和代码">
             <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方权重 ↗</a>
             <a href="https://github.com/MiniMax-AI/MiniMax-H3" target="_blank" rel="noopener noreferrer">MiniMax H3 官方代码 ↗</a>
@@ -139,10 +140,10 @@
         <section class="materials-section" id="materials" aria-labelledby="materials-title">
           <div class="materials-card">
             <div class="materials-heading">
-              <div><p class="eyebrow">REFERENCES & PROMPT SUMMARY</p><h2 id="materials-title">输入素材与 Prompt 摘要</h2></div>
+              <div><p class="eyebrow">REFERENCES & FULL PROMPT TRANSLATION</p><h2 id="materials-title">输入素材与全部 Prompt 完整中文翻译</h2></div>
               <span class="materials-count" id="materials-count">正在载入素材…</span>
             </div>
-            <p class="materials-intro">选择案例查看该 R2VA 请求对应的 Prompt 主题摘要、实际参考图片、独立音频和该案例的生成计时。只展示实际输入素材；完整提示词不放入公开页面。</p>
+            <p class="materials-intro">选择案例查看该案例 Prompt 全部字段的完整中文翻译、参考图片和独立音频；详细场景描述按镜头分段，保留时间点、人物和对白。音频片段可单独播放。</p>
             <div class="material-picker" id="material-picker" aria-label="选择输入素材案例"></div>
             <div class="material-detail" id="material-detail" aria-live="polite"></div>
           </div>
@@ -150,7 +151,7 @@
 
         <section class="case-section" id="cases" aria-labelledby="cases-title">
           <div class="section-heading">
-            <div><p class="eyebrow">47 组配对 · GOOD 标记优先</p><h2 id="cases-title">Facecases 视频对比</h2></div>
+            <div><p class="eyebrow">47 组视频配对</p><h2 id="cases-title">Facecases 视频对比</h2></div>
             <p class="case-count" id="case-count">47 组视频配对</p>
           </div>
           <div class="case-grid" id="case-grid" aria-label="选择 Facecases 案例"></div>

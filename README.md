@@ -8,7 +8,7 @@ The [Facecases3 LMS 1.0 / start step 02 page](facecases3-lms10-step02.html) comp
 The [Facecases Open-H3 Regenerate 2K page](facecases-open-h3-regenerate-2k.html) compares all 42 facecases originals with Open-H3-Regenerate-2K outputs, labels both native resolutions, and links the upstream model and code.
 The [Facecases4 expanded-retest page](facecases4-lms-step02.html) compares 10 no-LMS originals with LMS LoRA `start step 04 / scale 0.8` Ref2VA outputs. It presents all six fields of each retained prompt in full Chinese translation, with reference images, associated standalone audio, measured runtimes, process-level GPU memory, and model-weight size. Case 07 is excluded; all other retained cases, including case 10, have paired videos. Source videos are intentionally excluded as inference inputs.
 The [Facecases3 Pika H3 Flex page](pika-h3-flex-facecases3.html) compares 17 filename-matched originals and outputs, links the official code, weights, and technical deep dive, and reports per-video phase timing, process memory, and model snapshot size.
-The [Facecases Hybrid LMS step 04 page](facecases-hybrid-lms-step04-scale08.html) compares 47 same-case Agnes originals with non-bad Hybrid FP8 LMS `start step 04 / scale 0.8` outputs. All displayed requests are R2VA; good-marked outputs appear first. It shows only the reference images and audio passed to each request, plus concise prompt summaries.
+The [Facecases Hybrid LMS step 04 page](facecases-hybrid-lms-step04-scale08.html) compares 47 same-case Agnes originals with eligible Hybrid FP8 LMS `start step 04 / scale 0.8` outputs. All displayed requests are R2VA. It shows only the reference images and audio passed to each request, plus complete Chinese translations of every prompt field.
 
 Every comparison page must explain its source videos and material comparison differences. Keep source MP4s unchanged, publish every page's media through the configured Cloudflare R2 publisher, and verify the public page and media URLs after deployment.
 
@@ -80,7 +80,7 @@ python3 scripts/sync_facecases_hybrid_lms_step04.py
 python3 scripts/publish_media_to_r2.py --manifest data/facecases_hybrid_lms_s04_w0p8.json
 ```
 
-The sync script pairs same-number Agnes originals and Hybrid `start_step_04_scale_0.8` outputs. It excludes `bad` suffixes, prioritizes `good` outputs, and stages only request-listed reference images and audio from the Facecases input set. This run has 47 valid pairs, all R2VA; 15 FL2VA outputs have no same-number Agnes original, and no T2VA output is present. Public prompt content is limited to issue-category summaries. The manifest records per-video timings, the Hybrid process-level GPU memory peak, weight sizes, and actual resolution and duration for each clip.
+The sync script pairs same-number Agnes originals and eligible Hybrid `start_step_04_scale_0.8` outputs, excluding files with a `bad` suffix and prioritizing the preferred variant within each case. It stages only request-listed reference images and audio from the Facecases input set. This run has 47 valid pairs, all R2VA; 15 FL2VA outputs have no same-number Agnes original, and no T2VA output is present. The page includes complete Chinese translations of every prompt field. The manifest records per-video timings, the Hybrid process-level GPU memory peak, weight sizes, and actual resolution and duration for each clip.
 
 ## GitHub Pages
 

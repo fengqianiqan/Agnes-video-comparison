@@ -3,7 +3,7 @@
     {
       "id": "case_11",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 11 / R2VA",
       "title": "Facecases · Case 11",
       "width": 1344,
@@ -26,7 +26,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "主体边缘与背景粘连",
       "agnesGenerationSeconds": 110.04,
       "agnesEndToEndSeconds": 110.13,
@@ -37,7 +36,7 @@
     {
       "id": "case_35",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 35 / R2VA",
       "title": "Facecases · Case 35",
       "width": 1344,
@@ -60,7 +59,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "远景人物模糊",
       "agnesGenerationSeconds": 109.33,
       "agnesEndToEndSeconds": 109.42,
@@ -71,7 +69,7 @@
     {
       "id": "case_47",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 47 / R2VA",
       "title": "Facecases · Case 47",
       "width": 1344,
@@ -94,7 +92,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "主体与背景模糊",
       "agnesGenerationSeconds": 117.9,
       "agnesEndToEndSeconds": 117.97,
@@ -105,7 +102,7 @@
     {
       "id": "case_49",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 49 / R2VA",
       "title": "Facecases · Case 49",
       "width": 1344,
@@ -128,7 +125,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "运动导致的远景模糊",
       "agnesGenerationSeconds": 99.87,
       "agnesEndToEndSeconds": 99.95,
@@ -139,7 +135,7 @@
     {
       "id": "case_51",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 51 / R2VA",
       "title": "Facecases · Case 51",
       "width": 1344,
@@ -162,7 +158,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "运动导致的远景模糊",
       "agnesGenerationSeconds": 107.02,
       "agnesEndToEndSeconds": 107.11,
@@ -173,7 +168,7 @@
     {
       "id": "case_53",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 53 / R2VA",
       "title": "Facecases · Case 53",
       "width": 1344,
@@ -196,7 +191,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "运动导致的远景模糊",
       "agnesGenerationSeconds": 127.15,
       "agnesEndToEndSeconds": 127.23,
@@ -207,7 +201,7 @@
     {
       "id": "case_60",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 60 / R2VA",
       "title": "Facecases · Case 60",
       "width": 1344,
@@ -230,7 +224,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 110.16,
       "agnesEndToEndSeconds": 110.24,
@@ -241,7 +234,7 @@
     {
       "id": "case_65",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 65 / R2VA",
       "title": "Facecases · Case 65",
       "width": 768,
@@ -264,7 +257,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 79.48,
       "agnesEndToEndSeconds": 79.57,
@@ -275,7 +267,7 @@
     {
       "id": "case_66",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 66 / R2VA",
       "title": "Facecases · Case 66",
       "width": 1344,
@@ -298,7 +290,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 46.68,
       "agnesEndToEndSeconds": 46.77,
@@ -309,7 +300,7 @@
     {
       "id": "case_67",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 67 / R2VA",
       "title": "Facecases · Case 67",
       "width": 1344,
@@ -332,7 +323,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 76.44,
       "agnesEndToEndSeconds": 76.52,
@@ -343,7 +333,7 @@
     {
       "id": "case_76",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 76 / R2VA",
       "title": "Facecases · Case 76",
       "width": 768,
@@ -366,7 +356,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "远景背景人脸模糊",
       "agnesGenerationSeconds": 43.26,
       "agnesEndToEndSeconds": 43.34,
@@ -377,7 +366,7 @@
     {
       "id": "case_80",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 80 / R2VA",
       "title": "Facecases · Case 80",
       "width": 1344,
@@ -400,7 +389,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "主体与背景模糊",
       "agnesGenerationSeconds": 113.59,
       "agnesEndToEndSeconds": 113.69,
@@ -411,7 +399,7 @@
     {
       "id": "case_81",
       "type": "ref2va",
-      "dimension": "R2VA · good 文件标记",
+      "dimension": "R2VA",
       "kicker": "CASE 81 / R2VA",
       "title": "Facecases · Case 81",
       "width": 768,
@@ -434,7 +422,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "good",
       "category": "主体与背景模糊",
       "agnesGenerationSeconds": 79.69,
       "agnesEndToEndSeconds": 79.78,
@@ -468,7 +455,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 537.1,
       "agnesEndToEndSeconds": 537.19,
@@ -502,7 +488,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 178.1,
       "agnesEndToEndSeconds": 178.18,
@@ -536,7 +521,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 213.93,
       "agnesEndToEndSeconds": 214.02,
@@ -570,7 +554,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 102.06,
       "agnesEndToEndSeconds": 102.14,
@@ -604,7 +587,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 104.47,
       "agnesEndToEndSeconds": 104.55,
@@ -638,7 +620,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 196.04,
       "agnesEndToEndSeconds": 196.12,
@@ -672,7 +653,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸五官与口部细节异常",
       "agnesGenerationSeconds": 212.41,
       "agnesEndToEndSeconds": 212.5,
@@ -706,7 +686,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "主体边缘与背景粘连",
       "agnesGenerationSeconds": 105.9,
       "agnesEndToEndSeconds": 106.0,
@@ -740,7 +719,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "主体边缘与背景粘连",
       "agnesGenerationSeconds": 61.93,
       "agnesEndToEndSeconds": 62.03,
@@ -774,7 +752,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "主体边缘与背景粘连",
       "agnesGenerationSeconds": 67.89,
       "agnesEndToEndSeconds": 68.0,
@@ -808,7 +785,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "异常重影与运动拖影",
       "agnesGenerationSeconds": 84.88,
       "agnesEndToEndSeconds": 84.97,
@@ -842,7 +818,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "异常重影与运动拖影",
       "agnesGenerationSeconds": 80.87,
       "agnesEndToEndSeconds": 80.96,
@@ -876,7 +851,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "异常重影与运动拖影",
       "agnesGenerationSeconds": 61.35,
       "agnesEndToEndSeconds": 61.44,
@@ -910,7 +884,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "异常重影与运动拖影",
       "agnesGenerationSeconds": 97.73,
       "agnesEndToEndSeconds": 97.81,
@@ -944,7 +917,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 92.21,
       "agnesEndToEndSeconds": 92.3,
@@ -978,7 +950,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 103.49,
       "agnesEndToEndSeconds": 103.58,
@@ -1012,7 +983,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 45.92,
       "agnesEndToEndSeconds": 46.0,
@@ -1046,7 +1016,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 75.5,
       "agnesEndToEndSeconds": 75.61,
@@ -1080,7 +1049,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 113.22,
       "agnesEndToEndSeconds": 113.32,
@@ -1114,7 +1082,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "清晰度跳变与细节恢复异常",
       "agnesGenerationSeconds": 29.47,
       "agnesEndToEndSeconds": 29.57,
@@ -1148,7 +1115,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景人物模糊",
       "agnesGenerationSeconds": 53.24,
       "agnesEndToEndSeconds": 53.32,
@@ -1182,7 +1148,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景人物模糊",
       "agnesGenerationSeconds": 100.26,
       "agnesEndToEndSeconds": 100.36,
@@ -1216,7 +1181,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景人物模糊",
       "agnesGenerationSeconds": 86.43,
       "agnesEndToEndSeconds": 86.52,
@@ -1250,7 +1214,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景背景模糊",
       "agnesGenerationSeconds": 75.65,
       "agnesEndToEndSeconds": 75.74,
@@ -1284,7 +1247,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景背景模糊",
       "agnesGenerationSeconds": 76.06,
       "agnesEndToEndSeconds": 76.15,
@@ -1318,7 +1280,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 118.27,
       "agnesEndToEndSeconds": 118.38,
@@ -1352,7 +1313,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 32.35,
       "agnesEndToEndSeconds": 32.43,
@@ -1386,7 +1346,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 101.3,
       "agnesEndToEndSeconds": 101.39,
@@ -1420,7 +1379,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 75.6,
       "agnesEndToEndSeconds": 75.69,
@@ -1454,7 +1412,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 108.71,
       "agnesEndToEndSeconds": 108.8,
@@ -1488,7 +1445,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 116.98,
       "agnesEndToEndSeconds": 117.1,
@@ -1522,7 +1478,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远景人物模糊",
       "agnesGenerationSeconds": 25.11,
       "agnesEndToEndSeconds": 25.21,
@@ -1556,7 +1511,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "远近景变化时的模糊",
       "agnesGenerationSeconds": 64.78,
       "agnesEndToEndSeconds": 64.86,
@@ -1590,7 +1544,6 @@
         "codec": "h264",
         "hasAudio": true
       },
-      "variantSuffix": "standard",
       "category": "人脸保真度",
       "agnesGenerationSeconds": 116.71,
       "agnesEndToEndSeconds": 116.81,
@@ -1604,11 +1557,9 @@
       "id": "case11",
       "comparisonCaseId": "case_11",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "主体边缘与背景粘连",
       "sceneScale": "中近景",
-      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -1635,11 +1586,9 @@
       "id": "case35",
       "comparisonCaseId": "case_35",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "远景人物模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
       "references": [
         {
           "label": "参考图 01",
@@ -1664,11 +1613,9 @@
       "id": "case47",
       "comparisonCaseId": "case_47",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "主体与背景模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
       "references": [
         {
           "label": "参考图 01",
@@ -1705,11 +1652,9 @@
       "id": "case49",
       "comparisonCaseId": "case_49",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "运动导致的远景模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -1726,11 +1671,9 @@
       "id": "case51",
       "comparisonCaseId": "case_51",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "运动导致的远景模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -1751,11 +1694,9 @@
       "id": "case53",
       "comparisonCaseId": "case_53",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "运动导致的远景模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景运动主体的轮廓和可读性，减少运动模糊、拖尾与跨帧细节漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -1796,11 +1737,9 @@
       "id": "case60",
       "comparisonCaseId": "case_60",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -1825,11 +1764,9 @@
       "id": "case65",
       "comparisonCaseId": "case_65",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -1850,11 +1787,9 @@
       "id": "case66",
       "comparisonCaseId": "case_66",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -1871,11 +1806,9 @@
       "id": "case67",
       "comparisonCaseId": "case_67",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -1896,11 +1829,9 @@
       "id": "case76",
       "comparisonCaseId": "case_76",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "远景背景人脸模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持背景远景人脸的身份特征和可辨识度，避免面部细节在连续画面中漂移或消失。",
       "references": [
         {
           "label": "参考图 01",
@@ -1921,11 +1852,9 @@
       "id": "case80",
       "comparisonCaseId": "case_80",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "主体与背景模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
       "references": [
         {
           "label": "参考图 01",
@@ -1954,11 +1883,9 @@
       "id": "case81",
       "comparisonCaseId": "case_81",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "good",
+      "requestType": "R2VA",
       "category": "主体与背景模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注主体与背景之间的边缘、景深和动作连续性，避免主体被背景吞没或背景虚化突然变化。",
       "references": [
         {
           "label": "参考图 01",
@@ -1979,11 +1906,9 @@
       "id": "case01",
       "comparisonCaseId": "case_01",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "中景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2008,11 +1933,9 @@
       "id": "case03",
       "comparisonCaseId": "case_03",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "近景/中近景及镜头转换；按原片核查",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2033,11 +1956,9 @@
       "id": "case04",
       "comparisonCaseId": "case_04",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "中远景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2050,11 +1971,9 @@
       "id": "case06",
       "comparisonCaseId": "case_06",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "近景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2071,11 +1990,9 @@
       "id": "case07",
       "comparisonCaseId": "case_07",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "人物近景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2096,11 +2013,9 @@
       "id": "case08",
       "comparisonCaseId": "case_08",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "人物近景/中近景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2132,11 +2047,9 @@
       "id": "case09",
       "comparisonCaseId": "case_09",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸五官与口部细节异常",
       "sceneScale": "中景及近景",
-      "promptSummary": "提示重点是人物身份与面部结构的时间一致性，关注眼、口及表情细节在动作和镜头变化中的稳定表现。",
       "references": [
         {
           "label": "参考图 01",
@@ -2165,11 +2078,9 @@
       "id": "case10",
       "comparisonCaseId": "case_10",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "主体边缘与背景粘连",
       "sceneScale": "中近景",
-      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -2190,11 +2101,9 @@
       "id": "case13",
       "comparisonCaseId": "case_13",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "主体边缘与背景粘连",
       "sceneScale": "人物、手部与物体/背景接触边缘",
-      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -2223,11 +2132,9 @@
       "id": "case14",
       "comparisonCaseId": "case_14",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "主体边缘与背景粘连",
       "sceneScale": "中景及近景",
-      "promptSummary": "提示聚焦主体轮廓与背景的分离，尤其发丝、手部和接触边界，减少粘连、闪烁和轮廓漂移。",
       "references": [
         {
           "label": "参考图 01",
@@ -2256,11 +2163,9 @@
       "id": "case15",
       "comparisonCaseId": "case_15",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "异常重影与运动拖影",
       "sceneScale": "近景/中近景及镜头转换；按原片核查",
-      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
       "references": [
         {
           "label": "参考图 01",
@@ -2289,11 +2194,9 @@
       "id": "case16",
       "comparisonCaseId": "case_16",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "异常重影与运动拖影",
       "sceneScale": "近景→眼部特写",
-      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
       "references": [
         {
           "label": "参考图 01",
@@ -2314,11 +2217,9 @@
       "id": "case20",
       "comparisonCaseId": "case_20",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "异常重影与运动拖影",
       "sceneScale": "多人中景",
-      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
       "references": [
         {
           "label": "参考图 01",
@@ -2347,11 +2248,9 @@
       "id": "case21",
       "comparisonCaseId": "case_21",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "异常重影与运动拖影",
       "sceneScale": "动作与运动轮廓",
-      "promptSummary": "提示强调动作连续性和主体边界清晰，控制运动过程中出现的重影、拖尾与形体抖动。",
       "references": [
         {
           "label": "参考图 01",
@@ -2364,11 +2263,9 @@
       "id": "case24",
       "comparisonCaseId": "case_24",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "中远景",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2405,11 +2302,9 @@
       "id": "case25",
       "comparisonCaseId": "case_25",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "中景",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2430,11 +2325,9 @@
       "id": "case26",
       "comparisonCaseId": "case_26",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "近景/中近景及镜头转换；按原片核查",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2451,11 +2344,9 @@
       "id": "case29",
       "comparisonCaseId": "case_29",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "中景/近远景变化",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2472,11 +2363,9 @@
       "id": "case30",
       "comparisonCaseId": "case_30",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "镜头/景别变化与细节稳定性",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2505,11 +2394,9 @@
       "id": "case31",
       "comparisonCaseId": "case_31",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "清晰度跳变与细节恢复异常",
       "sceneScale": "镜头/景别变化与细节稳定性",
-      "promptSummary": "提示关注镜头和景别变化时的清晰度连续性，减少纹理忽软忽锐、细节闪变及不自然的恢复痕迹。",
       "references": [
         {
           "label": "参考图 01",
@@ -2526,11 +2413,9 @@
       "id": "case32",
       "comparisonCaseId": "case_32",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景人物模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
       "references": [
         {
           "label": "参考图 01",
@@ -2547,11 +2432,9 @@
       "id": "case34",
       "comparisonCaseId": "case_34",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景人物模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
       "references": [
         {
           "label": "参考图 01",
@@ -2568,11 +2451,9 @@
       "id": "case36",
       "comparisonCaseId": "case_36",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景人物模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
       "references": [
         {
           "label": "参考图 01",
@@ -2601,11 +2482,9 @@
       "id": "case38",
       "comparisonCaseId": "case_38",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景背景模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注远景背景层次和焦点关系，保持主体与环境的空间分离及背景模糊程度的连续性。",
       "references": [
         {
           "label": "参考图 01",
@@ -2622,11 +2501,9 @@
       "id": "case43",
       "comparisonCaseId": "case_43",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景背景模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注远景背景层次和焦点关系，保持主体与环境的空间分离及背景模糊程度的连续性。",
       "references": [
         {
           "label": "参考图 01",
@@ -2643,11 +2520,9 @@
       "id": "case58",
       "comparisonCaseId": "case_58",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2684,11 +2559,9 @@
       "id": "case62",
       "comparisonCaseId": "case_62",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2701,11 +2574,9 @@
       "id": "case68",
       "comparisonCaseId": "case_68",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2722,11 +2593,9 @@
       "id": "case69",
       "comparisonCaseId": "case_69",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2743,11 +2612,9 @@
       "id": "case70",
       "comparisonCaseId": "case_70",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2772,11 +2639,9 @@
       "id": "case71",
       "comparisonCaseId": "case_71",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2805,11 +2670,9 @@
       "id": "case75",
       "comparisonCaseId": "case_75",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远景人物模糊",
       "sceneScale": null,
-      "promptSummary": "提示重点保持远景人物的可辨识度与参考身份一致性，避免人物在运动或镜头变化中变得含混。",
       "references": [
         {
           "label": "参考图 01",
@@ -2826,11 +2689,9 @@
       "id": "case87",
       "comparisonCaseId": "case_87",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "远近景变化时的模糊",
       "sceneScale": null,
-      "promptSummary": "提示关注远近景切换时主体焦点与纹理细节的稳定过渡，避免清晰度突然跳变。",
       "references": [
         {
           "label": "参考图 01",
@@ -2843,11 +2704,9 @@
       "id": "case90",
       "comparisonCaseId": "case_90",
       "status": "paired",
-      "requestType": "REF2VA",
-      "variantSuffix": "standard",
+      "requestType": "R2VA",
       "category": "人脸保真度",
       "sceneScale": null,
-      "promptSummary": "提示要求人物面部身份和五官比例保持稳定自然，降低变脸、细节漂移和过度修饰。",
       "references": [
         {
           "label": "参考图 01",
@@ -2879,7 +2738,6 @@
   ],
   "runSummary": {
     "pairedCaseCount": 47,
-    "goodSuffixCaseCount": 13,
     "excludedBadPairCount": 28,
     "availableOutputTypeCounts": {
       "T2VA": 0,
@@ -2890,7 +2748,7 @@
       "FL2VA": 15
     },
     "requestTypeCounts": {
-      "REF2VA": 47
+      "R2VA": 47
     },
     "inputImageCount": 162,
     "inputAudioCount": 3,
