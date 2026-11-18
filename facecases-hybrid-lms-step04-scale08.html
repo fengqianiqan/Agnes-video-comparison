@@ -8,7 +8,7 @@
     <title>Facecases · Hybrid LMS start step 04 · scale 0.8</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="facecases4-retest.css?v=shared-material-layout">
-    <link rel="stylesheet" href="facecases-hybrid.css?v=1">
+    <link rel="stylesheet" href="facecases-hybrid.css?v=2">
     <script src="app.js?v=facecases-hybrid-s04-w08" defer></script>
     <script src="facecases-hybrid-materials.js?v=2" defer></script>
   </head>
@@ -41,10 +41,18 @@
         </section>
 
         <section class="method-card" aria-labelledby="method-title">
-          <div class="method-heading">
-            <div><p class="eyebrow">SOURCES & INFERENCE</p><h2 id="method-title">视频来源、请求类型与推理说明</h2></div>
-            <span class="method-count">47 组配对 · 双卡运行</span>
-          </div>
+          <details class="method-disclosure">
+            <summary class="method-disclosure-summary" aria-controls="method-details-content">
+              <span class="method-summary-copy">
+                <span class="eyebrow">SOURCES & INFERENCE</span>
+                <span class="method-summary-title" id="method-title">视频来源、请求类型与推理说明</span>
+              </span>
+              <span class="method-summary-meta">
+                <span class="method-count">47 组配对 · 双卡运行</span>
+                <span class="method-toggle-action">查看详情 <span aria-hidden="true">⌄</span></span>
+              </span>
+            </summary>
+            <div class="method-disclosure-content" id="method-details-content">
           <div class="method-sources">
             <div>
               <p class="method-label">左侧 · Agnes 原版成片</p>
@@ -92,6 +100,8 @@
             <p class="run-parameters"><strong>推理设置：</strong>两侧均为 MiniMax H3 Ref2VA、10 步、seed 42、24 fps、guidance scale 1.0、embedded guidance scale 6.0、flow shift 12.0；Agnes 不加载 LMS LoRA，Hybrid 使用 FP8 Transformer，并从第 4 步以 0.8 scale 加载 LMS LoRA。</p>
             <p class="run-footnote">Agnes 模型生成耗时来自逐例推理状态；端到端耗时包含逐例生产交付处理，不含共用模型加载。Hybrid 耗时为 generator.generate() 调用区间，含生成和输出写入；单独的端到端计时未记录。Hybrid 峰值来自 nvidia-smi 按进程 PID 查询 used_memory、每 2 秒采样，并按单卡记录；Agnes 本轮显存峰值未记录。权重文件大小为相关模型组件文件的实际字节合计：Agnes / Hybrid Transformer 33.19 / 33.21 GB，Qwen3-VL FP8 66.71 GB，视频 VAE 10.42 GB，音频 VAE 0.61 GB，Hybrid LMS LoRA 0.62 GB；两侧共用的模型权重口径相同。</p>
           </div>
+            </div>
+          </details>
         </section>
 
         <section class="viewer-card" aria-label="Agnes 原版与 Hybrid LMS LoRA 视频对比" hidden>
