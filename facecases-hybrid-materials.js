@@ -30,6 +30,7 @@ function selectMaterial(item, selectComparison) {
       '.case-button[data-case-id="' + item.comparisonCaseId + '"]'
     );
     if (button) button.click();
+    else if (window.selectComparisonCase) window.selectComparisonCase(item.comparisonCaseId);
   }
 }
 
@@ -244,10 +245,13 @@ Promise.all([
     materialsDetail.textContent = "素材清单暂时无法载入，请刷新页面后重试。";
   });
 
-document.querySelector("#case-grid").addEventListener("click", (event) => {
-  const button = event.target.closest(".case-button");
-  if (!button) return;
-  const caseId = button.dataset.caseId;
-  const item = sourceMaterials.find((candidate) => candidate.comparisonCaseId === caseId);
-  if (item) selectMaterial(item, false);
-});
+const caseGrid = document.querySelector("#case-grid");
+if (caseGrid) {
+  caseGrid.addEventListener("click", (event) => {
+    const button = event.target.closest(".case-button");
+    if (!button) return;
+    const caseId = button.dataset.caseId;
+    const item = sourceMaterials.find((candidate) => candidate.comparisonCaseId === caseId);
+    if (item) selectMaterial(item, false);
+  });
+}

@@ -13,6 +13,7 @@ const statusMessage = document.querySelector("#status-message");
 
 let cases = [];
 let selectedCase = null;
+let pendingComparisonCaseId = null;
 let split = 50;
 let pointerId = null;
 let dragFrame = 0;
@@ -254,35 +255,37 @@ function selectCase(item) {
 
 function renderCaseButtons() {
   const grid = document.querySelector("#case-grid");
-  const fragment = document.createDocumentFragment();
-  for (const item of cases) {
-    const button = document.createElement("button");
-    button.className = "case-button";
-    button.type = "button";
-    button.dataset.caseId = item.id;
-    button.setAttribute("aria-current", "false");
-    button.setAttribute("aria-label", `Show ${item.title || item.id}, ${item.type}`);
-    const number = document.createElement("span");
-    number.className = "case-number";
-    number.textContent = item.id.replace("case_", "Case ");
-    const label = document.createElement("span");
-    label.className = "case-type";
-    label.textContent = item.dimension || item.type.toUpperCase();
-    button.append(number, label);
-    button.addEventListener("click", () => selectCase(item));
-    fragment.append(button);
+  const fragment = grid ? document.createDocumentFragment() : null;
+  if (grid) {
+    for (const item of cases) {
+      const button = document.createElement("button");
+      button.className = "case-button";
+      button.type = "button";
+      button.dataset.caseId = item.id;
+      button.setAttribute("aria-current", "false");
+      button.setAttribute("aria-label", `Show ${item.title || item.id}, ${item.type}`);
+      const number = document.createElement("span");
+      number.className = "case-number";
+      number.textContent = item.id.replace("case_", "Case ");
+      const label = document.createElement("span");
+      label.className = "case-type";
+      label.textContent = item.dimension || item.type.toUpperCase();
+      button.append(number, label);
+      button.addEventListener("click", () => selectCase(item));
+      fragment.append(button);
+    }
+    grid.replaceChildren(fragment);
   }
-  grid.replaceChildren(fragment);
   const caseCount = document.querySelector("#case-count");
   const viewer = document.querySelector(".viewer-card");
   if (cases.length) {
-    caseCount.textContent = `${cases.length} matched pairs`;
+    if (caseCount) caseCount.textContent = `${cases.length} matched pairs`;
     if (viewer) viewer.hidden = false;
   } else {
-    caseCount.textContent = document.body.dataset.emptyCaseCount || "0 matched pairs";
+    if (caseCount) caseCount.textContent = document.body.dataset.emptyCaseCount || "0 matched pairs";
     if (viewer && document.body.dataset.hideViewerWhenEmpty === "true") viewer.hidden = true;
     const emptyMessage = document.body.dataset.emptyCaseMessage;
-    if (emptyMessage) {
+    if (emptyMessage && grid) {
       const note = document.createElement("p");
       note.className = "case-empty-message";
       note.textContent = emptyMessage;
@@ -290,6 +293,12 @@ function renderCaseButtons() {
     }
   }
 }
+
+window.selectComparisonCase = (caseId) => {
+  const item = cases.find((candidate) => candidate.id === caseId);
+  if (item) selectCase(item);
+  else pendingComparisonCaseId = caseId;
+};
 
 function updateFromPointer(event) {
   const rect = stage.getBoundingClientRect();
@@ -399,7 +408,11 @@ Promise.resolve(document.body.dataset.casesUrl)
   .then((data) => {
     cases = data.cases;
     renderCaseButtons();
-    if (cases.length) selectCase(cases[0]);
+    if (cases.length) {
+      const initialCase = cases.find((item) => item.id === pendingComparisonCaseId) || cases[0];
+      pendingComparisonCaseId = null;
+      selectCase(initialCase);
+    }
   })
   .catch((error) => {
     loading.classList.add("is-hidden");
